@@ -164,8 +164,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # globalWidgetPosition = "Right"
 
 [verification]
-  # google = ""
-  # bing = ""
+   google = "QPo17D5K1ItOO5ikvgSaNmdPYhglAsjE8ztaQvvzMEs"
+   bing = "64357D9C78777EE953C5E3D9E6404D1C"
   # pinterest = ""
   # yandex = ""
   # fediverse = ""
