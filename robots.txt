@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://youcef889.github.io/Linux_journey/sitemap.xml
