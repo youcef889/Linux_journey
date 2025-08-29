@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on My Linux Journey</title>
+    <link>http://localhost:1313/categories/linux/</link>
+    <description>Recent content in Linux on My Linux Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>youcef7770@gmail.com (Youcef)</managingEditor>
+    <webMaster>youcef7770@gmail.com (Youcef)</webMaster>
+    <copyright>© 2025 Youcef</copyright>
+    <lastBuildDate>Sat, 16 Aug 2025 12:43:06 +0100</lastBuildDate><atom:link href="http://localhost:1313/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How Setup Dwm and st on Void Linux </title>
+      <link>http://localhost:1313/tutorials/how-setup-dwm-on-void-linux-/</link>
+      <pubDate>Sat, 16 Aug 2025 12:43:06 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/tutorials/how-setup-dwm-on-void-linux-/</guid>
+      <description>how to install dwm</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tutorials/how-setup-dwm-on-void-linux-/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

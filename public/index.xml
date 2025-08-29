@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Linux Journey</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My Linux Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>youcef7770@gmail.com (Youcef)</managingEditor>
+    <webMaster>youcef7770@gmail.com (Youcef)</webMaster>
+    <copyright>© 2025 Youcef</copyright>
+    <lastBuildDate>Fri, 29 Aug 2025 06:26:19 +0100</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Introduction to Nginx</title>
+      <link>http://localhost:1313/blog/introduction-to-nginx/</link>
+      <pubDate>Thu, 21 Aug 2025 18:27:28 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/blog/introduction-to-nginx/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Manual Installation of Bliss Os on Linux</title>
+      <link>http://localhost:1313/tutorials/manual-installation-of-bliss-os-on-linux/</link>
+      <pubDate>Sun, 17 Aug 2025 11:48:21 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/tutorials/manual-installation-of-bliss-os-on-linux/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tutorials/manual-installation-of-bliss-os-on-linux/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>How Setup Dwm and st on Void Linux </title>
+      <link>http://localhost:1313/tutorials/how-setup-dwm-on-void-linux-/</link>
+      <pubDate>Sat, 16 Aug 2025 12:43:06 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/tutorials/how-setup-dwm-on-void-linux-/</guid>
+      <description>how to install dwm</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tutorials/how-setup-dwm-on-void-linux-/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Install kodi on  alpine linux </title>
+      <link>http://localhost:1313/tutorials/install_kodi_on_alpine_linnx/</link>
+      <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/tutorials/install_kodi_on_alpine_linnx/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tutorials/install_kodi_on_alpine_linnx/featured.webp" />
+    </item>
+    
+    <item>
+      <title>What i learned about the kernel  of  linux system  </title>
+      <link>http://localhost:1313/blog/what_i_learned/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/blog/what_i_learned/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/what_i_learned/featured.webp" />
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/about/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>http://localhost:1313/contact_us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/contact_us/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
