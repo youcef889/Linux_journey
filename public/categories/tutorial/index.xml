@@ -2,33 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorial on My Linux Journey</title>
-    <link>http://localhost:1313/categories/tutorial/</link>
+    <link>http://localhost:1313/Linux_journey/categories/tutorial/</link>
     <description>Recent content in Tutorial on My Linux Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>youcef7770@gmail.com (Youcef)</managingEditor>
     <webMaster>youcef7770@gmail.com (Youcef)</webMaster>
     <copyright>© 2025 Youcef</copyright>
-    <lastBuildDate>Sun, 17 Aug 2025 11:48:21 +0100</lastBuildDate><atom:link href="http://localhost:1313/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Aug 2025 06:26:19 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Working With Files and Tabs in Vim</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/working-with-files-and-tabs-in-vim/</link>
+      <pubDate>Fri, 29 Aug 2025 06:26:19 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/working-with-files-and-tabs-in-vim/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Manual Installation of Bliss Os on Linux</title>
-      <link>http://localhost:1313/tutorials/manual-installation-of-bliss-os-on-linux/</link>
+      <link>http://localhost:1313/Linux_journey/tutorials/manual-installation-of-bliss-os-on-linux/</link>
       <pubDate>Sun, 17 Aug 2025 11:48:21 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/tutorials/manual-installation-of-bliss-os-on-linux/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tutorials/manual-installation-of-bliss-os-on-linux/featured.jpg" />
+      <guid>http://localhost:1313/Linux_journey/tutorials/manual-installation-of-bliss-os-on-linux/</guid>
+      <description>how to install bliss os Manually  on linux  system</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/manual-installation-of-bliss-os-on-linux/featured.jpg" />
     </item>
     
     <item>
       <title>How Setup Dwm and st on Void Linux </title>
-      <link>http://localhost:1313/tutorials/how-setup-dwm-on-void-linux-/</link>
+      <link>http://localhost:1313/Linux_journey/tutorials/how-setup-dwm-on-void-linux-/</link>
       <pubDate>Sat, 16 Aug 2025 12:43:06 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/tutorials/how-setup-dwm-on-void-linux-/</guid>
+      <guid>http://localhost:1313/Linux_journey/tutorials/how-setup-dwm-on-void-linux-/</guid>
       <description>how to install dwm</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tutorials/how-setup-dwm-on-void-linux-/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/how-setup-dwm-on-void-linux-/featured.jpg" />
     </item>
     
   </channel>
