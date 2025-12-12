@@ -2,6 +2,7 @@
 date = '2025-08-17T11:48:21+01:00'
 draft = false
 title = 'Manual Installation of Bliss Os on Linux'
+summary=  'how to install bliss os Manually  on linux  system '
 categories =["tutorial","Os"]
 tags=['BlissOs','Android']
 +++

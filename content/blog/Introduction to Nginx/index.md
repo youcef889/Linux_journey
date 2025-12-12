@@ -127,16 +127,21 @@ server {
    return 301 http:newsite.com$request_uri;
     }
 ```
-but i we use code 302 Redirect  is temporary redirection.
+but we use code 302 Redirect  is temporary redirection.
 
 ## Practical Example : Configuring nginx with all sections in module2 
 In this practical example ,we will walk through the setps required to 
  1 -set up nginx with a basic configuration 
  2 -seve static content from a website .
- 3 - configure multiple virtual host (server blocks) for different domains.
+ 3 -configure multiple virtual host (server blocks) for different domains.
  4 -set up custom error pages and directory listings.
  5 -implement basic URL rewriting and redirection.
 
+#### Setp 1 :Set up nginx with a basic configuration 
+use eany text editor but i use vim .
+```
+  vim /etc/nginx/nginx.conf
+```
 
 ### Why use  a reverse  proxy  
 
