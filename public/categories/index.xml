@@ -9,14 +9,34 @@
     <managingEditor>youcef7770@gmail.com (Youcef)</managingEditor>
     <webMaster>youcef7770@gmail.com (Youcef)</webMaster>
     <copyright>© 2025 Youcef</copyright>
-    <lastBuildDate>Fri, 29 Aug 2025 06:26:19 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Nov 2025 16:48:19 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Linux Basics</title>
-      <link>http://localhost:1313/Linux_journey/categories/linux-basics/</link>
-      <pubDate>Fri, 29 Aug 2025 06:26:19 +0100</pubDate>
+      <title>Guide</title>
+      <link>http://localhost:1313/Linux_journey/categories/guide/</link>
+      <pubDate>Thu, 06 Nov 2025 16:48:19 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/categories/linux-basics/</guid>
+      <guid>http://localhost:1313/Linux_journey/categories/guide/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/Linux_journey/categories/linux/</link>
+      <pubDate>Thu, 06 Nov 2025 16:48:19 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/categories/linux/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>http://localhost:1313/Linux_journey/categories/network/</link>
+      <pubDate>Thu, 06 Nov 2025 16:48:19 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/categories/network/</guid>
       <description></description>
       
     </item>
@@ -24,9 +44,19 @@
     <item>
       <title>Tutorial</title>
       <link>http://localhost:1313/Linux_journey/categories/tutorial/</link>
-      <pubDate>Fri, 29 Aug 2025 06:26:19 +0100</pubDate>
+      <pubDate>Thu, 06 Nov 2025 16:48:19 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
       <guid>http://localhost:1313/Linux_journey/categories/tutorial/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linux Basics</title>
+      <link>http://localhost:1313/Linux_journey/categories/linux-basics/</link>
+      <pubDate>Fri, 29 Aug 2025 06:26:19 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/categories/linux-basics/</guid>
       <description></description>
       
     </item>
@@ -57,16 +87,6 @@
       <pubDate>Sun, 17 Aug 2025 11:48:21 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
       <guid>http://localhost:1313/Linux_journey/categories/os/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>http://localhost:1313/Linux_journey/categories/linux/</link>
-      <pubDate>Sat, 16 Aug 2025 12:43:06 +0100</pubDate>
-      <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/categories/linux/</guid>
       <description></description>
       
     </item>

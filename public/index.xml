@@ -12,6 +12,16 @@
     <lastBuildDate>Thu, 06 Nov 2025 16:48:19 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Setup wireless adapter on alpine linux with wpa supplicant</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/setup-wireless-adapter-on-alpine-linux-with-wpa-supplicant-/</link>
+      <pubDate>Thu, 06 Nov 2025 16:48:19 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/setup-wireless-adapter-on-alpine-linux-with-wpa-supplicant-/</guid>
+      <description>how  to setup wireless adapter on alpine linux wpa supplicant</description>
+      
+    </item>
+    
+    <item>
       <title>Common Linux Security Mistakes That Users and Administrators Make</title>
       <link>http://localhost:1313/Linux_journey/blog/common-linux-security-mistakes-that-users-and-administrators-make/</link>
       <pubDate>Fri, 05 Sep 2025 09:43:40 +0100</pubDate>
