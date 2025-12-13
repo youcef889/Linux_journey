@@ -4,10 +4,3 @@ draft = true
 title = 'Common Linux Security Mistakes That Users and Administrators Make'
 +++
 
-
-### Définition (Injection)
-
-Une application $f : E \to F$ est **injective** si et seulement si :
-
-$ \forall x, x' \in E, \quad f(x) = f(x') \implies x = x' $
-
