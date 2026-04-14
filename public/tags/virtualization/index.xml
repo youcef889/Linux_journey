@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Virtualization on My Linux Journey</title>
+    <link>http://localhost:1313/Linux_journey/tags/virtualization/</link>
+    <description>Recent content in Virtualization on My Linux Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>youcef7770@gmail.com (Youcef)</managingEditor>
+    <webMaster>youcef7770@gmail.com (Youcef)</webMaster>
+    <copyright>© 2026 Youcef</copyright>
+    <lastBuildDate>Wed, 18 Mar 2026 16:06:37 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/tags/virtualization/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Qemu Tutorial Detail</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/qemu_tutorial_detail/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/qemu_tutorial_detail/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

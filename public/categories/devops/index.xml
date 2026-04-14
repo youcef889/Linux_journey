@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevOps on My Linux Journey</title>
+    <link>http://localhost:1313/Linux_journey/categories/devops/</link>
+    <description>Recent content in DevOps on My Linux Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>youcef7770@gmail.com (Youcef)</managingEditor>
+    <webMaster>youcef7770@gmail.com (Youcef)</webMaster>
+    <copyright>© 2026 Youcef</copyright>
+    <lastBuildDate>Wed, 18 Mar 2026 16:06:41 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>All Apps In My Docker Compose</title>
+      <link>http://localhost:1313/Linux_journey/all_apps_in_my_docker-compose/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:41 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/all_apps_in_my_docker-compose/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Docker Clean Up</title>
+      <link>http://localhost:1313/Linux_journey/docker-clean-up/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:41 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/docker-clean-up/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Make Money Using Docker Linux</title>
+      <link>http://localhost:1313/Linux_journey/what_to_do/make_money_using_docker_linux/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:38 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/what_to_do/make_money_using_docker_linux/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

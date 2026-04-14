@@ -61,3 +61,13 @@ git clone https://git.suckless.org/dmenu
 cd dmenu 
 sudo make clean install
 ```
+
+after that you have a minmal system with dwm
+
+
+
+
+
+
+
+

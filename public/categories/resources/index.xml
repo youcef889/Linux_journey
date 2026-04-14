@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources on My Linux Journey</title>
+    <link>http://localhost:1313/Linux_journey/categories/resources/</link>
+    <description>Recent content in Resources on My Linux Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>youcef7770@gmail.com (Youcef)</managingEditor>
+    <webMaster>youcef7770@gmail.com (Youcef)</webMaster>
+    <copyright>© 2026 Youcef</copyright>
+    <atom:link href="http://localhost:1313/Linux_journey/categories/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Top X [Things/Tools/Tips] for [Keyword]</title>
+      <link>http://localhost:1313/Linux_journey/mywebsite/how-to-blog/list_post_template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/mywebsite/how-to-blog/list_post_template/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

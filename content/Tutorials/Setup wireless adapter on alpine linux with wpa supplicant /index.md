@@ -9,7 +9,7 @@ tags=['alpine linux','linux','Network']
 
 To get a **MediaTek 802.11n WLAN adapter** working on **Alpine Linux**, you'll typically need to install firmware and drivers for the wireless chipset, and bring up the network interface using tools like `iw` and `wpa_supplicant`.
 
-![My wifi adapter](my_adapter_wifi.webp "wifi adapter")
+![My wifi adapter](featured.webp "wifi adapter")
 
 ### Step-by-Step Guide
 

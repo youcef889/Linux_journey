@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on My Linux Journey</title>
+    <link>http://localhost:1313/Linux_journey/tags/</link>
+    <description>Recent content in Tags on My Linux Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>youcef7770@gmail.com (Youcef)</managingEditor>
+    <webMaster>youcef7770@gmail.com (Youcef)</webMaster>
+    <copyright>© 2026 Youcef</copyright>
+    <lastBuildDate>Wed, 18 Mar 2026 16:06:41 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Notes</title>
+      <link>http://localhost:1313/Linux_journey/tags/notes/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:41 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/notes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Adb</title>
+      <link>http://localhost:1313/Linux_journey/tags/adb/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/adb/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Algeria</title>
+      <link>http://localhost:1313/Linux_journey/tags/algeria/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/algeria/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>http://localhost:1313/Linux_journey/tags/android/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/android/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Business</title>
+      <link>http://localhost:1313/Linux_journey/tags/business/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/business/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mobile</title>
+      <link>http://localhost:1313/Linux_journey/tags/mobile/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/mobile/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Nginx</title>
+      <link>http://localhost:1313/Linux_journey/tags/nginx/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/nginx/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Server</title>
+      <link>http://localhost:1313/Linux_journey/tags/server/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/server/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Startup</title>
+      <link>http://localhost:1313/Linux_journey/tags/startup/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/startup/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Validation</title>
+      <link>http://localhost:1313/Linux_journey/tags/validation/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/validation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>http://localhost:1313/Linux_journey/tags/web/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/web/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/Linux_journey/tags/linux/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:38 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/linux/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Sysadmin</title>
+      <link>http://localhost:1313/Linux_journey/tags/sysadmin/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:38 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/sysadmin/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Qemu</title>
+      <link>http://localhost:1313/Linux_journey/tags/qemu/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/qemu/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Virtualization</title>
+      <link>http://localhost:1313/Linux_journey/tags/virtualization/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/virtualization/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Vm</title>
+      <link>http://localhost:1313/Linux_journey/tags/vm/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/vm/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Database</title>
+      <link>http://localhost:1313/Linux_journey/tags/database/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/database/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Flask</title>
+      <link>http://localhost:1313/Linux_journey/tags/flask/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/flask/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>http://localhost:1313/Linux_journey/tags/programming/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/programming/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/Linux_journey/tags/python/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/python/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Sql</title>
+      <link>http://localhost:1313/Linux_journey/tags/sql/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/sql/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Sqlite</title>
+      <link>http://localhost:1313/Linux_journey/tags/sqlite/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/sqlite/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Alpine Linux</title>
+      <link>http://localhost:1313/Linux_journey/tags/alpine-linux/</link>
+      <pubDate>Thu, 06 Nov 2025 16:48:19 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/alpine-linux/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>http://localhost:1313/Linux_journey/tags/network/</link>
+      <pubDate>Thu, 06 Nov 2025 16:48:19 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/network/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Text Editor</title>
+      <link>http://localhost:1313/Linux_journey/tags/text-editor/</link>
+      <pubDate>Fri, 29 Aug 2025 06:26:19 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/text-editor/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>http://localhost:1313/Linux_journey/tags/vim/</link>
+      <pubDate>Fri, 29 Aug 2025 06:26:19 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/vim/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Webdev</title>
+      <link>http://localhost:1313/Linux_journey/tags/webdev/</link>
+      <pubDate>Thu, 21 Aug 2025 18:27:28 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/webdev/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>BlissOs</title>
+      <link>http://localhost:1313/Linux_journey/tags/blissos/</link>
+      <pubDate>Sun, 17 Aug 2025 11:48:21 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/blissos/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Suckless Tools</title>
+      <link>http://localhost:1313/Linux_journey/tags/suckless-tools/</link>
+      <pubDate>Sat, 16 Aug 2025 12:43:06 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/suckless-tools/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Void Linux</title>
+      <link>http://localhost:1313/Linux_journey/tags/void-linux/</link>
+      <pubDate>Sat, 16 Aug 2025 12:43:06 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/void-linux/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Window Manager</title>
+      <link>http://localhost:1313/Linux_journey/tags/window-manager/</link>
+      <pubDate>Sat, 16 Aug 2025 12:43:06 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/window-manager/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Alpine Liunx </title>
+      <link>http://localhost:1313/Linux_journey/tags/alpine-liunx-/</link>
+      <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/alpine-liunx-/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>http://localhost:1313/Linux_journey/tags/blog/</link>
+      <pubDate>Sun, 27 Jul 2025 11:00:00 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/blog/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/Linux_journey/tags/hugo/</link>
+      <pubDate>Sun, 27 Jul 2025 11:00:00 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/hugo/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Template</title>
+      <link>http://localhost:1313/Linux_journey/tags/template/</link>
+      <pubDate>Sun, 27 Jul 2025 11:00:00 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/template/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linux Basics</title>
+      <link>http://localhost:1313/Linux_journey/tags/linux-basics/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tags/linux-basics/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

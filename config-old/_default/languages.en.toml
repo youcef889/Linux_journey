@@ -1,0 +1,27 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "My Linux Journey"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  #logo = "img/logo_q.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  description = "Welcome to My Linux Journey, your go-to resource for learning Linux, exploring open-source software, and mastering system administration. Created by Youcef, this site offers practical tutorials, in-depth Linux distro reviews, sysadmin tips, and scripting guides to help you level up your tech skills." 
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+ [params.author]
+   name = "Youcef"
+   email = "youcef7770@gmail.com"
+   image = "img/logo_q.png"
+   imageQuality = 96
+   headline = "I'm only human"
+   bio = "My name is youcef and  i'm  linux user who fool in love  with linux , like free and open software ."
+   links = [
+      { github = "https://github.com/youcef889" },
+      { youtube = "https://youtube.com/@My_linux_Journey" },
+  ]

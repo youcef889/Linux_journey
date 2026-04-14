@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials Page on My Linux Journey</title>
+    <link>http://localhost:1313/Linux_journey/tutorials/</link>
+    <description>Recent content in Tutorials Page on My Linux Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>youcef7770@gmail.com (Youcef)</managingEditor>
+    <webMaster>youcef7770@gmail.com (Youcef)</webMaster>
+    <copyright>© 2026 Youcef</copyright>
+    <lastBuildDate>Wed, 18 Mar 2026 16:06:41 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Best Method To Make App Accessible From The Internet 10</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/best_method_to_make_app_accessible_from_the_internet_10/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:41 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/best_method_to_make_app_accessible_from_the_internet_10/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>How To Runwebsite</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/how_to_runwebsite/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/how_to_runwebsite/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Install Gapp On Linageos</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/install_gapp_on_linageos/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/install_gapp_on_linageos/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Split Zip File If Is To Big</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/split_zip_file_if_is_to_big/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/split_zip_file_if_is_to_big/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Advanced Adb Shell Commands For Android Devices</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/advanced-adb-shell-commands-for-android-devices/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:39 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/advanced-adb-shell-commands-for-android-devices/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Picom Configuration</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/picom_configuration/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:39 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/picom_configuration/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Setting Up KVM&#43;Qemu&#43;libvirt In void linux</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/qemu/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:39 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/qemu/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Phon File Transfer Linux</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/phon_file_transfer_linux/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:38 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/phon_file_transfer_linux/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Advanced Terminal Tips</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/advanced_terminal_tips/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/advanced_terminal_tips/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Install Wayland</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/install_wayland/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/install_wayland/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mpv&#43;youtube</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/mpv&#43;youtube/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/mpv&#43;youtube/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Qemu Tutorial Detail</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/qemu_tutorial_detail/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/qemu_tutorial_detail/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/security/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/security/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The Kernel</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/the_kernel/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/the_kernel/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Xbps Clean Up Cache</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/xbps-clean-up-cache/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/xbps-clean-up-cache/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/xbps-clean-up-cache/featured.png" />
+    </item>
+    
+    <item>
+      <title>Config Filebrowser</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/config_filebrowser/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/config_filebrowser/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>How To Install Lineageos 20 0 On Samsung Galaxy M20</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/how_to_install_lineageos_20_0_on_samsung_galaxy_m20/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/how_to_install_lineageos_20_0_on_samsung_galaxy_m20/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>How To Record With Ffmpeg</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/how_to_record_with_ffmpeg/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/how_to_record_with_ffmpeg/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>How To Record With Ffmpeg Script</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/how_to_record_with_ffmpeg_script/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/how_to_record_with_ffmpeg_script/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Sound Microphone Speakers</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/sound_microphone_speakers/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/sound_microphone_speakers/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Setup wireless adapter on alpine linux with wpa supplicant</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/setup-wireless-adapter-on-alpine-linux-with-wpa-supplicant-/</link>
+      <pubDate>Thu, 06 Nov 2025 16:48:19 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/setup-wireless-adapter-on-alpine-linux-with-wpa-supplicant-/</guid>
+      <description>how  to setup wireless adapter on alpine linux wpa supplicant</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/setup-wireless-adapter-on-alpine-linux-with-wpa-supplicant-/featured.webp" />
+    </item>
+    
+    <item>
+      <title>Working With Files and Tabs in Vim</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/working-with-files-and-tabs-in-vim/</link>
+      <pubDate>Fri, 29 Aug 2025 06:26:19 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/working-with-files-and-tabs-in-vim/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Manual Installation of Bliss Os on Linux</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/manual-installation-of-bliss-os-on-linux/</link>
+      <pubDate>Sun, 17 Aug 2025 11:48:21 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/manual-installation-of-bliss-os-on-linux/</guid>
+      <description>how to install bliss os Manually  on linux  system</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/manual-installation-of-bliss-os-on-linux/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>How Setup Dwm and st on Void Linux </title>
+      <link>http://localhost:1313/Linux_journey/tutorials/how-setup-dwm-on-void-linux-/</link>
+      <pubDate>Sat, 16 Aug 2025 12:43:06 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/how-setup-dwm-on-void-linux-/</guid>
+      <description>how to install dwm</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/how-setup-dwm-on-void-linux-/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Install kodi on  alpine linux </title>
+      <link>http://localhost:1313/Linux_journey/tutorials/install_kodi_on_alpine_linnx/</link>
+      <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/install_kodi_on_alpine_linnx/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/install_kodi_on_alpine_linnx/featured.webp" />
+    </item>
+    
+  </channel>
+</rss>

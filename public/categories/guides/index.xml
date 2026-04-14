@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides on My Linux Journey</title>
+    <link>http://localhost:1313/Linux_journey/categories/guides/</link>
+    <description>Recent content in Guides on My Linux Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>youcef7770@gmail.com (Youcef)</managingEditor>
+    <webMaster>youcef7770@gmail.com (Youcef)</webMaster>
+    <copyright>© 2026 Youcef</copyright>
+    <atom:link href="http://localhost:1313/Linux_journey/categories/guides/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Beginner&#39;s Guide to [Topic Keyword]</title>
+      <link>http://localhost:1313/Linux_journey/mywebsite/how-to-blog/beginner_s_guide_template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/mywebsite/how-to-blog/beginner_s_guide_template/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>How to [Do Something] Step by Step</title>
+      <link>http://localhost:1313/Linux_journey/mywebsite/how-to-blog/step-by-step_guide_template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/mywebsite/how-to-blog/step-by-step_guide_template/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

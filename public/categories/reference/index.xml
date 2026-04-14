@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reference on My Linux Journey</title>
+    <link>http://localhost:1313/Linux_journey/categories/reference/</link>
+    <description>Recent content in Reference on My Linux Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>youcef7770@gmail.com (Youcef)</managingEditor>
+    <webMaster>youcef7770@gmail.com (Youcef)</webMaster>
+    <copyright>© 2026 Youcef</copyright>
+    <lastBuildDate>Wed, 18 Mar 2026 16:06:41 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/categories/reference/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Best Method To Make App Accessible From The Internet 10</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/best_method_to_make_app_accessible_from_the_internet_10/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:41 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/best_method_to_make_app_accessible_from_the_internet_10/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>How To Knew If Usb Is Type3</title>
+      <link>http://localhost:1313/Linux_journey/blog/how_to_knew_if_usb_is_type3/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:41 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/blog/how_to_knew_if_usb_is_type3/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Different Types Of Virtulization</title>
+      <link>http://localhost:1313/Linux_journey/blog/different_types_of_virtulization/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/blog/different_types_of_virtulization/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Split Zip File If Is To Big</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/split_zip_file_if_is_to_big/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/split_zip_file_if_is_to_big/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Advanced Adb Shell Commands For Android Devices</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/advanced-adb-shell-commands-for-android-devices/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:39 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/advanced-adb-shell-commands-for-android-devices/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Picom Configuration</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/picom_configuration/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:39 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/picom_configuration/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Setting Up KVM&#43;Qemu&#43;libvirt In void linux</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/qemu/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:39 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/qemu/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Start Project</title>
+      <link>http://localhost:1313/Linux_journey/blog/start_project/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:39 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/blog/start_project/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Advance Djando</title>
+      <link>http://localhost:1313/Linux_journey/blog/django/advance-djando/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:38 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/blog/django/advance-djando/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Advanced Terminal Tips</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/advanced_terminal_tips/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/advanced_terminal_tips/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Install Wayland</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/install_wayland/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/install_wayland/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mpv&#43;youtube</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/mpv&#43;youtube/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/mpv&#43;youtube/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Programmer Developer Communities In Algeria</title>
+      <link>http://localhost:1313/Linux_journey/blog/programmer-developer-communities-in-algeria/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/blog/programmer-developer-communities-in-algeria/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Role Based Access Control Rbac Vs Attribute Based Access Control Abac</title>
+      <link>http://localhost:1313/Linux_journey/blog/role-based-access-control-rbac-vs-attribute-based-access-control-abac/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/blog/role-based-access-control-rbac-vs-attribute-based-access-control-abac/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/security/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/security/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The Kernel</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/the_kernel/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/the_kernel/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Xbps Clean Up Cache</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/xbps-clean-up-cache/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/xbps-clean-up-cache/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/xbps-clean-up-cache/featured.png" />
+    </item>
+    
+    <item>
+      <title>Biso Uefi Cmos</title>
+      <link>http://localhost:1313/Linux_journey/blog/biso-uefi-cmos/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/blog/biso-uefi-cmos/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Config Filebrowser</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/config_filebrowser/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/config_filebrowser/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Devopsroadmap</title>
+      <link>http://localhost:1313/Linux_journey/blog/devopsroadmap/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/blog/devopsroadmap/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>How To Install Lineageos 20 0 On Samsung Galaxy M20</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/how_to_install_lineageos_20_0_on_samsung_galaxy_m20/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/how_to_install_lineageos_20_0_on_samsung_galaxy_m20/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>How To Record With Ffmpeg</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/how_to_record_with_ffmpeg/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/how_to_record_with_ffmpeg/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>How To Record With Ffmpeg Script</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/how_to_record_with_ffmpeg_script/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/how_to_record_with_ffmpeg_script/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Latex Beamer Presentations</title>
+      <link>http://localhost:1313/Linux_journey/blog/latex-beamer-presentations/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/blog/latex-beamer-presentations/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Sound Microphone Speakers</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/sound_microphone_speakers/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/sound_microphone_speakers/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

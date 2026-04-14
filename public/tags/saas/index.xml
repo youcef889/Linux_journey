@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Saas on My Linux Journey</title>
+    <link>http://localhost:1313/Linux_journey/tags/saas/</link>
+    <description>Recent content in Saas on My Linux Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>youcef7770@gmail.com (Youcef)</managingEditor>
+    <webMaster>youcef7770@gmail.com (Youcef)</webMaster>
+    <copyright>© 2026 Youcef</copyright>
+    <atom:link href="http://localhost:1313/Linux_journey/tags/saas/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>
