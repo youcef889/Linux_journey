@@ -1,8 +1,14 @@
----
-title: "Booting to a program in linux "
-date: "2025-08-15"
-draft: "true"
----
++++
+title = "Boot Linux Directly to a Program - No Desktop"
+date = "2025-08-15"
+draft = true
+description = "Learn how to configure Linux to boot directly into a specific program instead of a full desktop environment. Covers systemd, init, and autologin."
+summary = "Guide to booting Linux directly into a program without full desktop. Covers systemd targets, runlevel modification, and autologin configuration."
+slug = "boot-linux-to-program"
+categories = ["Linux", "Boot", "Embedded"]
+tags = ["linux-boot", "autologin", "kiosk", "embedded-linux"]
+keywords = ["boot to program", "linux autologin", "kiosk mode linux"]
++++
 # Booting Linux Directly to a Program
 
 ![Booting to linux ](https://files.codingninjas.in/article_images/booting-process-in-linux-0-1690939075.webp)

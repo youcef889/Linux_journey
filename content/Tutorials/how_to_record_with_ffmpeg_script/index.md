@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:36+01:00'
+title = "FFmpeg Screen Recording Script - Linux Guide"
+date = "2026-03-18T16:06:36+01:00"
 draft = false
-title = 'How To Record With Ffmpeg Script'
-categories = ["Notes", "Reference"]
-tags = ["notes"]
+description = "Learn how to use FFmpeg script for screen recording on Linux. Capture desktop with audio, microphone, and system sounds."
+summary = "Guide to FFmpeg screen recording on Linux. Script breakdown for capturing desktop, microphone, and audio with real-time monitoring."
+slug = "ffmpeg-screen-recording-script"
+categories = ["Linux", "Media", "Recording"]
+tags = ["ffmpeg", "screen-recording", "linux", "audio", "script"]
+keywords = ["ffmpeg screen record", "linux screen capture", "record desktop ffmpeg"]
 +++
 
 

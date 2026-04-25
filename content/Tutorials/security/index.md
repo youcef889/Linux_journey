@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:37+01:00'
+title = "Common Linux Security Mistakes and How to Fix Them"
+date = "2026-03-18T16:06:37+01:00"
 draft = false
-title = 'Security'
-categories = ["Notes", "Reference"]
-tags = ["notes"]
+description = "Learn about common Linux security mistakes that users and administrators make. Covers root usage, password security, firewall, updates, and more."
+summary = "Guide to common Linux security mistakes and their fixes. Covers running as root, weak passwords, missing firewalls, unpatched systems, and proper security practices."
+slug = "common-linux-security-mistakes"
+categories = ["Linux", "Security", "Best Practices"]
+tags = ["linux-security", "security-mistakes", "hardening", "sysadmin", "firewall"]
+keywords = ["linux security", "linux security mistakes", "secure linux", "system hardening", "security best practices"]
 +++
 
 
@@ -59,4 +63,3 @@ common Linux security mistakes that users and administrators often make:
      - Automate backups with `rsync`, `BorgBackup`, or `Restic`.  
      - Store backups offsite and **encrypt** them.
 
-Would you like me to expand on any of these or focus on a particular security area?

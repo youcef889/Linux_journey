@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:36+01:00'
+title = "Install LineageOS 20 on Samsung Galaxy M20 - TWRP Guide"
+date = "2026-03-18T16:06:36+01:00"
 draft = false
-title = 'How To Install Lineageos 20 0 On Samsung Galaxy M20'
-categories = ["Notes", "Reference"]
-tags = ["notes"]
+description = "Learn how to install LineageOS 20 on Samsung Galaxy M20 (SM-M20). Step-by-step TWRP recovery and ROM installation."
+summary = "Complete guide to installing LineageOS 20 on Samsung Galaxy M20. Covers TWRP flash, ROM transfer, and LineageOS installation with steps to avoid soft-brick."
+slug = "install-lineageos-samsung-galaxy-m20"
+categories = ["Mobile", "Android", "LineageOS"]
+tags = ["lineageos", "samsung", "twrp", "android", "custom-rom"]
+keywords = ["lineageos galaxy m20", "install lineageos m20", "twrp samsung m20"]
 +++
 
 

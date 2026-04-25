@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:36+01:00'
-draft = false
-title = 'Fundamental Concepts Of Object Oriented Programming Oop'
+title = "Fundamental OOP Concepts - Object Oriented Programming"
+date = "2026-03-18T16:06:36+01:00"
+draft = true
+description = "Learn fundamental Object Oriented Programming concepts. Covers abstraction, encapsulation, inheritance, and polymorphism with examples."
+summary = "Guide to fundamental OOP concepts. Covers abstraction, encapsulation, inheritance, polymorphism, and core principles of object oriented programming."
+slug = "oop-concepts-explained"
 categories = ["Software Development", "Programming"]
-tags = ["python", "flask", "programming"]
+tags = ["oop", "object-oriented", "programming", "python", "java"]
+keywords = ["oop concepts", "object oriented programming", "abstraction", "encapsulation"]
 +++
 
 

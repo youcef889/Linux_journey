@@ -1,10 +1,13 @@
 +++
-date = '2025-08-17T11:48:21+01:00'
+title = "Install Bliss OS on Linux - Complete Manual Guide"
+date = "2025-08-17T11:48:21+01:00"
 draft = false
-title = 'Manual Installation of Bliss Os on Linux'
-summary=  'how to install bliss os Manually  on linux  system '
-categories =["tutorial","Os"]
-tags=['BlissOs','Android']
+description = "Learn how to manually install Bliss OS on Linux. Complete step-by-step guide for PC/Android emulation."
+summary = "Manual installation guide for Bliss OS on Linux. Covers ISO download, Grub configuration, and step-by-step installation for PC running Linux."
+slug = "install-bliss-os-linux"
+categories = ["Mobile", "Android", "Linux"]
+tags = ["blissos", "android", "linux", "emulation", "pc"]
+keywords = ["bliss os install", "bliss os linux", "android on pc", "bliss os manual"]
 +++
 
 # Manual Install of  Bliss os  on  Linux

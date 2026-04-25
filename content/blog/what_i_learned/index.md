@@ -1,10 +1,15 @@
----
-title: "What i learned about the kernel  of  linux system  " 
-author: "youcef Bouaissi"
-date: "2024-08-15"
-summary:  ""
-tags: ["linux basics","void linux"]
----
++++
+title = "Linux Kernel Insights - What I Learned"
+date = "2024-08-15"
+draft = false
+description = "Learnings about the Linux kernel. Covers kernel version checking, system calls, and kernel fundamentals."
+summary = "Collection of insights about the Linux kernel. Covers checking kernel version, system calls, kernel modules, and core Linux kernel concepts."
+slug = "linux-kernel-insights"
+categories = ["Linux", "Kernel"]
+tags = ["linux-kernel", "void-linux", "kernel", "linux-basics"]
+keywords = ["linux kernel", "kernel version", "linux basics", "kernel concepts"]
+author = "Youcef Bouaissi"
++++
 
 # The Kernel  
 ### 1. **How to check the kernel version of a Linux system?**  

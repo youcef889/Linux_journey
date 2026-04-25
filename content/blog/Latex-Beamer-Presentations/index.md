@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:36+01:00'
-draft = false
-title = 'Latex Beamer Presentations'
-categories = ["Notes", "Reference"]
-tags = ["notes"]
+title = "LaTeX Beamer Presentations - Create Professional Slides"
+date = "2026-03-18T16:06:36+01:00"
+draft = true
+description = "Learn how to create professional presentations using LaTeX Beamer. Covers themes, animations, and slide customization."
+summary = "Guide to creating presentations with LaTeX Beamer. Covers slide structure, themes, overlays, animations, and export options."
+slug = "latex-beamer-presentations"
+categories = ["LaTeX", "Presentation", "Software"]
+tags = ["latex", "beamer", "presentation", "slides", "tex"]
+keywords = ["latex presentation", "beamer latex", "create slides latex", "professional presentations"]
 +++
 
 

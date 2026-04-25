@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:37+01:00'
-draft = false
-title = 'Programmer Developer Communities In Algeria'
-categories = ["Notes", "Reference"]
-tags = ["notes"]
+title = "Developer Communities in Algeria - Join the Tech Scene"
+date = "2026-03-18T16:06:37+01:00"
+draft = true
+description = "List of developer communities in Algeria. Meet programmers, learn coding, and join tech events in Algerian tech ecosystem."
+summary = "Guide to developer communities in Algeria. Covers tech meetups, coding groups, hackathons, and how to join the Algerian developer scene."
+slug = "developer-communities-algeria"
+categories = ["Technology", "Algeria", "Community"]
+tags = ["developer", "algeria", "community", "programming", "tech"]
+keywords = ["algeria developer community", " programmers algeria", "tech meetup algeria"]
 +++
 
 

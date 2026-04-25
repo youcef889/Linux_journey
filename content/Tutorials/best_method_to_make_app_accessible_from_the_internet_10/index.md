@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:41+01:00'
+title = "Expose Docker App to Internet - Methods Guide"
+date = "2026-03-18T16:06:41+01:00"
 draft = false
-title = 'Best Method To Make App Accessible From The Internet 10'
-categories = ["Notes", "Reference"]
-tags = ["notes"]
+description = "Learn different methods to make Docker applications accessible from the internet. Covers port forwarding, reverse proxy, tunnels, and cloudflare tunnel."
+summary = "Guide to exposing Docker apps to the internet. Covers port forwarding, reverse proxies (nginx, caddy), tunneling (cloudflared, ngrok), and security best practices."
+slug = "expose-docker-app-internet"
+categories = ["Linux", "Docker", "Networking"]
+tags = ["docker", "expose", "internet", "reverse-proxy", "tunnel"]
+keywords = ["docker expose internet", "port forward docker", "docker public access", "reverse proxy docker"]
 +++
 
 
@@ -197,11 +201,4 @@ You push your Docker image or repo, and they give you a public HTTPS link.
 
 ---
 
-If you tell me more about:
-
-* Where you want to host (home, VPS, cloud)
-* Your internet provider (static IP or not)
-* Your app (port, tech stack)
-
-…I can suggest the **best method and detailed setup** for your use case.
 

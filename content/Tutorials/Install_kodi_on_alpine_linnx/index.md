@@ -1,8 +1,14 @@
----
-title: "Install kodi on  alpine linux "
-date: "2025-08-16"
-tags: ["alpine liunx "] 
----
++++
+title = "Install Kodi on Alpine Linux - Complete Guide"
+date = "2025-08-16"
+draft = false
+description = "Learn how to install and run Kodi media center on Alpine Linux. Covers apk installation, building from source, Docker method, and troubleshooting."
+summary = "Comprehensive guide to running Kodi on Alpine Linux. Includes installation via apk, building from source, Docker setup, and minimal Alpine configurations."
+slug = "kodi-alpine-linux"
+categories = ["Linux", "Media", "Alpine Linux"]
+tags = ["kodi", "alpine-linux", "media-center", "docker", "linux"]
+keywords = ["kodi alpine linux", "kodi install", "linux media center", "alpine docker"]
++++
 
 
 Running **Kodi** on **Alpine Linux** is possible, but it requires some extra steps because Alpine is a minimal distribution using **musl libc** and **busybox**, which can lead to compatibility issues with software designed for glibc-based distros like Ubuntu or Arch.
@@ -137,5 +143,4 @@ If you want to run Kodi on Alpine with minimal resources:
 
 ---
 
-Would you like me to help you **build a Kodi-based Alpine image** for Raspberry Pi or embedded use (e.g., e-reader/media center setup)?
 

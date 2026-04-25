@@ -121,7 +121,4 @@ Perfect! Here’s a **ready-to-use Google Form style questionnaire** with all **
 
 ---
 
-If you want, I can **also create a ready-to-use Google Forms link template** where you can **just copy it, and it’s ready to send**, so you don’t have to manually input all 21 questions.
-
-Do you want me to do that next?
 

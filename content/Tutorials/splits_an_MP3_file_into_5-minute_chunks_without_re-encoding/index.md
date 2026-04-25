@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:40+01:00'
+title = "Split MP3 into 5-Minute Chunks - FFmpeg No Re-encoding"
+date = "2026-03-18T16:06:40+01:00"
 draft = false
-title = 'Splits An Mp3 File Into 5 Minute Chunks Without Re Encoding'
-categories = ["Notes", "Reference"]
-tags = ["notes"]
+description = "Learn how to split MP3 files into 5-minute chunks without re-encoding using FFmpeg. Fast lossless splitting."
+summary = "Guide to splitting MP3 files into 5-minute chunks without re-encoding using FFmpeg. Uses -c copy for fast lossless audio extraction."
+slug = "split-mp3-chunks-ffmpeg"
+categories = ["Linux", "Media", "Audio"]
+tags = ["mp3", "ffmpeg", "split", "audio", "media"]
+keywords = ["split mp3", "split audio ffmpeg", "mp3 chunks", "split music"]
 +++
 
 
@@ -70,13 +74,3 @@ ffmpeg -i input.mp3 -f segment -segment_times 300,600,900 -c copy output_%03d.mp
 ```
 
 ---
-
-If you want:
-
-* **exact cuts**
-* **a different format**
-* **preserve metadata**
-* **split by silence instead of time**
-
-tell me what you’re aiming for and I’ll tailor the command 👍
-

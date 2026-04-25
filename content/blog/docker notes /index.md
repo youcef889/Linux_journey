@@ -1,7 +1,13 @@
 +++
-date = '2025-10-14T15:04:40+01:00'
+title = "Docker Commands and Notes - Quick Reference"
+date = "2025-10-14T15:04:40+01:00"
 draft = true
-title = 'Docker Notes '
+description = "Docker commands quick reference guide. Covers common Docker commands for images, containers, networking, and troubleshooting."
+summary = "Quick reference for Docker commands. Covers image management, container operations, networking, and common Docker troubleshooting commands."
+slug = "docker-commands-reference"
+categories = ["Docker", "DevOps", "Reference"]
+tags = ["docker", "containers", "devops", "dockerfiles"]
+keywords = ["docker commands", "docker cheat sheet", "docker reference"]
 +++
 ```
 $ docker images --filter dangling=true

@@ -9,25 +9,15 @@
     <managingEditor>youcef7770@gmail.com (Youcef)</managingEditor>
     <webMaster>youcef7770@gmail.com (Youcef)</webMaster>
     <copyright>© 2026 Youcef</copyright>
-    <lastBuildDate>Wed, 18 Mar 2026 16:06:40 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Aug 2025 18:27:28 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>How To Runwebsite</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/how_to_runwebsite/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
-      <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/how_to_runwebsite/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Introduction to Nginx</title>
-      <link>http://localhost:1313/Linux_journey/blog/introduction-to-nginx/</link>
+      <title>Nginx Web Server - Complete Introduction</title>
+      <link>http://localhost:1313/Linux_journey/blog/nginx-introduction/</link>
       <pubDate>Thu, 21 Aug 2025 18:27:28 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/introduction-to-nginx/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/blog/nginx-introduction/</guid>
+      <description>Complete introduction to Nginx web server. Covers key features, web serving, reverse proxy, load balancing, caching, and common configurations for self-hosting.</description>
       
     </item>
     

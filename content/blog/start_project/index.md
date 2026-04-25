@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:39+01:00'
+title = "How to Start a Project - Complete Guide"
+date = "2026-03-18T16:06:39+01:00"
 draft = false
-title = 'Start Project'
-categories = ["Notes", "Reference"]
-tags = ["notes"]
+description = "Learn how to start a software project from scratch. Covers planning, validation, architecture, and development setup."
+summary = "Guide to starting a new software project. Covers project planning, idea validation, architecture design, tech stack selection, and development workflow."
+slug = "start-project-guide"
+categories = ["Software Development", "Project Management"]
+tags = ["project", "start", "development", "planning", "guide"]
+keywords = ["how to start project", "project setup", "software project", "project planning"]
 +++
 
 

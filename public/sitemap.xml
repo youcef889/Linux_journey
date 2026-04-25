@@ -4,30 +4,24 @@
 
   <url>
     <loc>http://localhost:1313/Linux_journey/</loc>
+    <lastmod>2026-04-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/linux/how-to-reinstall-initramfs-vmlinuz-and-kernelon-voidlinux/reinstall-initramfs-vmlinuz-void-linux/</loc>
+    <lastmod>2026-04-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/tutorials/expose-docker-app-internet/</loc>
     <lastmod>2026-03-18T16:06:41+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/best_method_to_make_app_accessible_from_the_internet_10/</loc>
-    <lastmod>2026-03-18T16:06:41+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/Linux_journey/blog/</loc>
-    <lastmod>2026-03-18T16:06:41+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/Linux_journey/blog/how_to_knew_if_usb_is_type3/</loc>
-    <lastmod>2026-03-18T16:06:41+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/Linux_journey/blog/10-software-problems-in-algeria-worth-millions/</loc>
+    <loc>http://localhost:1313/Linux_journey/blog/software-problems-algeria-millions/</loc>
     <lastmod>2026-03-18T16:06:40+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -45,49 +39,49 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/blog/different_types_of_virtulization/</loc>
+    <loc>http://localhost:1313/Linux_journey/blog/</loc>
     <lastmod>2026-03-18T16:06:40+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/blog/digital-infrastructure-development/</loc>
+    <loc>http://localhost:1313/Linux_journey/blog/digital-infrastructure-algeria/</loc>
     <lastmod>2026-03-18T16:06:40+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/blog/find-enterprise-problems-in-algeria/</loc>
+    <loc>http://localhost:1313/Linux_journey/blog/find-enterprise-problems-algeria/</loc>
     <lastmod>2026-03-18T16:06:40+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/how_to_runwebsite/</loc>
+    <loc>http://localhost:1313/Linux_journey/tutorials/install-gapps-lineageos/</loc>
     <lastmod>2026-03-18T16:06:40+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/blog/how-to-validate-a-startup-idea-before-building-it/</loc>
+    <loc>http://localhost:1313/Linux_journey/blog/questions-startup-validation-algeria/</loc>
     <lastmod>2026-03-18T16:06:40+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/install_gapp_on_linageos/</loc>
+    <loc>http://localhost:1313/Linux_journey/tutorials/run-website-offline-linux/</loc>
     <lastmod>2026-03-18T16:06:40+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/blog/list-of-powerful-questions-you-can-ask-algerian-businesses-to-validate-a-startup-idea/</loc>
+    <loc>http://localhost:1313/Linux_journey/tutorials/split-large-file-linux-usb/</loc>
     <lastmod>2026-03-18T16:06:40+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/split_zip_file_if_is_to_big/</loc>
+    <loc>http://localhost:1313/Linux_journey/tutorials/split-mp3-chunks-ffmpeg/</loc>
     <lastmod>2026-03-18T16:06:40+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -99,194 +93,338 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/advanced-adb-shell-commands-for-android-devices/</loc>
+    <loc>http://localhost:1313/Linux_journey/blog/types-of-virtualization/</loc>
+    <lastmod>2026-03-18T16:06:40+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/blog/validate-startup-idea/</loc>
+    <lastmod>2026-03-18T16:06:40+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/tutorials/adb-shell-commands-android/</loc>
     <lastmod>2026-03-18T16:06:39+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/picom_configuration/</loc>
+    <loc>http://localhost:1313/Linux_journey/blog/start-project-guide/</loc>
     <lastmod>2026-03-18T16:06:39+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/qemu/</loc>
+    <loc>http://localhost:1313/Linux_journey/tutorials/picom-configuration/</loc>
     <lastmod>2026-03-18T16:06:39+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/blog/start_project/</loc>
+    <loc>http://localhost:1313/Linux_journey/tutorials/kvm-qemu-libvirt-void-linux/</loc>
     <lastmod>2026-03-18T16:06:39+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/blog/django/advance-djando/</loc>
+    <loc>http://localhost:1313/Linux_journey/tutorials/mount-android-phone-linux/</loc>
     <lastmod>2026-03-18T16:06:38+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/phon_file_transfer_linux/</loc>
-    <lastmod>2026-03-18T16:06:38+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/advanced_terminal_tips/</loc>
+    <loc>http://localhost:1313/Linux_journey/linux/advanced-terminal-tips-linux/</loc>
     <lastmod>2026-03-18T16:06:37+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/install_wayland/</loc>
+    <loc>http://localhost:1313/Linux_journey/tutorials/advanced-terminal-tips-linux/</loc>
     <lastmod>2026-03-18T16:06:37+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/mpv&#43;youtube/</loc>
+    <loc>http://localhost:1313/Linux_journey/linux/alpine-linux-learning-plan/</loc>
     <lastmod>2026-03-18T16:06:37+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/blog/programmer-developer-communities-in-algeria/</loc>
+    <loc>http://localhost:1313/Linux_journey/linux/build-minimal-linux-distro/</loc>
     <lastmod>2026-03-18T16:06:37+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/qemu_tutorial_detail/</loc>
+    <loc>http://localhost:1313/Linux_journey/tutorials/xbps-clean-cache-void-linux/</loc>
     <lastmod>2026-03-18T16:06:37+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/blog/role-based-access-control-rbac-vs-attribute-based-access-control-abac/</loc>
+    <loc>http://localhost:1313/Linux_journey/tutorials/common-linux-security-mistakes/</loc>
     <lastmod>2026-03-18T16:06:37+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/security/</loc>
+    <loc>http://localhost:1313/Linux_journey/linux/enterprise-linux-system-administrator/</loc>
     <lastmod>2026-03-18T16:06:37+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/the_kernel/</loc>
+    <loc>http://localhost:1313/Linux_journey/linux/xbps-clean-cache-void-linux/</loc>
     <lastmod>2026-03-18T16:06:37+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/xbps-clean-up-cache/</loc>
+    <loc>http://localhost:1313/Linux_journey/linux/kodi-alpine-linux/</loc>
     <lastmod>2026-03-18T16:06:37+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/blog/biso-uefi-cmos/</loc>
+    <loc>http://localhost:1313/Linux_journey/linux/install-cups-void-linux/</loc>
+    <lastmod>2026-03-18T16:06:37+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/linux/pihole-alpine-linux/</loc>
+    <lastmod>2026-03-18T16:06:37+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/linux/install-sway-void-linux/</loc>
+    <lastmod>2026-03-18T16:06:37+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/tutorials/install-wayland-void-linux/</loc>
+    <lastmod>2026-03-18T16:06:37+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/linux/install-wayland-linux/</loc>
+    <lastmod>2026-03-18T16:06:37+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/linux/install-xfce-void-linux/</loc>
+    <lastmod>2026-03-18T16:06:37+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/linux/linux-iptables-firewall/</loc>
+    <lastmod>2026-03-18T16:06:37+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/linux/linux-kernel-explained/</loc>
+    <lastmod>2026-03-18T16:06:37+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/tutorials/linux-kernel-explained/</loc>
+    <lastmod>2026-03-18T16:06:37+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/linux/linux-system-info-commands/</loc>
+    <lastmod>2026-03-18T16:06:37+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/linux/void-linux-list-packages/</loc>
+    <lastmod>2026-03-18T16:06:37+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/linux/qemu-complete-tutorial/</loc>
+    <lastmod>2026-03-18T16:06:37+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/tutorials/qemu-complete-tutorial/</loc>
+    <lastmod>2026-03-18T16:06:37+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/linux/qemu-windows-xp-multiple-cdrom/</loc>
+    <lastmod>2026-03-18T16:06:37+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/linux/alpine-linux-32-bit-qemu/</loc>
+    <lastmod>2026-03-18T16:06:37+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/linux/sound-setup-void-linux/</loc>
+    <lastmod>2026-03-18T16:06:37+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/linux/ssh-qemu-vm-fix/</loc>
+    <lastmod>2026-03-18T16:06:37+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/tutorials/mpv-youtube-player/</loc>
+    <lastmod>2026-03-18T16:06:37+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/blog/void-linux-specialist/</loc>
     <lastmod>2026-03-18T16:06:36+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/config_filebrowser/</loc>
+    <loc>http://localhost:1313/Linux_journey/blog/database-books/</loc>
     <lastmod>2026-03-18T16:06:36+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/blog/database_books/</loc>
+    <loc>http://localhost:1313/Linux_journey/linux/build-libmount-from-source/</loc>
     <lastmod>2026-03-18T16:06:36+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/blog/devopsroadmap/</loc>
+    <loc>http://localhost:1313/Linux_journey/linux/configure-monitors-xrandr-linux/</loc>
     <lastmod>2026-03-18T16:06:36+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/blog/fundamental-concepts-of-object-oriented-programming-oop/</loc>
+    <loc>http://localhost:1313/Linux_journey/blog/devops-roadmap/</loc>
     <lastmod>2026-03-18T16:06:36+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/how_to_install_lineageos_20_0_on_samsung_galaxy_m20/</loc>
+    <loc>http://localhost:1313/Linux_journey/tutorials/ffmpeg-screen-recording/</loc>
     <lastmod>2026-03-18T16:06:36+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/how_to_record_with_ffmpeg/</loc>
+    <loc>http://localhost:1313/Linux_journey/tutorials/ffmpeg-screen-recording-script/</loc>
     <lastmod>2026-03-18T16:06:36+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/how_to_record_with_ffmpeg_script/</loc>
+    <loc>http://localhost:1313/Linux_journey/tutorials/filebrowser-configuration/</loc>
     <lastmod>2026-03-18T16:06:36+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/blog/latex-beamer-presentations/</loc>
+    <loc>http://localhost:1313/Linux_journey/tutorials/fix-sound-usb-microphone-linux/</loc>
     <lastmod>2026-03-18T16:06:36+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/sound_microphone_speakers/</loc>
+    <loc>http://localhost:1313/Linux_journey/tutorials/install-lineageos-samsung-galaxy-m20/</loc>
     <lastmod>2026-03-18T16:06:36+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/blog/void_linux_specialist/</loc>
+    <loc>http://localhost:1313/Linux_journey/linux/install-local-xbps-packages/</loc>
     <lastmod>2026-03-18T16:06:36+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/setup-wireless-adapter-on-alpine-linux-with-wpa-supplicant-/</loc>
+    <loc>http://localhost:1313/Linux_journey/linux/install-windows-xp-qemu/</loc>
+    <lastmod>2026-03-18T16:06:36+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/linux/runit-service-management-void-linux/</loc>
+    <lastmod>2026-03-18T16:06:36+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/linux/ssh-file-transfer-methods/</loc>
+    <lastmod>2026-03-18T16:06:36+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/tutorials/wifi-alpine-linux-wpa-supplicant/</loc>
     <lastmod>2025-11-06T16:48:19+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/working-with-files-and-tabs-in-vim/</loc>
+    <loc>http://localhost:1313/Linux_journey/linux/wifi-alpine-linux-wpa-supplicant/</loc>
+    <lastmod>2025-11-02T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/tutorials/vim-files-tabs-guide/</loc>
     <lastmod>2025-08-29T06:26:19+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/blog/introduction-to-nginx/</loc>
+    <loc>http://localhost:1313/Linux_journey/blog/nginx-introduction/</loc>
     <lastmod>2025-08-21T18:27:28+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/manual-installation-of-bliss-os-on-linux/</loc>
+    <loc>http://localhost:1313/Linux_journey/tutorials/install-bliss-os-linux/</loc>
     <lastmod>2025-08-17T11:48:21+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/how-setup-dwm-on-void-linux-/</loc>
+    <loc>http://localhost:1313/Linux_journey/tutorials/install-dwm-st-void-linux/</loc>
     <lastmod>2025-08-16T12:43:06+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/tutorials/install_kodi_on_alpine_linnx/</loc>
+    <loc>http://localhost:1313/Linux_journey/tutorials/kodi-alpine-linux/</loc>
     <lastmod>2025-08-16T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Linux_journey/linux/</loc>
+    <lastmod>2025-08-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -297,19 +435,20 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/blog/what_is_the_difference_between_display_server_display_manager_and_window_manager/</loc>
+    <loc>http://localhost:1313/Linux_journey/blog/display-server-manager-window-manager/</loc>
     <lastmod>2025-07-27T11:00:00+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/blog/what_i_learned/</loc>
-    <lastmod>2024-08-15T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/Linux_journey/blog/essential-pc-utilities/</loc>
+    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/Linux_journey/blog/free_pc_program/</loc>
+    <loc>http://localhost:1313/Linux_journey/blog/linux-kernel-insights/</loc>
+    <lastmod>2024-08-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

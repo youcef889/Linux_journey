@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:36+01:00'
+title = "Fix Sound Switching to USB Microphone on Linux"
+date = "2026-03-18T16:06:36+01:00"
 draft = false
-title = 'Sound Microphone Speakers'
-categories = ["Notes", "Reference"]
-tags = ["notes"]
+description = "Learn how to fix audio switching to USB microphone on Linux. Keep sound output on speakers when plugging in USB audio devices."
+summary = "Guide to fixing audio device switching on Linux. Prevent system from switching to USB microphone as default output. Uses PulseAudio and ALSA configuration."
+slug = "fix-sound-usb-microphone-linux"
+categories = ["Linux", "Audio", "Troubleshooting"]
+tags = ["linux-audio", "pulseaudio", "usb-microphone", "sound-fix", "alsamixer"]
+keywords = ["linux sound switch", "usb microphone default", "pulseaudio default output", "sound fix linux"]
 +++
 
 
@@ -207,7 +211,3 @@ pulseaudio --start
    pactl set-sink-port 1 off
    ```
 
-**What would you like to do?**
-1. Share your `pactl list short sinks/sources` output so I can give you exact config
-2. Try the general config above first
-3. Try a different approach entirely?

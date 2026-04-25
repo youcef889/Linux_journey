@@ -9,15 +9,45 @@
     <managingEditor>youcef7770@gmail.com (Youcef)</managingEditor>
     <webMaster>youcef7770@gmail.com (Youcef)</webMaster>
     <copyright>© 2026 Youcef</copyright>
-    <atom:link href="http://localhost:1313/Linux_journey/categories/how-to/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Mar 2026 16:06:37 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/categories/how-to/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Beginner&#39;s Guide to [Topic Keyword]</title>
-      <link>http://localhost:1313/Linux_journey/mywebsite/how-to-blog/beginner_s_guide_template/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Clean XBPS Cache on Void Linux - Free Disk Space</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/xbps-clean-cache-void-linux/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/mywebsite/how-to-blog/beginner_s_guide_template/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/tutorials/xbps-clean-cache-void-linux/</guid>
+      <description>Guide to cleaning Void Linux package cache using xbps-remove commands. Covers removing all cached packages, obsolete packages, and manual cleanup.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/xbps-clean-cache-void-linux/featured.png" />
+    </item>
+    
+    <item>
+      <title>How to Clean XBPS Cache on Void Linux</title>
+      <link>http://localhost:1313/Linux_journey/linux/xbps-clean-cache-void-linux/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/xbps-clean-cache-void-linux/</guid>
+      <description>Guide to cleaning Void Linux package cache using xbps-remove commands. Covers removing all cached packages, obsolete packages, and manual cleanup.</description>
+      
+    </item>
+    
+    <item>
+      <title>How to Install Kodi on Alpine Linux - Complete Guide</title>
+      <link>http://localhost:1313/Linux_journey/linux/kodi-alpine-linux/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/kodi-alpine-linux/</guid>
+      <description>A comprehensive guide to running Kodi on Alpine Linux. Includes installation via apk, building from source, Docker setup, and minimal Alpine configurations.</description>
+      
+    </item>
+    
+    <item>
+      <title>SSH to QEMU VM - Fix Host Key Verification Error</title>
+      <link>http://localhost:1313/Linux_journey/linux/ssh-qemu-vm-fix/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/ssh-qemu-vm-fix/</guid>
+      <description>Simple guide to fix SSH host key verification errors when connecting to QEMU VMs. Uses ssh-keygen to remove old keys and reconnect safely.</description>
       
     </item>
     

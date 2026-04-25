@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:37+01:00'
+title = "Install Wayland Compositors on Void Linux"
+date = "2026-03-18T16:06:37+01:00"
 draft = false
-title = 'Install Wayland'
-categories = ["Notes", "Reference"]
-tags = ["notes"]
+description = "Learn how to install Wayland on Void Linux. Covers Sway, labwc, wayfire compositors and required packages."
+summary = "Complete guide to installing Wayland compositors on Void Linux. Covers Sway, labwc, wayfire, seatd, and display manager setup."
+slug = "install-wayland-void-linux"
+categories = ["Linux", "Wayland", "Desktop"]
+tags = ["wayland", "sway", " compositor", "wayland-compositor", "void-linux"]
+keywords = ["install wayland", "wayland compositor", "sway void linux", "wayland setup"]
 +++
 
 
@@ -104,9 +108,4 @@ sudo xbps-install -S wofi grim slurp wl-clipboard
 * `wl-clipboard` – clipboard tools for Wayland
 
 ---
-
-If you want, I can give you a **minimal Sway config** tuned for Void Linux so you can log into Wayland without touching X11 at all.
-That way, you can test Wayland cleanly.
-
-Do you want me to prepare that config?
 

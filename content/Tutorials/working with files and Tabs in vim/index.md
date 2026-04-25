@@ -1,9 +1,13 @@
 +++
-date = '2025-08-29T06:26:19+01:00'
+title = "Working with Files and Tabs in Vim - Complete Guide"
+date = "2025-08-29T06:26:19+01:00"
 draft = false
-title = 'Working With Files and Tabs in Vim'
-categories =["tutorial","Linux Basics"]
-tags=['vim','text editor']
+description = "Learn how to work with files and tabs in Vim. Open, save, create, and manage multiple files efficiently."
+summary = "Guide to working with files and tabs in Vim. Covers opening files, saving, tab management, and multiple file workflows in the vim text editor."
+slug = "vim-files-tabs-guide"
+categories = ["Linux", "Vim", "Editor"]
+tags = ["vim", "text-editor", "vim-tabs", "vim-files", "editor"]
+keywords = ["vim file", "vim tabs", "vim tutorial", "vim editor guide"]
 +++
 
 ### Into  

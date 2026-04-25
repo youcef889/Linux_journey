@@ -1,13 +1,15 @@
----
-title: "What Is the Difference Between Display Server, Display Manager, and Window Manager?"
-date: 2025-07-27T11:00:00+01:00
-draft: false
-author: "Youcef Bouaissi"
-tags: ["hugo", "blog", "template"]
-categories: ["Tech", "Tutorials"]
-description: "What Is the Difference Between Display Server, Display Manager, and Window Manager?"
-featured_image: "#"
----
++++
+title = "Display Server vs Display Manager vs Window Manager - Explained"
+date = "2025-07-27T11:00:00+01:00"
+draft = false
+description = "Learn the difference between display server, display manager, and window manager in Linux. Complete explanation of X11, Wayland, and desktop components."
+summary = "Complete explanation of display server, display manager, and window manager. Covers X11, Wayland, LightDM, SDDM, and window managers like i3, Openbox."
+slug = "display-server-manager-window-manager"
+categories = ["Tech", "Tutorials", "Linux"]
+tags = ["display-server", "x11", "wayland", "window-manager", "desktop"]
+keywords = ["display server", "display manager", "window manager", "x11", "wayland"]
+author = "Youcef Bouaissi"
++++
 
 What Is the Difference Between Display Server, Display Manager, and Window Manager?
 

@@ -12,12 +12,12 @@
     <lastBuildDate>Fri, 29 Aug 2025 06:26:19 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Working With Files and Tabs in Vim</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/working-with-files-and-tabs-in-vim/</link>
+      <title>Working with Files and Tabs in Vim - Complete Guide</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/vim-files-tabs-guide/</link>
       <pubDate>Fri, 29 Aug 2025 06:26:19 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/working-with-files-and-tabs-in-vim/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/tutorials/vim-files-tabs-guide/</guid>
+      <description>Guide to working with files and tabs in Vim. Covers opening files, saving, tab management, and multiple file workflows in the vim text editor.</description>
       
     </item>
     

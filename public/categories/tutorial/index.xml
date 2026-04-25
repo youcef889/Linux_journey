@@ -9,46 +9,36 @@
     <managingEditor>youcef7770@gmail.com (Youcef)</managingEditor>
     <webMaster>youcef7770@gmail.com (Youcef)</webMaster>
     <copyright>© 2026 Youcef</copyright>
-    <lastBuildDate>Thu, 06 Nov 2025 16:48:19 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Mar 2026 16:06:37 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Setup wireless adapter on alpine linux with wpa supplicant</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/setup-wireless-adapter-on-alpine-linux-with-wpa-supplicant-/</link>
-      <pubDate>Thu, 06 Nov 2025 16:48:19 +0100</pubDate>
+      <title>QEMU Complete Tutorial - Virtualization Guide</title>
+      <link>http://localhost:1313/Linux_journey/linux/qemu-complete-tutorial/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/setup-wireless-adapter-on-alpine-linux-with-wpa-supplicant-/</guid>
-      <description>how  to setup wireless adapter on alpine linux wpa supplicant</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/setup-wireless-adapter-on-alpine-linux-with-wpa-supplicant-/featured.webp" />
-    </item>
-    
-    <item>
-      <title>Working With Files and Tabs in Vim</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/working-with-files-and-tabs-in-vim/</link>
-      <pubDate>Fri, 29 Aug 2025 06:26:19 +0100</pubDate>
-      <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/working-with-files-and-tabs-in-vim/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/linux/qemu-complete-tutorial/</guid>
+      <description>Master QEMU virtualization with this detailed guide. Learn to create VMs, configure networking, use KVM, manage disk images, and run headless virtual machines.</description>
       
     </item>
     
     <item>
-      <title>Manual Installation of Bliss Os on Linux</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/manual-installation-of-bliss-os-on-linux/</link>
-      <pubDate>Sun, 17 Aug 2025 11:48:21 +0100</pubDate>
+      <title>QEMU Complete Tutorial - Virtualization Guide</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/qemu-complete-tutorial/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/manual-installation-of-bliss-os-on-linux/</guid>
-      <description>how to install bliss os Manually  on linux  system</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/manual-installation-of-bliss-os-on-linux/featured.jpg" />
+      <guid>http://localhost:1313/Linux_journey/tutorials/qemu-complete-tutorial/</guid>
+      <description>Master QEMU virtualization with this detailed guide. Learn to create VMs, configure networking, use KVM, manage disk images, and run headless virtual machines.</description>
+      
     </item>
     
     <item>
-      <title>How Setup Dwm and st on Void Linux </title>
-      <link>http://localhost:1313/Linux_journey/tutorials/how-setup-dwm-on-void-linux-/</link>
-      <pubDate>Sat, 16 Aug 2025 12:43:06 +0100</pubDate>
+      <title>Watch YouTube Videos with mpv Player - Complete Guide</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/mpv-youtube-player/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/how-setup-dwm-on-void-linux-/</guid>
-      <description>how to install dwm</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/how-setup-dwm-on-void-linux-/featured.jpg" />
+      <guid>http://localhost:1313/Linux_journey/tutorials/mpv-youtube-player/</guid>
+      <description>Guide to using mpv with YouTube support. Covers yt-dlp installation, playback controls, streaming YouTube from terminal, and advanced options.</description>
+      
     </item>
     
   </channel>

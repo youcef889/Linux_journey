@@ -1,9 +1,13 @@
 +++
-date = '2025-08-21T18:27:28+01:00'
+title = "Nginx Web Server - Complete Introduction"
+date = "2025-08-21T18:27:28+01:00"
 draft = false
-title = 'Introduction to Nginx'
-categories =["Sysadmin & Servers","Self-Hosting"]
-tags=["nginx","webdev"]
+description = "Introduction to Nginx web server. Covers features, use cases, reverse proxy, load balancing, and configuration."
+summary = "Complete introduction to Nginx web server. Covers key features, web serving, reverse proxy, load balancing, caching, and common configurations for self-hosting."
+slug = "nginx-introduction"
+categories = ["Sysadmin & Servers", "Self-Hosting", "Web Server"]
+tags = ["nginx", "webserver", "reverse-proxy", "load-balancing"]
+keywords = ["nginx web server", "nginx tutorial", "nginx reverse proxy", "nginx config"]
 +++
 ## Key Features and use cases of Nginx 
 Ngix's archiecture and flexibility make it suitablr foe various use  cases

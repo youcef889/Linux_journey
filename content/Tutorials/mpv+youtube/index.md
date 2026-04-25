@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:37+01:00'
+title = "Watch YouTube Videos with mpv Player - Complete Guide"
+date = "2026-03-18T16:06:37+01:00"
 draft = false
-title = 'Mpv+youtube'
-categories = ["Notes", "Reference"]
-tags = ["notes"]
+description = "Learn how to watch YouTube videos using mpv player with yt-dlp. Terminal-based viewing with ad-free experience."
+summary = "Guide to using mpv with YouTube support. Covers yt-dlp installation, playback controls, streaming YouTube from terminal, and advanced options."
+slug = "mpv-youtube-player"
+categories = ["Linux", "Media", "Tutorial"]
+tags = ["mpv", "youtube", "yt-dlp", "terminal", "video-player"]
+keywords = ["mpv youtube", "watch youtube terminal", "yt-dlp mpv", "linux video player"]
 +++
 
 
@@ -172,11 +176,4 @@ yt-dlp URL
 ```
 
 ---
-
-If you want, tell me:
-
-* Which Linux distro you’re on?
-* Are you trying to **stream**, **download**, fix an **error**, or get **1080p/4K** working?
-
-I can tailor it for your setup 👍
 

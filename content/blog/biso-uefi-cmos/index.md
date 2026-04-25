@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:36+01:00'
-draft = false
-title = 'Biso Uefi Cmos'
-categories = ["Notes", "Reference"]
-tags = ["notes"]
+title = "BIOS vs UEFI vs CMOS - Complete Explanation"
+date = "2026-03-18T16:06:36+01:00"
+draft = true
+description = "Learn the difference between BIOS, UEFI, and CMOS. Complete explanation of boot processes, firmware, and hardware settings."
+summary = "Guide explaining BIOS, UEFI, and CMOS. Covers boot process differences, firmware interfaces, and BIOS/UEFI configuration."
+slug = "bios-uefi-cmos-explained"
+categories = ["Hardware", "Systems", "Concepts"]
+tags = ["bios", "uefi", "cmos", "boot", "firmware"]
+keywords = ["bios vs uefi", "uefi bios", "cmos", "boot firmware"]
 +++
 
 

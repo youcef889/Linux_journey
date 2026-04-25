@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:37+01:00'
+title = "Clean XBPS Cache on Void Linux - Free Disk Space"
+date = "2026-03-18T16:06:37+01:00"
 draft = false
-title = 'Xbps Clean Up Cache'
-categories = ["Notes", "Reference"]
-tags = ["notes"]
+description = "Learn how to clean XBPS package cache on Void Linux safely. Remove old packages to free up disk space."
+summary = "Guide to cleaning Void Linux package cache using xbps-remove commands. Covers removing all cached packages, obsolete packages, and manual cleanup."
+slug = "xbps-clean-cache-void-linux"
+categories = ["Linux", "Void Linux", "How-To"]
+tags = ["void-linux", "xbps", "cache", "maintenance", "package-manager"]
+keywords = ["void linux clean cache", "xbps remove cache", "free disk space void linux"]
 +++
 
 
@@ -55,5 +59,4 @@ du -sh /var/cache/xbps
 
 ---
 
-If you want, tell me what you’re trying to achieve—free disk space, fix broken installs, or maintenance script—and I can suggest the best combo 👍
 

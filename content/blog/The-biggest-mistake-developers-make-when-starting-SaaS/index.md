@@ -272,9 +272,3 @@ These are **less flashy but very profitable**.
 
 ---
 
-⭐ If you'd like, I can also show you:
-
-* **The best SaaS niche for a solo developer in Algeria**
-* **A 30-day roadmap to launch a SaaS**
-* **The simplest SaaS you can build with Flask** (very practical).
-

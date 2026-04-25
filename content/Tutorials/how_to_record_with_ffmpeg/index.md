@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:36+01:00'
+title = "FFmpeg Screen Recording - Command Breakdown"
+date = "2026-03-18T16:06:36+01:00"
 draft = false
-title = 'How To Record With Ffmpeg'
-categories = ["Notes", "Reference"]
-tags = ["notes"]
+description = "Learn FFmpeg screen recording commands. Capture desktop video and audio with pulse and alsa inputs."
+summary = "Complete breakdown of FFmpeg screen recording commands. Covers video capture, pulse/alsa audio input, and encoding options for Linux."
+slug = "ffmpeg-screen-recording"
+categories = ["Linux", "Media", "Recording"]
+tags = ["ffmpeg", "screen-recording", "linux", "pulseaudio", "recording"]
+keywords = ["ffmpeg record screen", "linux screen record", "ffmpeg capture desktop"]
 +++
 
 

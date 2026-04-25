@@ -9,25 +9,65 @@
     <managingEditor>youcef7770@gmail.com (Youcef)</managingEditor>
     <webMaster>youcef7770@gmail.com (Youcef)</webMaster>
     <copyright>© 2026 Youcef</copyright>
-    <lastBuildDate>Wed, 18 Mar 2026 16:06:38 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/tags/sysadmin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Mar 2026 16:06:37 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/tags/sysadmin/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Phon File Transfer Linux</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/phon_file_transfer_linux/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:38 +0100</pubDate>
+      <title>Alpine Linux Learning Plan - 6 Week Mastery Guide</title>
+      <link>http://localhost:1313/Linux_journey/linux/alpine-linux-learning-plan/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/phon_file_transfer_linux/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/linux/alpine-linux-learning-plan/</guid>
+      <description>A structured 6-week learning plan to become an Alpine Linux specialist. Covers installation, APK, networking, diskless mode, Docker, and advanced topics.</description>
       
     </item>
     
     <item>
-      <title>Void Linux Specialist</title>
-      <link>http://localhost:1313/Linux_journey/blog/void_linux_specialist/</link>
+      <title>Common Linux Security Mistakes and How to Fix Them</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/common-linux-security-mistakes/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/common-linux-security-mistakes/</guid>
+      <description>Guide to common Linux security mistakes and their fixes. Covers running as root, weak passwords, missing firewalls, unpatched systems, and proper security practices.</description>
+      
+    </item>
+    
+    <item>
+      <title>Enterprise Linux System Administrator - Complete Career Roadmap</title>
+      <link>http://localhost:1313/Linux_journey/linux/enterprise-linux-system-administrator/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/enterprise-linux-system-administrator/</guid>
+      <description>A step-by-step roadmap to become an enterprise Linux system administrator. Covers Linux fundamentals, systemd, networking, security, SSH, SELinux, Docker, Kubernetes, AWS, and monitoring.</description>
+      
+    </item>
+    
+    <item>
+      <title>List Installed Packages on Void Linux - Complete Guide</title>
+      <link>http://localhost:1313/Linux_journey/linux/void-linux-list-packages/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/void-linux-list-packages/</guid>
+      <description>Guide to listing installed packages on Void Linux. Uses xbps-query to show all packages, manually installed programs, versions, and orphaned dependencies.</description>
+      
+    </item>
+    
+    <item>
+      <title>Become a Void Linux Specialist - Complete Roadmap</title>
+      <link>http://localhost:1313/Linux_journey/blog/void-linux-specialist/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/void_linux_specialist/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/blog/void-linux-specialist/</guid>
+      <description>Step-by-step roadmap to becoming a Void Linux specialist. Covers XBPS package manager, Runit services, system customization, and advanced troubleshooting.</description>
+      
+    </item>
+    
+    <item>
+      <title>Linux Knowledge Base - Complete Linux Tutorials &amp; guides</title>
+      <link>http://localhost:1313/Linux_journey/linux/</link>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/</guid>
+      <description>Your complete Linux knowledge base with tutorials on system administration, QEMU virtualization, Void Linux, Alpine Linux, networking, iptables, shell scripting, and Linux kernel concepts.</description>
       
     </item>
     

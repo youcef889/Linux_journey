@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:40+01:00'
+title = "Split Large File for FAT32 USB - Linux Guide"
+date = "2026-03-18T16:06:40+01:00"
 draft = false
-title = 'Split Zip File If Is To Big'
-categories = ["Notes", "Reference"]
-tags = ["notes"]
+description = "Learn how to split large files into smaller chunks for FAT32 USB drives. Fix 'File too large' errors on Linux."
+summary = "Guide to splitting large files into smaller chunks for FAT32 USB transfer. Uses split command to create 4GB parts and cat to rejoin them."
+slug = "split-large-file-linux-usb"
+categories = ["Linux", "File Management"]
+tags = ["split-file", "fat32", "usb", "file-management", "linux"]
+keywords = ["split large file", "file too large fat32", "linux split file", "usb file transfer"]
 +++
 
 
@@ -78,5 +82,4 @@ If you’re not sure about the filesystem or want help formatting safely, feel f
 df -T /mnt
 ```
 
-and I’ll guide you.
 

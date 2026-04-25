@@ -1,8 +1,14 @@
----
-title: "Install an XMPP server on a 32-bit Debian system "
-date: "2025-08-15"
-draft: true
----
++++
+title = "Install XMPP Server on 32-bit Debian - Prosody Guide"
+date = "2025-08-15"
+draft = true
+description = "Learn how to install an XMPP server on 32-bit Debian using Prosody. Lightweight Jabber server for low-resource systems."
+summary = "Step-by-step guide to installing Prosody XMPP server on 32-bit Debian. Covers dependencies, configuration, TLS setup, and user management."
+slug = "xmpp-server-32bit-debian"
+categories = ["Linux", " Debian", "XMPP", "Server"]
+tags = ["xmpp", "prosody", "jabber", "32-bit", "debian"]
+keywords = ["xmpp server", "prosody install", "jabber server", "debian xmpp"]
++++
 
 To install an XMPP server on a **32-bit Debian** system, you can use **Prosody**, a lightweight and efficient XMPP server that works well on low-resource systems, including 32-bit architectures.
 
@@ -136,5 +142,4 @@ Use:
 
 ---
 
-If you'd like to use **ejabberd** or **Openfire** instead, I can guide you with that too.
 

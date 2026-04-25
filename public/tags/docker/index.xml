@@ -12,33 +12,63 @@
     <lastBuildDate>Wed, 18 Mar 2026 16:06:41 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>All Apps In My Docker Compose</title>
-      <link>http://localhost:1313/Linux_journey/all_apps_in_my_docker-compose/</link>
+      <title>Expose Docker App to Internet - Methods Guide</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/expose-docker-app-internet/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:41 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/all_apps_in_my_docker-compose/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/tutorials/expose-docker-app-internet/</guid>
+      <description>Guide to exposing Docker apps to the internet. Covers port forwarding, reverse proxies (nginx, caddy), tunneling (cloudflared, ngrok), and security best practices.</description>
       
     </item>
     
     <item>
-      <title>Docker Clean Up</title>
-      <link>http://localhost:1313/Linux_journey/docker-clean-up/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:41 +0100</pubDate>
+      <title>Types of Virtualization - Complete Guide</title>
+      <link>http://localhost:1313/Linux_journey/blog/types-of-virtualization/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/docker-clean-up/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/blog/types-of-virtualization/</guid>
+      <description>Guide to virtualization types for Linux and DevOps. Covers full virtualization (QEMU), paravirtualization, hardware-assisted (KVM), containers (Docker), and more.</description>
       
     </item>
     
     <item>
-      <title>Make Money Using Docker Linux</title>
-      <link>http://localhost:1313/Linux_journey/what_to_do/make_money_using_docker_linux/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:38 +0100</pubDate>
+      <title>Alpine Linux Learning Plan - 6 Week Mastery Guide</title>
+      <link>http://localhost:1313/Linux_journey/linux/alpine-linux-learning-plan/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/what_to_do/make_money_using_docker_linux/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/linux/alpine-linux-learning-plan/</guid>
+      <description>A structured 6-week learning plan to become an Alpine Linux specialist. Covers installation, APK, networking, diskless mode, Docker, and advanced topics.</description>
       
+    </item>
+    
+    <item>
+      <title>How to Install Kodi on Alpine Linux - Complete Guide</title>
+      <link>http://localhost:1313/Linux_journey/linux/kodi-alpine-linux/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/kodi-alpine-linux/</guid>
+      <description>A comprehensive guide to running Kodi on Alpine Linux. Includes installation via apk, building from source, Docker setup, and minimal Alpine configurations.</description>
+      
+    </item>
+    
+    <item>
+      <title>DevOps Roadmap - Complete Learning Path</title>
+      <link>http://localhost:1313/Linux_journey/blog/devops-roadmap/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/blog/devops-roadmap/</guid>
+      <description>Comprehensive DevOps learning path from beginner to professional. Covers Linux, Git, Docker, Kubernetes, CI/CD pipelines, cloud platforms, and infrastructure as code.</description>
+      
+    </item>
+    
+    <item>
+      <title>Install Kodi on Alpine Linux - Complete Guide</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/kodi-alpine-linux/</link>
+      <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/kodi-alpine-linux/</guid>
+      <description>Comprehensive guide to running Kodi on Alpine Linux. Includes installation via apk, building from source, Docker setup, and minimal Alpine configurations.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/kodi-alpine-linux/featured.webp" />
     </item>
     
   </channel>

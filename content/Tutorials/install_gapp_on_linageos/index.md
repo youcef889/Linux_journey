@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:40+01:00'
+title = "Install Google Apps on LineageOS - GApps Guide"
+date = "2026-03-18T16:06:40+01:00"
 draft = false
-title = 'Install Gapp On Linageos'
-categories = ["Mobile", "Android"]
-tags = ["android", "adb", "mobile"]
+description = "Learn how to install Google Apps (GApps) on LineageOS. Flash OpenGApps orMindTheGapps in recovery."
+summary = "Guide to installing Google Apps on LineageOS after flashing custom ROM. Covers GApps packages, recovery flashing, and post-install configuration."
+slug = "install-gapps-lineageos"
+categories = ["Mobile", "Android", "LineageOS"]
+tags = ["lineageos", "gapps", "google-apps", "android", "custom-rom"]
+keywords = ["install gapps lineageos", "google apps android", "opengapps lineageos"]
 +++
 
 

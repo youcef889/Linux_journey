@@ -103,10 +103,90 @@
     
     <item>
       <title>Advanced Terminal Tips</title>
+      <link>http://localhost:1313/Linux_journey/linux/advanced_terminal_tips/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/advanced_terminal_tips/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Advanced Terminal Tips</title>
       <link>http://localhost:1313/Linux_journey/tutorials/advanced_terminal_tips/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
       <guid>http://localhost:1313/Linux_journey/tutorials/advanced_terminal_tips/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Alpine Hole</title>
+      <link>http://localhost:1313/Linux_journey/linux/alpine_hole/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/alpine_hole/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Alpine Learing Plan</title>
+      <link>http://localhost:1313/Linux_journey/linux/alpine_learing_plan/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/alpine_learing_plan/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Chroot</title>
+      <link>http://localhost:1313/Linux_journey/linux/chroot/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/chroot/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Enterprise Linux System Administrator</title>
+      <link>http://localhost:1313/Linux_journey/linux/enterprise-linux-system-administrator/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/enterprise-linux-system-administrator/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>How To Check For Missing Libraries</title>
+      <link>http://localhost:1313/Linux_journey/linux/how_to_check_for_missing_libraries/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/how_to_check_for_missing_libraries/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Init System</title>
+      <link>http://localhost:1313/Linux_journey/linux/init_system/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/init_system/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Install Wayland</title>
+      <link>http://localhost:1313/Linux_journey/linux/install_wayland/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/install_wayland/</guid>
       <description></description>
       
     </item>
@@ -117,6 +197,26 @@
       <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
       <guid>http://localhost:1313/Linux_journey/tutorials/install_wayland/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Ip Network</title>
+      <link>http://localhost:1313/Linux_journey/linux/ip_network/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/ip_network/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Iptables Explantion</title>
+      <link>http://localhost:1313/Linux_journey/linux/iptables_explantion/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/iptables_explantion/</guid>
       <description></description>
       
     </item>
@@ -163,10 +263,30 @@
     
     <item>
       <title>The Kernel</title>
+      <link>http://localhost:1313/Linux_journey/linux/the_kernel/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/the_kernel/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The Kernel</title>
       <link>http://localhost:1313/Linux_journey/tutorials/the_kernel/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
       <guid>http://localhost:1313/Linux_journey/tutorials/the_kernel/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Xbps Clean Up Cache</title>
+      <link>http://localhost:1313/Linux_journey/linux/xbps-clean-up-cache/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/xbps-clean-up-cache/</guid>
       <description></description>
       
     </item>
@@ -187,6 +307,16 @@
       <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
       <guid>http://localhost:1313/Linux_journey/blog/biso-uefi-cmos/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Build Libmount Mount</title>
+      <link>http://localhost:1313/Linux_journey/linux/build_libmount_mount/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/build_libmount_mount/</guid>
       <description></description>
       
     </item>
@@ -217,6 +347,16 @@
       <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
       <guid>http://localhost:1313/Linux_journey/tutorials/how_to_install_lineageos_20_0_on_samsung_galaxy_m20/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>How To Install Local *.xbps Packages</title>
+      <link>http://localhost:1313/Linux_journey/linux/how_to_install_local_.xbps_packages/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/how_to_install_local_.xbps_packages/</guid>
       <description></description>
       
     </item>
@@ -257,6 +397,16 @@
       <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
       <guid>http://localhost:1313/Linux_journey/tutorials/sound_microphone_speakers/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Ssh File Share</title>
+      <link>http://localhost:1313/Linux_journey/linux/ssh_file_share/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/ssh_file_share/</guid>
       <description></description>
       
     </item>

@@ -1,10 +1,13 @@
 +++
-date = '2025-11-06T16:48:19+01:00'
+title = "Setup Wireless Adapter on Alpine Linux with wpa_supplicant"
+date = "2025-11-06T16:48:19+01:00"
 draft = false
-title = 'Setup wireless adapter on alpine linux with wpa supplicant'
-summary=  'how  to setup wireless adapter on alpine linux wpa supplicant'
-categories =["tutorial","Network","Guide","linux"]
-tags=['alpine linux','linux','Network']
+description = "Learn how to set up WiFi on Alpine Linux using wpa_supplicant. Configure MediaTek and other wireless adapters step by step."
+summary = "Complete guide to configuring wireless adapters on Alpine Linux. Covers driver installation, wpa_supplicant setup, WiFi connection, and persistent configuration."
+slug = "wifi-alpine-linux-wpa-supplicant"
+categories = ["Linux", "Alpine Linux", "Networking", "Guide"]
+tags = ["alpine-linux", "wifi", "wireless", "wpa-supplicant", "network"]
+keywords = ["alpine linux wifi", "wpa_supplicant alpine", "wireless adapter alpine"]
 +++
 
 To get a **MediaTek 802.11n WLAN adapter** working on **Alpine Linux**, you'll typically need to install firmware and drivers for the wireless chipset, and bring up the network interface using tools like `iw` and `wpa_supplicant`.

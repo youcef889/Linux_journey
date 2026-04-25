@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:38+01:00'
+title = "Mount Android Phone on Linux - File Transfer Guide"
+date = "2026-03-18T16:06:38+01:00"
 draft = false
-title = 'Phon File Transfer Linux'
-categories = ["Operating Systems", "Linux"]
-tags = ["linux", "sysadmin"]
+description = "Learn how to mount and transfer files between Android phone and Linux. Covers MTP, USB debugging, and file manager configuration."
+summary = "Guide to mounting Android phone on Linux for file transfer. Covers MTP protocol, USB debugging mode, and troubleshooting mount point errors."
+slug = "mount-android-phone-linux"
+categories = ["Linux", "Android", "File Transfer"]
+tags = ["android", "linux", "mtp", "usb-debugging", "file-transfer"]
+keywords = ["android file transfer linux", "mount phone linux", "mtp linux", "adb file transfer"]
 +++
 
 
@@ -40,6 +44,3 @@ fusermount -u ~/Phone
 ```
 
 ---
-
-Would you like me to show you how to **automatically mount the phone** whenever you plug it in (using `udev` or a small script)?
-

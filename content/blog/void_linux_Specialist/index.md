@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:36+01:00'
+title = "Become a Void Linux Specialist - Complete Roadmap"
+date = "2026-03-18T16:06:36+01:00"
 draft = false
-title = 'Void Linux Specialist'
-categories = ["Operating Systems", "Linux"]
-tags = ["linux", "sysadmin"]
+description = "Learn how to become a Void Linux specialist. Complete roadmap covering XBPS, Runit, system maintenance, and troubleshooting."
+summary = "Step-by-step roadmap to becoming a Void Linux specialist. Covers XBPS package manager, Runit services, system customization, and advanced troubleshooting."
+slug = "void-linux-specialist"
+categories = ["Linux", "Void Linux", "Career"]
+tags = ["void-linux", "xbps", "runit", "sysadmin", "linux"]
+keywords = ["void linux specialist", "learn void linux", "void linux career", "void linux sysadmin"]
 +++
 
 

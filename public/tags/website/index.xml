@@ -9,75 +9,15 @@
     <managingEditor>youcef7770@gmail.com (Youcef)</managingEditor>
     <webMaster>youcef7770@gmail.com (Youcef)</webMaster>
     <copyright>© 2026 Youcef</copyright>
-    <lastBuildDate>Wed, 18 Mar 2026 16:06:38 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Mar 2026 16:06:40 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/tags/website/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Content Calendar Roadmap So Your Linux Journey Blog</title>
-      <link>http://localhost:1313/Linux_journey/mywebsite/how-to-blog/content_calendar_roadmap_so_your_linux_journey_blog/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:38 +0100</pubDate>
+      <title>Run Downloaded Website Offline - Local Display Guide</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/run-website-offline-linux/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/mywebsite/how-to-blog/content_calendar_roadmap_so_your_linux_journey_blog/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Deepseek Hugo Docker Nginx</title>
-      <link>http://localhost:1313/Linux_journey/mywebsite/deepseek_hugo_docker_nginx/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:38 +0100</pubDate>
-      <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/mywebsite/deepseek_hugo_docker_nginx/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Deploy Hugo Blowfish Github Pages</title>
-      <link>http://localhost:1313/Linux_journey/mywebsite/deploy_hugo_blowfish_github_pages/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:38 +0100</pubDate>
-      <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/mywebsite/deploy_hugo_blowfish_github_pages/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Dockerfile Hugo Deployment</title>
-      <link>http://localhost:1313/Linux_journey/mywebsite/dockerfile_hugo_deployment/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:38 +0100</pubDate>
-      <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/mywebsite/dockerfile_hugo_deployment/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>How To Deploy Your Hugo Site To Github Pages A Simple Step By Step Guide</title>
-      <link>http://localhost:1313/Linux_journey/mywebsite/how_to_deploy_your_hugo_site_to_github_pages_a_simple_step_by_step_guide/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:38 +0100</pubDate>
-      <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/mywebsite/how_to_deploy_your_hugo_site_to_github_pages_a_simple_step_by_step_guide/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Step By Step Guide To Transform Your Md Files Into A Hugo Website</title>
-      <link>http://localhost:1313/Linux_journey/mywebsite/step-by-step-guide-to-transform-your-md-files-into-a-hugo-website/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:38 +0100</pubDate>
-      <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/mywebsite/step-by-step-guide-to-transform-your-md-files-into-a-hugo-website/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Tags And Catergories</title>
-      <link>http://localhost:1313/Linux_journey/mywebsite/how-to-blog/tags_and_catergories/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:38 +0100</pubDate>
-      <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/mywebsite/how-to-blog/tags_and_catergories/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/tutorials/run-website-offline-linux/</guid>
+      <description>Guide to running and displaying websites downloaded with wget for offline viewing. Covers directory structure, local server options, and browser viewing.</description>
       
     </item>
     

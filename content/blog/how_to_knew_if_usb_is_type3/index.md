@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:41+01:00'
-draft = false
-title = 'How To Knew If Usb Is Type3'
-categories = ["Notes", "Reference"]
-tags = ["notes"]
+title = "Check USB Version Type on Linux - Type-C Guide"
+date = "2026-03-18T16:06:41+01:00"
+draft = true
+description = "Learn how to check USB type and version on Linux. Identify USB 3.0, 3.1, and Type-C connections."
+summary = "Guide to checking USB version and type on Linux. Use lsusb with bcdUSB to identify real USB speed and connection type."
+slug = "check-usb-version-linux"
+categories = ["Linux", "Hardware"]
+tags = ["usb", "usb-type-c", "hardware", "linux"]
+keywords = ["usb type", "usb version", "check usb linux", "usb 3.0", "usb type-c"]
 +++
 
 

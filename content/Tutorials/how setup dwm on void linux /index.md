@@ -1,10 +1,13 @@
 +++
-date = '2025-08-16T12:43:06+01:00'
+title = "Install DWM and ST on Void Linux - Suckless Tools"
+date = "2025-08-16T12:43:06+01:00"
 draft = false
-title = 'How Setup Dwm and st on Void Linux '
-summary=  'how to install dwm'
-categories =["tutorial","linux",'suckless tools']
-tags= ['void linux','suckless tools','window manager']
+description = "Learn how to install and configure DWM and ST on Void Linux. Minimalistic window manager and terminal from suckless.org."
+summary = "Guide to installing DWM (Dynamic Window Manager) and ST terminal on Void Linux. Covers build from source, patches, and configuration."
+slug = "install-dwm-st-void-linux"
+categories = ["Linux", "Void Linux", "Desktop"]
+tags = ["dwm", "st", "suckless", "window-manager", "void-linux"]
+keywords = ["install dwm void linux", "dwm window manager", "suckless tools", "minimal wm"]
 +++
 
 ## How to install and configer Dwm on void linux

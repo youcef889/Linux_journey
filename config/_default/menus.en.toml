@@ -25,6 +25,11 @@
   pageRef= "tutorials" 
   weight = 3
 
+[[main]]
+  name = "Linux"
+  pageRef= "linux" 
+  weight = 4
+
 #[[main]]
 #  name = "example sub-menu 1"
 #  parent = "Parent"

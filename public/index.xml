@@ -9,35 +9,35 @@
     <managingEditor>youcef7770@gmail.com (Youcef)</managingEditor>
     <webMaster>youcef7770@gmail.com (Youcef)</webMaster>
     <copyright>© 2026 Youcef</copyright>
-    <lastBuildDate>Wed, 18 Mar 2026 16:06:41 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Best Method To Make App Accessible From The Internet 10</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/best_method_to_make_app_accessible_from_the_internet_10/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:41 +0100</pubDate>
+      <title>How to Reinstall initramfs, vmlinuz, and Kernel on Void Linux</title>
+      <link>http://localhost:1313/Linux_journey/linux/how-to-reinstall-initramfs-vmlinuz-and-kernelon-voidlinux/reinstall-initramfs-vmlinuz-void-linux/</link>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/best_method_to_make_app_accessible_from_the_internet_10/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/linux/how-to-reinstall-initramfs-vmlinuz-and-kernelon-voidlinux/reinstall-initramfs-vmlinuz-void-linux/</guid>
+      <description>Learn step-by-step how to recover your Void Linux system when initramfs, vmlinuz, or kernel files are deleted, by booting from a live USB and using xbps-install with dracut.</description>
       
     </item>
     
     <item>
-      <title>How To Knew If Usb Is Type3</title>
-      <link>http://localhost:1313/Linux_journey/blog/how_to_knew_if_usb_is_type3/</link>
+      <title>Expose Docker App to Internet - Methods Guide</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/expose-docker-app-internet/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:41 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/how_to_knew_if_usb_is_type3/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/tutorials/expose-docker-app-internet/</guid>
+      <description>Guide to exposing Docker apps to the internet. Covers port forwarding, reverse proxies (nginx, caddy), tunneling (cloudflared, ngrok), and security best practices.</description>
       
     </item>
     
     <item>
-      <title>10 Software Problems In Algeria Worth Millions</title>
-      <link>http://localhost:1313/Linux_journey/blog/10-software-problems-in-algeria-worth-millions/</link>
+      <title>10 Software Problems in Algeria Worth Millions</title>
+      <link>http://localhost:1313/Linux_journey/blog/software-problems-algeria-millions/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/10-software-problems-in-algeria-worth-millions/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/blog/software-problems-algeria-millions/</guid>
+      <description>List of 10 real software problems in Algeria that could be worth millions. Covers e-commerce, ERP, logistics, fintech, and digital infrastructure opportunities.</description>
       
     </item>
     
@@ -62,82 +62,72 @@
     </item>
     
     <item>
-      <title>Different Types Of Virtulization</title>
-      <link>http://localhost:1313/Linux_journey/blog/different_types_of_virtulization/</link>
+      <title>Digital Infrastructure Development in Algeria</title>
+      <link>http://localhost:1313/Linux_journey/blog/digital-infrastructure-algeria/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/different_types_of_virtulization/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/blog/digital-infrastructure-algeria/</guid>
+      <description>Guide to digital infrastructure development. Covers building faster networks, data systems, smart city solutions, and tech adoption for governments and enterprises in Algeria.</description>
       
     </item>
     
     <item>
-      <title>Digital Infrastructure Development</title>
-      <link>http://localhost:1313/Linux_journey/blog/digital-infrastructure-development/</link>
+      <title>Find Enterprise Problems in Algeria - Business Research</title>
+      <link>http://localhost:1313/Linux_journey/blog/find-enterprise-problems-algeria/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/digital-infrastructure-development/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/blog/find-enterprise-problems-algeria/</guid>
+      <description>Guide to finding enterprise problems in Algeria. Covers common business challenges, market gaps, and opportunities for software solutions in Algerian companies.</description>
       
     </item>
     
     <item>
-      <title>Find Enterprise Problems In Algeria</title>
-      <link>http://localhost:1313/Linux_journey/blog/find-enterprise-problems-in-algeria/</link>
+      <title>Install Google Apps on LineageOS - GApps Guide</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/install-gapps-lineageos/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/find-enterprise-problems-in-algeria/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/tutorials/install-gapps-lineageos/</guid>
+      <description>Guide to installing Google Apps on LineageOS after flashing custom ROM. Covers GApps packages, recovery flashing, and post-install configuration.</description>
       
     </item>
     
     <item>
-      <title>How To Runwebsite</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/how_to_runwebsite/</link>
+      <title>Questions to Ask Algerian Businesses for Startup Validation</title>
+      <link>http://localhost:1313/Linux_journey/blog/questions-startup-validation-algeria/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/how_to_runwebsite/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/blog/questions-startup-validation-algeria/</guid>
+      <description>List of powerful questions for validating startup ideas in Algeria. Covers business discovery, problem understanding, and customer interview strategies.</description>
       
     </item>
     
     <item>
-      <title>How To Validate A Startup Idea Before Building It</title>
-      <link>http://localhost:1313/Linux_journey/blog/how-to-validate-a-startup-idea-before-building-it/</link>
+      <title>Run Downloaded Website Offline - Local Display Guide</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/run-website-offline-linux/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/how-to-validate-a-startup-idea-before-building-it/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/tutorials/run-website-offline-linux/</guid>
+      <description>Guide to running and displaying websites downloaded with wget for offline viewing. Covers directory structure, local server options, and browser viewing.</description>
       
     </item>
     
     <item>
-      <title>Install Gapp On Linageos</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/install_gapp_on_linageos/</link>
+      <title>Split Large File for FAT32 USB - Linux Guide</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/split-large-file-linux-usb/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/install_gapp_on_linageos/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/tutorials/split-large-file-linux-usb/</guid>
+      <description>Guide to splitting large files into smaller chunks for FAT32 USB transfer. Uses split command to create 4GB parts and cat to rejoin them.</description>
       
     </item>
     
     <item>
-      <title>List Of Powerful Questions You Can Ask Algerian Businesses To Validate A Startup Idea</title>
-      <link>http://localhost:1313/Linux_journey/blog/list-of-powerful-questions-you-can-ask-algerian-businesses-to-validate-a-startup-idea/</link>
+      <title>Split MP3 into 5-Minute Chunks - FFmpeg No Re-encoding</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/split-mp3-chunks-ffmpeg/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/list-of-powerful-questions-you-can-ask-algerian-businesses-to-validate-a-startup-idea/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Split Zip File If Is To Big</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/split_zip_file_if_is_to_big/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
-      <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/split_zip_file_if_is_to_big/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/tutorials/split-mp3-chunks-ffmpeg/</guid>
+      <description>Guide to splitting MP3 files into 5-minute chunks without re-encoding using FFmpeg. Uses -c copy for fast lossless audio extraction.</description>
       
     </item>
     
@@ -152,353 +142,583 @@
     </item>
     
     <item>
-      <title>Advanced Adb Shell Commands For Android Devices</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/advanced-adb-shell-commands-for-android-devices/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:39 +0100</pubDate>
+      <title>Types of Virtualization - Complete Guide</title>
+      <link>http://localhost:1313/Linux_journey/blog/types-of-virtualization/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/advanced-adb-shell-commands-for-android-devices/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/blog/types-of-virtualization/</guid>
+      <description>Guide to virtualization types for Linux and DevOps. Covers full virtualization (QEMU), paravirtualization, hardware-assisted (KVM), containers (Docker), and more.</description>
       
     </item>
     
     <item>
-      <title>Picom Configuration</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/picom_configuration/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:39 +0100</pubDate>
+      <title>Validate Startup Idea Before Building - Complete Guide</title>
+      <link>http://localhost:1313/Linux_journey/blog/validate-startup-idea/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/picom_configuration/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/blog/validate-startup-idea/</guid>
+      <description>Guide to validating startup ideas before building. Covers customer discovery, problem-solution fit, willingness to pay, and MVP strategies for startups.</description>
       
     </item>
     
     <item>
-      <title>Setting Up KVM&#43;Qemu&#43;libvirt In void linux</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/qemu/</link>
+      <title>Advanced ADB Shell Commands for Android Devices</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/adb-shell-commands-android/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:39 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/qemu/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/tutorials/adb-shell-commands-android/</guid>
+      <description>Advanced ADB shell commands for Android devices - both rooted and unrooted. Covers debugging, performance tuning, package control, logs, networking, and system inspection.</description>
       
     </item>
     
     <item>
-      <title>Start Project</title>
-      <link>http://localhost:1313/Linux_journey/blog/start_project/</link>
+      <title>How to Start a Project - Complete Guide</title>
+      <link>http://localhost:1313/Linux_journey/blog/start-project-guide/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:39 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/start_project/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/blog/start-project-guide/</guid>
+      <description>Guide to starting a new software project. Covers project planning, idea validation, architecture design, tech stack selection, and development workflow.</description>
       
     </item>
     
     <item>
-      <title>Advance Djando</title>
-      <link>http://localhost:1313/Linux_journey/blog/django/advance-djando/</link>
+      <title>Picom Configuration Guide - X11 Compositor</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/picom-configuration/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:39 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/picom-configuration/</guid>
+      <description>Comprehensive reference for picom (X11 compositor) configuration. Covers general settings, backend options, transparency, blur, and animations.</description>
+      
+    </item>
+    
+    <item>
+      <title>Setup KVM &#43; QEMU &#43; libvirt on Void Linux</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/kvm-qemu-libvirt-void-linux/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:39 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/kvm-qemu-libvirt-void-linux/</guid>
+      <description>Complete guide to setting up KVM + QEMU + libvirt on Void Linux. Covers hardware virtualization check, package installation, libvirt configuration, and VM management.</description>
+      
+    </item>
+    
+    <item>
+      <title>Mount Android Phone on Linux - File Transfer Guide</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/mount-android-phone-linux/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:38 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/django/advance-djando/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/tutorials/mount-android-phone-linux/</guid>
+      <description>Guide to mounting Android phone on Linux for file transfer. Covers MTP protocol, USB debugging mode, and troubleshooting mount point errors.</description>
       
     </item>
     
     <item>
-      <title>Phon File Transfer Linux</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/phon_file_transfer_linux/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:38 +0100</pubDate>
-      <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/phon_file_transfer_linux/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Advanced Terminal Tips</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/advanced_terminal_tips/</link>
+      <title>Advanced Terminal Tips and Tricks for Linux</title>
+      <link>http://localhost:1313/Linux_journey/linux/advanced-terminal-tips-linux/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/advanced_terminal_tips/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/linux/advanced-terminal-tips-linux/</guid>
+      <description>Advanced terminal tips for Linux power users. Learn bash shortcuts, aliases, functions, tmux, screen, autojump, and essential tools for productivity.</description>
       
     </item>
     
     <item>
-      <title>Install Wayland</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/install_wayland/</link>
+      <title>Advanced Terminal Tips and Tricks for Linux</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/advanced-terminal-tips-linux/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/install_wayland/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/tutorials/advanced-terminal-tips-linux/</guid>
+      <description>Advanced terminal tips for Linux power users. Learn bash shortcuts, aliases, functions, tmux, screen, autojump, and essential tools for productivity.</description>
       
     </item>
     
     <item>
-      <title>Mpv&#43;youtube</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/mpv&#43;youtube/</link>
+      <title>Alpine Linux Learning Plan - 6 Week Mastery Guide</title>
+      <link>http://localhost:1313/Linux_journey/linux/alpine-linux-learning-plan/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/mpv&#43;youtube/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/linux/alpine-linux-learning-plan/</guid>
+      <description>A structured 6-week learning plan to become an Alpine Linux specialist. Covers installation, APK, networking, diskless mode, Docker, and advanced topics.</description>
       
     </item>
     
     <item>
-      <title>Programmer Developer Communities In Algeria</title>
-      <link>http://localhost:1313/Linux_journey/blog/programmer-developer-communities-in-algeria/</link>
+      <title>Build Minimal Linux Distro - Complete Guide</title>
+      <link>http://localhost:1313/Linux_journey/linux/build-minimal-linux-distro/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/programmer-developer-communities-in-algeria/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/linux/build-minimal-linux-distro/</guid>
+      <description>Complete guide to building a minimal Linux distro. Covers essential components: kernel, init (BusyBox/systemd/runit), C library, shell, and filesystem.</description>
       
     </item>
     
     <item>
-      <title>Qemu Tutorial Detail</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/qemu_tutorial_detail/</link>
+      <title>Clean XBPS Cache on Void Linux - Free Disk Space</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/xbps-clean-cache-void-linux/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/qemu_tutorial_detail/</guid>
-      <description></description>
-      
+      <guid>http://localhost:1313/Linux_journey/tutorials/xbps-clean-cache-void-linux/</guid>
+      <description>Guide to cleaning Void Linux package cache using xbps-remove commands. Covers removing all cached packages, obsolete packages, and manual cleanup.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/xbps-clean-cache-void-linux/featured.png" />
     </item>
     
     <item>
-      <title>Role Based Access Control Rbac Vs Attribute Based Access Control Abac</title>
-      <link>http://localhost:1313/Linux_journey/blog/role-based-access-control-rbac-vs-attribute-based-access-control-abac/</link>
+      <title>Common Linux Security Mistakes and How to Fix Them</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/common-linux-security-mistakes/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/role-based-access-control-rbac-vs-attribute-based-access-control-abac/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/tutorials/common-linux-security-mistakes/</guid>
+      <description>Guide to common Linux security mistakes and their fixes. Covers running as root, weak passwords, missing firewalls, unpatched systems, and proper security practices.</description>
       
     </item>
     
     <item>
-      <title>Security</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/security/</link>
+      <title>Enterprise Linux System Administrator - Complete Career Roadmap</title>
+      <link>http://localhost:1313/Linux_journey/linux/enterprise-linux-system-administrator/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/security/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/linux/enterprise-linux-system-administrator/</guid>
+      <description>A step-by-step roadmap to become an enterprise Linux system administrator. Covers Linux fundamentals, systemd, networking, security, SSH, SELinux, Docker, Kubernetes, AWS, and monitoring.</description>
       
     </item>
     
     <item>
-      <title>The Kernel</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/the_kernel/</link>
+      <title>How to Clean XBPS Cache on Void Linux</title>
+      <link>http://localhost:1313/Linux_journey/linux/xbps-clean-cache-void-linux/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/the_kernel/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/linux/xbps-clean-cache-void-linux/</guid>
+      <description>Guide to cleaning Void Linux package cache using xbps-remove commands. Covers removing all cached packages, obsolete packages, and manual cleanup.</description>
       
     </item>
     
     <item>
-      <title>Xbps Clean Up Cache</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/xbps-clean-up-cache/</link>
+      <title>How to Install Kodi on Alpine Linux - Complete Guide</title>
+      <link>http://localhost:1313/Linux_journey/linux/kodi-alpine-linux/</link>
       <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/xbps-clean-up-cache/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/xbps-clean-up-cache/featured.png" />
-    </item>
-    
-    <item>
-      <title>Biso Uefi Cmos</title>
-      <link>http://localhost:1313/Linux_journey/blog/biso-uefi-cmos/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
-      <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/biso-uefi-cmos/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/linux/kodi-alpine-linux/</guid>
+      <description>A comprehensive guide to running Kodi on Alpine Linux. Includes installation via apk, building from source, Docker setup, and minimal Alpine configurations.</description>
       
     </item>
     
     <item>
-      <title>Config Filebrowser</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/config_filebrowser/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <title>Install CUPS on Void Linux - Printer Setup Guide</title>
+      <link>http://localhost:1313/Linux_journey/linux/install-cups-void-linux/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/config_filebrowser/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/linux/install-cups-void-linux/</guid>
+      <description>Complete guide to installing CUPS on Void Linux. Covers installation via XBPS, runit service configuration, web interface access, and printer management.</description>
       
     </item>
     
     <item>
-      <title>Database Books</title>
-      <link>http://localhost:1313/Linux_journey/blog/database_books/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <title>Install Pi-hole on Alpine Linux - Complete Guide</title>
+      <link>http://localhost:1313/Linux_journey/linux/pihole-alpine-linux/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/database_books/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/linux/pihole-alpine-linux/</guid>
+      <description>Guide to installing Pi-hole on Alpine Linux. Covers dependencies, installation, router DNS configuration, and admin interface access.</description>
       
     </item>
     
     <item>
-      <title>Devopsroadmap</title>
-      <link>http://localhost:1313/Linux_journey/blog/devopsroadmap/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <title>Install Sway on Void Linux - Complete Guide</title>
+      <link>http://localhost:1313/Linux_journey/linux/install-sway-void-linux/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/devopsroadmap/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/linux/install-sway-void-linux/</guid>
+      <description>Step-by-step guide to install Sway on Void Linux. Includes seatd setup, greetd display manager, waybar configuration, and troubleshooting.</description>
       
     </item>
     
     <item>
-      <title>Fundamental Concepts Of Object Oriented Programming Oop</title>
-      <link>http://localhost:1313/Linux_journey/blog/fundamental-concepts-of-object-oriented-programming-oop/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <title>Install Wayland Compositors on Void Linux</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/install-wayland-void-linux/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/fundamental-concepts-of-object-oriented-programming-oop/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/tutorials/install-wayland-void-linux/</guid>
+      <description>Complete guide to installing Wayland compositors on Void Linux. Covers Sway, labwc, wayfire, seatd, and display manager setup.</description>
       
     </item>
     
     <item>
-      <title>How To Install Lineageos 20 0 On Samsung Galaxy M20</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/how_to_install_lineageos_20_0_on_samsung_galaxy_m20/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <title>Install Wayland on Linux - Complete Setup Guide</title>
+      <link>http://localhost:1313/Linux_journey/linux/install-wayland-linux/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/how_to_install_lineageos_20_0_on_samsung_galaxy_m20/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/linux/install-wayland-linux/</guid>
+      <description>Complete guide to installing Wayland on Void Linux and other distros. Covers Sway, labwc, wayfire, seatd, and display manager setup.</description>
       
     </item>
     
     <item>
-      <title>How To Record With Ffmpeg</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/how_to_record_with_ffmpeg/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <title>Install XFCE on Void Linux - All Methods Guide</title>
+      <link>http://localhost:1313/Linux_journey/linux/install-xfce-void-linux/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/how_to_record_with_ffmpeg/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/linux/install-xfce-void-linux/</guid>
+      <description>Comprehensive guide to installing XFCE on Void Linux. Covers meta-package, minimal components, display managers, startx, XWayland, VNC, and Docker methods.</description>
       
     </item>
     
     <item>
-      <title>How To Record With Ffmpeg Script</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/how_to_record_with_ffmpeg_script/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <title>Linux iptables Firewall Guide - Complete Tutorial</title>
+      <link>http://localhost:1313/Linux_journey/linux/linux-iptables-firewall/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/how_to_record_with_ffmpeg_script/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/linux/linux-iptables-firewall/</guid>
+      <description>Complete guide to Linux iptables firewall. Covers tables (filter, nat, mangle), chains (INPUT, OUTPUT, FORWARD), targets (ACCEPT, DROP, REJECT), and practical firewall rules.</description>
       
     </item>
     
     <item>
-      <title>Latex Beamer Presentations</title>
-      <link>http://localhost:1313/Linux_journey/blog/latex-beamer-presentations/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <title>Linux Kernel Explained - Types and Functions</title>
+      <link>http://localhost:1313/Linux_journey/linux/linux-kernel-explained/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/latex-beamer-presentations/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/linux/linux-kernel-explained/</guid>
+      <description>Comprehensive explanation of the Linux kernel. Covers kernel functions, memory management, device management, and kernel types (monolithic, microkernel, hybrid).</description>
       
     </item>
     
     <item>
-      <title>Sound Microphone Speakers</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/sound_microphone_speakers/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <title>Linux Kernel Explained - Types and Functions</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/linux-kernel-explained/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/sound_microphone_speakers/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/tutorials/linux-kernel-explained/</guid>
+      <description>Comprehensive explanation of the Linux kernel. Covers kernel functions, memory management, device management, device drivers, and kernel types (monolithic, microkernel, hybrid).</description>
       
     </item>
     
     <item>
-      <title>Void Linux Specialist</title>
-      <link>http://localhost:1313/Linux_journey/blog/void_linux_specialist/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <title>Linux System Information Commands - Complete Reference</title>
+      <link>http://localhost:1313/Linux_journey/linux/linux-system-info-commands/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/void_linux_specialist/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/linux/linux-system-info-commands/</guid>
+      <description>Complete reference for Linux system information commands. Learn to use lscpu, free, df, lsblk, lspci, ip, and other tools for monitoring.</description>
       
     </item>
     
     <item>
-      <title>Setup wireless adapter on alpine linux with wpa supplicant</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/setup-wireless-adapter-on-alpine-linux-with-wpa-supplicant-/</link>
+      <title>List Installed Packages on Void Linux - Complete Guide</title>
+      <link>http://localhost:1313/Linux_journey/linux/void-linux-list-packages/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/void-linux-list-packages/</guid>
+      <description>Guide to listing installed packages on Void Linux. Uses xbps-query to show all packages, manually installed programs, versions, and orphaned dependencies.</description>
+      
+    </item>
+    
+    <item>
+      <title>QEMU Complete Tutorial - Virtualization Guide</title>
+      <link>http://localhost:1313/Linux_journey/linux/qemu-complete-tutorial/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/qemu-complete-tutorial/</guid>
+      <description>Master QEMU virtualization with this detailed guide. Learn to create VMs, configure networking, use KVM, manage disk images, and run headless virtual machines.</description>
+      
+    </item>
+    
+    <item>
+      <title>QEMU Complete Tutorial - Virtualization Guide</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/qemu-complete-tutorial/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/qemu-complete-tutorial/</guid>
+      <description>Master QEMU virtualization with this detailed guide. Learn to create VMs, configure networking, use KVM, manage disk images, and run headless virtual machines.</description>
+      
+    </item>
+    
+    <item>
+      <title>QEMU Windows XP - Mount Multiple CD-ROMs Tutorial</title>
+      <link>http://localhost:1313/Linux_journey/linux/qemu-windows-xp-multiple-cdrom/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/qemu-windows-xp-multiple-cdrom/</guid>
+      <description>Complete guide to installing Windows XP in QEMU with multiple CD-ROMs. Covers ISO mounting, IDE configuration, and driver installation for multi-disc setups.</description>
+      
+    </item>
+    
+    <item>
+      <title>Run Alpine Linux 32-bit on QEMU - Complete Guide</title>
+      <link>http://localhost:1313/Linux_journey/linux/alpine-linux-32-bit-qemu/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/alpine-linux-32-bit-qemu/</guid>
+      <description>Complete guide to running Alpine Linux 32-bit on QEMU. Covers disk image creation, ISO boot, installation, and SSH configuration.</description>
+      
+    </item>
+    
+    <item>
+      <title>Sound Setup on Void Linux - ALSA, PulseAudio, and PipeWire</title>
+      <link>http://localhost:1313/Linux_journey/linux/sound-setup-void-linux/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/sound-setup-void-linux/</guid>
+      <description>Guide to configuring audio on Void Linux. Covers ALSA, PulseAudio, PipeWire setup, alsamixer, and troubleshooting sound issues.</description>
+      
+    </item>
+    
+    <item>
+      <title>SSH to QEMU VM - Fix Host Key Verification Error</title>
+      <link>http://localhost:1313/Linux_journey/linux/ssh-qemu-vm-fix/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/ssh-qemu-vm-fix/</guid>
+      <description>Simple guide to fix SSH host key verification errors when connecting to QEMU VMs. Uses ssh-keygen to remove old keys and reconnect safely.</description>
+      
+    </item>
+    
+    <item>
+      <title>Watch YouTube Videos with mpv Player - Complete Guide</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/mpv-youtube-player/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:37 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/mpv-youtube-player/</guid>
+      <description>Guide to using mpv with YouTube support. Covers yt-dlp installation, playback controls, streaming YouTube from terminal, and advanced options.</description>
+      
+    </item>
+    
+    <item>
+      <title>Become a Void Linux Specialist - Complete Roadmap</title>
+      <link>http://localhost:1313/Linux_journey/blog/void-linux-specialist/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/blog/void-linux-specialist/</guid>
+      <description>Step-by-step roadmap to becoming a Void Linux specialist. Covers XBPS package manager, Runit services, system customization, and advanced troubleshooting.</description>
+      
+    </item>
+    
+    <item>
+      <title>Best Database Books - Learning Resources</title>
+      <link>http://localhost:1313/Linux_journey/blog/database-books/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/blog/database-books/</guid>
+      <description>Curated list of best books for learning databases. Covers SQL, relational algebra, database design, and practical guides for beginners to experts.</description>
+      
+    </item>
+    
+    <item>
+      <title>Build libmount and mount from Source on Linux</title>
+      <link>http://localhost:1313/Linux_journey/linux/build-libmount-from-source/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/build-libmount-from-source/</guid>
+      <description>Guide to building libmount and mount from source. Covers util-linux compilation, library linking, and fixing version mismatches.</description>
+      
+    </item>
+    
+    <item>
+      <title>Configure Monitors with xrandr on Linux</title>
+      <link>http://localhost:1313/Linux_journey/linux/configure-monitors-xrandr-linux/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/configure-monitors-xrandr-linux/</guid>
+      <description>Guide to configuring monitors with xrandr on Linux. Create scripts to detect HDMI connections and automatically set display resolution and position.</description>
+      
+    </item>
+    
+    <item>
+      <title>DevOps Roadmap - Complete Learning Path</title>
+      <link>http://localhost:1313/Linux_journey/blog/devops-roadmap/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/blog/devops-roadmap/</guid>
+      <description>Comprehensive DevOps learning path from beginner to professional. Covers Linux, Git, Docker, Kubernetes, CI/CD pipelines, cloud platforms, and infrastructure as code.</description>
+      
+    </item>
+    
+    <item>
+      <title>FFmpeg Screen Recording - Command Breakdown</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/ffmpeg-screen-recording/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/ffmpeg-screen-recording/</guid>
+      <description>Complete breakdown of FFmpeg screen recording commands. Covers video capture, pulse/alsa audio input, and encoding options for Linux.</description>
+      
+    </item>
+    
+    <item>
+      <title>FFmpeg Screen Recording Script - Linux Guide</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/ffmpeg-screen-recording-script/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/ffmpeg-screen-recording-script/</guid>
+      <description>Guide to FFmpeg screen recording on Linux. Script breakdown for capturing desktop, microphone, and audio with real-time monitoring.</description>
+      
+    </item>
+    
+    <item>
+      <title>Filebrowser Configuration Guide - Complete Reference</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/filebrowser-configuration/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/filebrowser-configuration/</guid>
+      <description>Complete reference for filebrowser configuration. Covers all CLI flags, configuration file options, and environment variables for self-hosted file browser.</description>
+      
+    </item>
+    
+    <item>
+      <title>Fix Sound Switching to USB Microphone on Linux</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/fix-sound-usb-microphone-linux/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/fix-sound-usb-microphone-linux/</guid>
+      <description>Guide to fixing audio device switching on Linux. Prevent system from switching to USB microphone as default output. Uses PulseAudio and ALSA configuration.</description>
+      
+    </item>
+    
+    <item>
+      <title>Install LineageOS 20 on Samsung Galaxy M20 - TWRP Guide</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/install-lineageos-samsung-galaxy-m20/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/tutorials/install-lineageos-samsung-galaxy-m20/</guid>
+      <description>Complete guide to installing LineageOS 20 on Samsung Galaxy M20. Covers TWRP flash, ROM transfer, and LineageOS installation with steps to avoid soft-brick.</description>
+      
+    </item>
+    
+    <item>
+      <title>Install Local XBPS Packages on Void Linux</title>
+      <link>http://localhost:1313/Linux_journey/linux/install-local-xbps-packages/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/install-local-xbps-packages/</guid>
+      <description>Guide to installing downloaded XBPS packages on Void Linux manually. Uses xbps-rindex to index packages and xbps-install to install locally.</description>
+      
+    </item>
+    
+    <item>
+      <title>Install Windows XP on QEMU - Complete Guide</title>
+      <link>http://localhost:1313/Linux_journey/linux/install-windows-xp-qemu/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/install-windows-xp-qemu/</guid>
+      <description>Complete guide to installing Windows XP on QEMU. Covers boot configuration, virtio drivers, network setup, and troubleshooting.</description>
+      
+    </item>
+    
+    <item>
+      <title>Runit Service Management on Void Linux</title>
+      <link>http://localhost:1313/Linux_journey/linux/runit-service-management-void-linux/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/runit-service-management-void-linux/</guid>
+      <description>Complete guide to Runit service management on Void Linux. Covers sv up, down, restart, status, and service enabling/disabling.</description>
+      
+    </item>
+    
+    <item>
+      <title>Transfer Files Over SSH - scp, rsync, sshfs Guide</title>
+      <link>http://localhost:1313/Linux_journey/linux/ssh-file-transfer-methods/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:36 +0100</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/ssh-file-transfer-methods/</guid>
+      <description>Complete guide to file transfer over SSH. Covers scp, rsync, sshfs mounting, and FileZilla SFTP client for secure file sharing.</description>
+      
+    </item>
+    
+    <item>
+      <title>Setup Wireless Adapter on Alpine Linux with wpa_supplicant</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/wifi-alpine-linux-wpa-supplicant/</link>
       <pubDate>Thu, 06 Nov 2025 16:48:19 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/setup-wireless-adapter-on-alpine-linux-with-wpa-supplicant-/</guid>
-      <description>how  to setup wireless adapter on alpine linux wpa supplicant</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/setup-wireless-adapter-on-alpine-linux-with-wpa-supplicant-/featured.webp" />
+      <guid>http://localhost:1313/Linux_journey/tutorials/wifi-alpine-linux-wpa-supplicant/</guid>
+      <description>Complete guide to configuring wireless adapters on Alpine Linux. Covers driver installation, wpa_supplicant setup, WiFi connection, and persistent configuration.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/wifi-alpine-linux-wpa-supplicant/featured.webp" />
     </item>
     
     <item>
-      <title>Working With Files and Tabs in Vim</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/working-with-files-and-tabs-in-vim/</link>
+      <title>Setup Wireless Adapter on Alpine Linux with wpa_supplicant</title>
+      <link>http://localhost:1313/Linux_journey/linux/wifi-alpine-linux-wpa-supplicant/</link>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/linux/wifi-alpine-linux-wpa-supplicant/</guid>
+      <description>Complete guide to configuring wireless adapters on Alpine Linux. Covers driver installation, wpa_supplicant setup, WiFi connection, and persistent configuration.</description>
+      
+    </item>
+    
+    <item>
+      <title>Working with Files and Tabs in Vim - Complete Guide</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/vim-files-tabs-guide/</link>
       <pubDate>Fri, 29 Aug 2025 06:26:19 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/working-with-files-and-tabs-in-vim/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/tutorials/vim-files-tabs-guide/</guid>
+      <description>Guide to working with files and tabs in Vim. Covers opening files, saving, tab management, and multiple file workflows in the vim text editor.</description>
       
     </item>
     
     <item>
-      <title>Introduction to Nginx</title>
-      <link>http://localhost:1313/Linux_journey/blog/introduction-to-nginx/</link>
+      <title>Nginx Web Server - Complete Introduction</title>
+      <link>http://localhost:1313/Linux_journey/blog/nginx-introduction/</link>
       <pubDate>Thu, 21 Aug 2025 18:27:28 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/introduction-to-nginx/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/blog/nginx-introduction/</guid>
+      <description>Complete introduction to Nginx web server. Covers key features, web serving, reverse proxy, load balancing, caching, and common configurations for self-hosting.</description>
       
     </item>
     
     <item>
-      <title>Manual Installation of Bliss Os on Linux</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/manual-installation-of-bliss-os-on-linux/</link>
+      <title>Install Bliss OS on Linux - Complete Manual Guide</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/install-bliss-os-linux/</link>
       <pubDate>Sun, 17 Aug 2025 11:48:21 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/manual-installation-of-bliss-os-on-linux/</guid>
-      <description>how to install bliss os Manually  on linux  system</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/manual-installation-of-bliss-os-on-linux/featured.jpg" />
+      <guid>http://localhost:1313/Linux_journey/tutorials/install-bliss-os-linux/</guid>
+      <description>Manual installation guide for Bliss OS on Linux. Covers ISO download, Grub configuration, and step-by-step installation for PC running Linux.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/install-bliss-os-linux/featured.jpg" />
     </item>
     
     <item>
-      <title>How Setup Dwm and st on Void Linux </title>
-      <link>http://localhost:1313/Linux_journey/tutorials/how-setup-dwm-on-void-linux-/</link>
+      <title>Install DWM and ST on Void Linux - Suckless Tools</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/install-dwm-st-void-linux/</link>
       <pubDate>Sat, 16 Aug 2025 12:43:06 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/how-setup-dwm-on-void-linux-/</guid>
-      <description>how to install dwm</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/how-setup-dwm-on-void-linux-/featured.jpg" />
+      <guid>http://localhost:1313/Linux_journey/tutorials/install-dwm-st-void-linux/</guid>
+      <description>Guide to installing DWM (Dynamic Window Manager) and ST terminal on Void Linux. Covers build from source, patches, and configuration.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/install-dwm-st-void-linux/featured.jpg" />
     </item>
     
     <item>
-      <title>Install kodi on  alpine linux </title>
-      <link>http://localhost:1313/Linux_journey/tutorials/install_kodi_on_alpine_linnx/</link>
+      <title>Install Kodi on Alpine Linux - Complete Guide</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/kodi-alpine-linux/</link>
       <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/install_kodi_on_alpine_linnx/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/install_kodi_on_alpine_linnx/featured.webp" />
+      <guid>http://localhost:1313/Linux_journey/tutorials/kodi-alpine-linux/</guid>
+      <description>Comprehensive guide to running Kodi on Alpine Linux. Includes installation via apk, building from source, Docker setup, and minimal Alpine configurations.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/tutorials/kodi-alpine-linux/featured.webp" />
     </item>
     
     <item>
-      <title>What Is the Difference Between Display Server, Display Manager, and Window Manager?</title>
-      <link>http://localhost:1313/Linux_journey/blog/what_is_the_difference_between_display_server_display_manager_and_window_manager/</link>
+      <title>Display Server vs Display Manager vs Window Manager - Explained</title>
+      <link>http://localhost:1313/Linux_journey/blog/display-server-manager-window-manager/</link>
       <pubDate>Sun, 27 Jul 2025 11:00:00 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/what_is_the_difference_between_display_server_display_manager_and_window_manager/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/blog/display-server-manager-window-manager/</guid>
+      <description>Complete explanation of display server, display manager, and window manager. Covers X11, Wayland, LightDM, SDDM, and window managers like i3, Openbox.</description>
       
-    </item>
-    
-    <item>
-      <title>What i learned about the kernel  of  linux system  </title>
-      <link>http://localhost:1313/Linux_journey/blog/what_i_learned/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/what_i_learned/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/blog/what_i_learned/featured.webp" />
     </item>
     
     <item>
       <title>15 Essential PC Utilities for Gamers, Streamers, and Power Users</title>
-      <link>http://localhost:1313/Linux_journey/blog/free_pc_program/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>http://localhost:1313/Linux_journey/blog/essential-pc-utilities/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/blog/free_pc_program/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/blog/essential-pc-utilities/</guid>
+      <description>Guide to 15 essential PC utilities for power users. Covers system tools, streaming software, gaming utilities, and performance optimization programs.</description>
       
+    </item>
+    
+    <item>
+      <title>Linux Kernel Insights - What I Learned</title>
+      <link>http://localhost:1313/Linux_journey/blog/linux-kernel-insights/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
+      <author>youcef7770@gmail.com (Youcef)</author>
+      <guid>http://localhost:1313/Linux_journey/blog/linux-kernel-insights/</guid>
+      <description>Collection of insights about the Linux kernel. Covers checking kernel version, system calls, kernel modules, and core Linux kernel concepts.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Linux_journey/blog/linux-kernel-insights/featured.webp" />
     </item>
     
     <item>

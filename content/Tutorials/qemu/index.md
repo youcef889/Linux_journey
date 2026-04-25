@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:39+01:00'
+title = "Setup KVM + QEMU + libvirt on Void Linux"
+date = "2026-03-18T16:06:39+01:00"
 draft = false
-title = 'Setting Up KVM+Qemu+libvirt In void linux'
-categories = ["Linux","virtualization", "Reference","Void","QEMU"]
-tags = ["notes"]
+description = "Learn how to set up KVM, QEMU, and libvirt for virtualization on Void Linux. Complete guide for lightweight hypervisor."
+summary = "Complete guide to setting up KVM + QEMU + libvirt on Void Linux. Covers hardware virtualization check, package installation, libvirt configuration, and VM management."
+slug = "kvm-qemu-libvirt-void-linux"
+categories = ["Linux", "Virtualization", "Void Linux"]
+tags = ["kvm", "qemu", "libvirt", "virtualization", "void-linux"]
+keywords = ["kvm void linux", "qemu virtualization", "libvirt setup", "vm void linux"]
 +++
 
 
@@ -222,9 +226,3 @@ qemu-system-x86_64 \
 
 ---
 
-### Notes
-
-- If you want **UEFI boot**, uncomment and pass `-bios "$UEFI_FIRMWARE"` (make sure you have the OVMF package installed).
-- This script uses `gtk` for display. You can change it to `-display sdl` or `-nographic` for headless.
-
-Want a version with bridged networking or virtio ISO support for fast disk access? I can extend it..

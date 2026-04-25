@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:36+01:00'
+title = "Filebrowser Configuration Guide - Complete Reference"
+date = "2026-03-18T16:06:36+01:00"
 draft = false
-title = 'Config Filebrowser'
-categories = ["Notes", "Reference"]
-tags = ["notes"]
+description = "Comprehensive guide to filebrowser configuration. Covers CLI flags, config file options, environment variables, and customization."
+summary = "Complete reference for filebrowser configuration. Covers all CLI flags, configuration file options, and environment variables for self-hosted file browser."
+slug = "filebrowser-configuration"
+categories = ["Linux", "Self-Hosted", "File Management"]
+tags = ["filebrowser", "configuration", "self-hosted", "file-manager"]
+keywords = ["filebrowser config", "filebrowser setup", "self-hosted file manager"]
 +++
 
 
@@ -230,6 +234,5 @@ Now when you go to `http://192.168.1.6:8080`, you should see a **Sign Up** butto
 
 ---
 
-⚠️ Security note: this makes registration open for **anyone on your LAN**.
-👉 Do you want me to show you how to **restrict signup** (like invite-only or admin approval), instead of leaving it open?
+Security note: this makes registration open for **anyone on your LAN**.
 

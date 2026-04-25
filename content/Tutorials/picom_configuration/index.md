@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:39+01:00'
+title = "Picom Configuration Guide - X11 Compositor"
+date = "2026-03-18T16:06:39+01:00"
 draft = false
-title = 'Picom Configuration'
-categories = ["Notes", "Reference"]
-tags = ["notes"]
+description = "Complete guide to picom compositor configuration. Covers all configuration parameters, backends, and visual effects."
+summary = "Comprehensive reference for picom (X11 compositor) configuration. Covers general settings, backend options, transparency, blur, and animations."
+slug = "picom-configuration"
+categories = ["Linux", "Desktop", "X11"]
+tags = ["picom", "compositor", "x11", "window-manager", "transparency"]
+keywords = ["picom config", "x11 compositor", "picom transparency", "linux compositor"]
 +++
 
 

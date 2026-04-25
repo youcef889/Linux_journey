@@ -9,15 +9,15 @@
     <managingEditor>youcef7770@gmail.com (Youcef)</managingEditor>
     <webMaster>youcef7770@gmail.com (Youcef)</webMaster>
     <copyright>© 2026 Youcef</copyright>
-    <lastBuildDate>Wed, 18 Mar 2026 16:06:40 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/tags/adb/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Mar 2026 16:06:39 +0100</lastBuildDate><atom:link href="http://localhost:1313/Linux_journey/tags/adb/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Install Gapp On Linageos</title>
-      <link>http://localhost:1313/Linux_journey/tutorials/install_gapp_on_linageos/</link>
-      <pubDate>Wed, 18 Mar 2026 16:06:40 +0100</pubDate>
+      <title>Advanced ADB Shell Commands for Android Devices</title>
+      <link>http://localhost:1313/Linux_journey/tutorials/adb-shell-commands-android/</link>
+      <pubDate>Wed, 18 Mar 2026 16:06:39 +0100</pubDate>
       <author>youcef7770@gmail.com (Youcef)</author>
-      <guid>http://localhost:1313/Linux_journey/tutorials/install_gapp_on_linageos/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Linux_journey/tutorials/adb-shell-commands-android/</guid>
+      <description>Advanced ADB shell commands for Android devices - both rooted and unrooted. Covers debugging, performance tuning, package control, logs, networking, and system inspection.</description>
       
     </item>
     

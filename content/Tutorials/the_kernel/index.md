@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:37+01:00'
+title = "Linux Kernel Explained - Types and Functions"
+date = "2026-03-18T16:06:37+01:00"
 draft = false
-title = 'The Kernel'
-categories = ["Notes", "Reference"]
-tags = ["notes"]
+description = "Learn about the Linux kernel, its functions, and different kernel types. Covers monolithic, microkernel, hybrid, and exokernel architectures."
+summary = "Comprehensive explanation of the Linux kernel. Covers kernel functions, memory management, device management, device drivers, and kernel types (monolithic, microkernel, hybrid)."
+slug = "linux-kernel-explained"
+categories = ["Linux", "Kernel", "Concepts"]
+tags = ["linux-kernel", "kernel", "monolithic", "microkernel", "operating-system"]
+keywords = ["linux kernel", "kernel functions", "monolithic kernel", "microkernel", "linux architecture"]
 +++
 
 
@@ -92,4 +96,3 @@ An os cannot function without  a kernel.
 
 - Example: EROS
 
-But  why linux  more  faster then windows ? 

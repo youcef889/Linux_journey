@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:37+01:00'
-draft = false
-title = 'Latex Arabic Docs'
-categories = ["Notes", "Reference"]
-tags = ["notes"]
+title = "LaTeX Arabic Documents - XeLaTeX and Polyglossia Guide"
+date = "2026-03-18T16:06:37+01:00"
+draft = true
+description = "Learn how to create Arabic documents with LaTeX using XeLaTeX and polyglossia. Structure, fonts, and bidirectional text support."
+summary = "Guide to creating Arabic documents with LaTeX. Covers XeLaTeX setup, polyglossia configuration, Arabic fonts, and bidirectional text."
+slug = "latex-arabic-documents"
+categories = ["LaTeX", "Documentation", "Arabic"]
+tags = ["latex", "arabic", "xelatex", "polyglossia", "documentation"]
+keywords = ["latex arabic", "arabic latex", "xelatex arabic", "arabic document"]
 +++
 
 

@@ -1,9 +1,13 @@
 +++
-date = '2026-03-18T16:06:40+01:00'
+title = "Run Downloaded Website Offline - Local Display Guide"
+date = "2026-03-18T16:06:40+01:00"
 draft = false
-title = 'How To Runwebsite'
-categories = ["Sysadmin & Servers", "Web Servers"]
-tags = ["nginx", "server", "web"]
+description = "Learn how to display a wget-downloaded website offline. Open saved HTML files in browser for offline viewing."
+summary = "Guide to running and displaying websites downloaded with wget for offline viewing. Covers directory structure, local server options, and browser viewing."
+slug = "run-website-offline-linux"
+categories = ["Linux", "Web Development"]
+tags = ["wget", "offline", "website", "local-server", "web"]
+keywords = ["wget website offline", "view downloaded site", "local website", "offline browsing"]
 +++
 
 
@@ -75,4 +79,3 @@ This avoids browser security restrictions on local file access.
 - Open the saved `index.html` in a browser.
 - For complex sites, run a local server (`python -m http.server`).
 
-Let me know if you encounter specific errors!
