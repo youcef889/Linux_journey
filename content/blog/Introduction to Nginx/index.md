@@ -1,7 +1,7 @@
 +++
 title = "Nginx Web Server - Complete Introduction"
 date = "2025-08-21T18:27:28+01:00"
-draft = false
+draft = true
 description = "Introduction to Nginx web server. Covers features, use cases, reverse proxy, load balancing, and configuration."
 summary = "Complete introduction to Nginx web server. Covers key features, web serving, reverse proxy, load balancing, caching, and common configurations for self-hosting."
 slug = "nginx-introduction"

@@ -1,7 +1,7 @@
 +++
 title = "Install Kodi on Alpine Linux - Complete Guide"
 date = "2025-08-16"
-draft = false
+draft = true
 description = "Learn how to install and run Kodi media center on Alpine Linux. Covers apk installation, building from source, Docker method, and troubleshooting."
 summary = "Comprehensive guide to running Kodi on Alpine Linux. Includes installation via apk, building from source, Docker setup, and minimal Alpine configurations."
 slug = "kodi-alpine-linux"

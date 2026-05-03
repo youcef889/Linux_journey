@@ -1,7 +1,7 @@
 +++
 title = "Become a Void Linux Specialist - Complete Roadmap"
 date = "2026-03-18T16:06:36+01:00"
-draft = false
+draft = true
 description = "Learn how to become a Void Linux specialist. Complete roadmap covering XBPS, Runit, system maintenance, and troubleshooting."
 summary = "Step-by-step roadmap to becoming a Void Linux specialist. Covers XBPS package manager, Runit services, system customization, and advanced troubleshooting."
 slug = "void-linux-specialist"

@@ -1,7 +1,7 @@
 +++
 title = "Questions to Ask Algerian Businesses for Startup Validation"
 date = "2026-03-18T16:06:40+01:00"
-draft = false
+draft = true
 description = "Powerful questions to ask Algerian businesses to validate startup ideas. Discover real problems, pain points, and willingness to pay."
 summary = "List of powerful questions for validating startup ideas in Algeria. Covers business discovery, problem understanding, and customer interview strategies."
 slug = "questions-startup-validation-algeria"

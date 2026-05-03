@@ -1,7 +1,7 @@
 +++
 title = "Validate Startup Idea Before Building - Complete Guide"
 date = "2026-03-18T16:06:40+01:00"
-draft = false
+draft = true
 description = "Learn how to validate a startup idea before building. Customer discovery, problem validation, and MVP strategies."
 summary = "Guide to validating startup ideas before building. Covers customer discovery, problem-solution fit, willingness to pay, and MVP strategies for startups."
 slug = "validate-startup-idea"

@@ -1,6 +1,6 @@
 +++
 date = '2026-03-18T16:06:40+01:00'
-draft = false
+draft = true
 title = 'The Biggest Mistake Developers Make When Starting Saas'
 categories = ["Business", "Algeria", "Startup"]
 tags = ["algeria", "startup", "business", "validation"]

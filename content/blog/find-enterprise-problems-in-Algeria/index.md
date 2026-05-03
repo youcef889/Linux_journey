@@ -1,7 +1,7 @@
 +++
 title = "Find Enterprise Problems in Algeria - Business Research"
 date = "2026-03-18T16:06:40+01:00"
-draft = false
+draft = true
 description = "Learn how to find enterprise problems in Algeria. Identifies real business challenges for building software solutions."
 summary = "Guide to finding enterprise problems in Algeria. Covers common business challenges, market gaps, and opportunities for software solutions in Algerian companies."
 slug = "find-enterprise-problems-algeria"

@@ -1,7 +1,7 @@
 +++
 title = "Install LineageOS 20 on Samsung Galaxy M20 - TWRP Guide"
 date = "2026-03-18T16:06:36+01:00"
-draft = false
+draft = true
 description = "Learn how to install LineageOS 20 on Samsung Galaxy M20 (SM-M20). Step-by-step TWRP recovery and ROM installation."
 summary = "Complete guide to installing LineageOS 20 on Samsung Galaxy M20. Covers TWRP flash, ROM transfer, and LineageOS installation with steps to avoid soft-brick."
 slug = "install-lineageos-samsung-galaxy-m20"

@@ -160,7 +160,6 @@ sudo ln -s /etc/sv/pipewire /var/service/
 
 ---
 
-If you tell me whether you're using **ALSA only**, **PulseAudio**, or **PipeWire**, I can tailor the setup even further for your exact environment (e.g., Firefox sound fix, HDMI issues, etc.).
 
 ## Accessing the Sound Settings Via GUI 
 ```

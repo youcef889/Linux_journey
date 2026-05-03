@@ -1,7 +1,7 @@
 +++
 title = "Digital Infrastructure Development in Algeria"
 date = "2026-03-18T16:06:40+01:00"
-draft = false
+draft = true
 description = "Learn about digital infrastructure development in Algeria. Covers internet networks, data systems, smart cities, and tech adoption."
 summary = "Guide to digital infrastructure development. Covers building faster networks, data systems, smart city solutions, and tech adoption for governments and enterprises in Algeria."
 slug = "digital-infrastructure-algeria"
