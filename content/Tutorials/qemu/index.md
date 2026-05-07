@@ -150,22 +150,6 @@ qemu-system-x86_64 -accel help
 
 ---
 
-##  Done!
-
-Now you've got a minimal, fast, and secure virtualization setup on **Void Linux** using KVM/QEMU/libvirt.
-
----
-
-Want to create VMs with specific settings (GPU passthrough, bridged networking, etc)? I can help you with advanced setups too
-
-
-________________________________________________________________
-
-
-Sure! Here's a simple `qemu.sh` script you can use to quickly boot an ISO with QEMU and KVM acceleration on Void Linux. This is useful when you want to launch a VM without libvirt or virt-manager.
-
----
-
 ### Example: `qemu.sh`
 ```bash
 #!/bin/bash
