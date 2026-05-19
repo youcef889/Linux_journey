@@ -8,7 +8,6 @@ on:
 jobs:
   build-deploy:
     runs-on: ubuntu-24.04
-
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
 
@@ -24,7 +23,7 @@ jobs:
         with:
           hugo-version: "latest"
           extended: true
-
+     
       - name: Build
         run: hugo --gc --minify --baseURL "https://youcef889.github.io/Linux_journey/"
 
@@ -35,7 +34,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./public
-
-      - name: Notify IndexNow
-        run: |
-          curl "https://api.indexnow.org/indexnow?url=https://youcef889.github.io/Linux_journey/&key=ff2a70b473e20969a845c400cb490a43"
