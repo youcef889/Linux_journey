@@ -10,7 +10,7 @@ tags = ["blissos", "android", "linux", "emulation", "pc"]
 keywords = ["bliss os install", "bliss os linux", "android on pc", "bliss os manual"]
 +++
 
-# Manual Install of  Bliss os  on  Linux
+### Manual Install of  Bliss os  on  Linux
 
 ![blissos](mpv-shot0002.jpg " this what i get after installing blissOs")
 Bliss os  is  strong  Android x86 operating system designed to run on PCs.But many users do't know how to install it .they struggle with  steps of  installation ,or even deciding between Versions.
