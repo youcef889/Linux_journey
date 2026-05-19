@@ -11,9 +11,118 @@ keywords = ["adb shell commands", "android adb", "adb debugging", "android shell
 +++
 
 
-Here’s a **practical collection of advanced ADB shell commands** you can use on Android devices—**both unrooted and rooted**—including debugging, performance tuning, package control, logs, networking, and system inspection.
+**practical collection of advanced ADB shell commands** you can use on Android devices—**both unrooted and rooted**—including debugging, performance tuning, package control, logs, networking, and system inspection.
 
 I’ll separate them clearly:
+
+---
+
+### **1. Installing ADB**
+
+1. **Download Platform-Tools**:
+
+   * Official link: [Android SDK Platform-Tools](https://developer.android.com/studio/releases/platform-tools)
+2. **Extract the ZIP file** to a folder on your computer.
+3. **Add ADB to your system PATH** (optional but convenient):
+
+   * On Windows: add the folder path to Environment Variables → Path.
+   * On Linux/Mac: add `export PATH=$PATH:/path/to/platform-tools` to your `.bashrc` or `.zshrc`.
+
+---
+
+### **2. Enabling Developer Options on Android**
+
+1. Go to **Settings → About Phone → Build Number**.
+2. Tap **Build Number** 7 times until it says "You are now a developer!"
+3. Go back to **Settings → System → Developer Options**.
+4. Enable **USB Debugging**.
+
+---
+
+### **3. Basic ADB Commands**
+
+After connecting your device via USB:
+
+* **Check device connection**
+
+  ```bash
+  adb devices
+  ```
+
+  This lists all connected devices. You may need to **allow USB debugging** on your phone when prompted.
+
+* **Install an APK**
+
+  ```bash
+  adb install appname.apk
+  ```
+
+* **Uninstall an app**
+
+  ```bash
+  adb uninstall com.example.app
+  ```
+
+* **Copy files to/from device**
+
+  ```bash
+  adb push localfile /sdcard/remote_file
+  adb pull /sdcard/remote_file localfile
+  ```
+
+* **Open a shell on the device**
+
+  ```bash
+  adb shell
+  ```
+
+* **Reboot the device**
+
+  ```bash
+  adb reboot
+  ```
+
+---
+
+### **4. Advanced Usage**
+
+* **Logcat (view system logs)**
+
+  ```bash
+  adb logcat
+  ```
+* **Screen recording**
+
+  ```bash
+  adb shell screenrecord /sdcard/demo.mp4
+  ```
+* **Backup & restore**
+
+  ```bash
+  adb backup -apk -all -f backup.ab
+  adb restore backup.ab
+  ```
+
+---
+
+### **5. Wireless ADB**
+
+1. Connect device via USB.
+2. Enable TCP/IP mode:
+
+   ```bash
+   adb tcpip 5555
+   ```
+3. Find your device IP:
+
+   ```bash
+   adb shell ip route
+   ```
+4. Connect wirelessly:
+
+   ```bash
+   adb connect DEVICE_IP:5555
+   ```
 
 ---
 
