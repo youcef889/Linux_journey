@@ -126,7 +126,7 @@ After connecting your device via USB:
 
 ---
 
-# 🔹 Basics (Works on All Devices)
+####  Basics (Works on All Devices)
 
 Enter shell:
 
@@ -171,7 +171,7 @@ wm density reset
 
 ---
 
-# 🔹 App & Package Management (Unrooted)
+####  App & Package Management (Unrooted)
 
 List installed packages:
 
@@ -223,7 +223,7 @@ pm grant com.package.name android.permission.READ_LOGS
 
 ---
 
-# 🔹 Activity & Intent Control
+#### Activity & Intent Control
 
 Launch app:
 
@@ -251,7 +251,7 @@ am force-stop com.pkg
 
 ---
 
-# 🔹 Logs & Debugging
+####  Logs & Debugging
 
 Live logs:
 
@@ -287,7 +287,7 @@ dumpsys cpuinfo
 
 ---
 
-# 🔹 Performance / Monitoring
+###  Performance / Monitoring
 
 Top processes:
 
@@ -321,7 +321,7 @@ dumpsys SurfaceFlinger --latency
 
 ---
 
-# 🔹 Networking
+####  Networking
 
 IP address:
 
@@ -349,7 +349,7 @@ getprop net.dns1
 
 ---
 
-# 🔹 File System Access (Limited Unrooted)
+####  File System Access (Limited Unrooted)
 
 Browse:
 
@@ -373,7 +373,7 @@ find /sdcard -name "*.mp4"
 
 ---
 
-# 🔥 ROOT-ONLY ADB SHELL COMMANDS
+####  ROOT-ONLY ADB SHELL COMMANDS
 
 Enter root shell:
 
@@ -384,7 +384,7 @@ su
 
 ---
 
-## 🛠️ System Mounting
+## System Mounting
 
 Remount system writable:
 
@@ -406,7 +406,7 @@ mount | grep system
 
 ---
 
-## 🧹 Remove System App (dangerous)
+##  Remove System App (dangerous)
 
 ```bash
 rm -rf /system/app/AppName
@@ -421,7 +421,7 @@ pm uninstall com.package
 
 ---
 
-## ⚡ CPU Tweaks
+##  CPU Tweaks
 
 Set governor:
 
@@ -437,7 +437,7 @@ echo 0 > /sys/devices/system/cpu/cpu5/online
 
 ---
 
-## 🔋 Battery Calibration (legacy)
+##  Battery Calibration (legacy)
 
 ```bash
 rm /data/system/batterystats.bin
@@ -446,7 +446,7 @@ reboot
 
 ---
 
-## 🕵️ Process Injection / Debug
+##  Process Injection / Debug
 
 List SELinux mode:
 
@@ -462,7 +462,7 @@ setenforce 0
 
 ---
 
-## 🧬 System Properties
+##  System Properties
 
 Change property:
 
@@ -478,7 +478,7 @@ getprop
 
 ---
 
-# 🔹 Wireless Debugging Tricks
+#### Wireless Debugging Tricks
 
 ADB over Wi-Fi:
 
@@ -495,7 +495,7 @@ adb usb
 
 ---
 
-# 🔹 Screenshot / Screenrecord
+#### Screenshot / Screenrecord
 
 Screenshot:
 
@@ -511,7 +511,7 @@ adb shell screenrecord /sdcard/demo.mp4
 
 ---
 
-# ⚠️ Important Warnings
+###  Important Warnings
 
 Root commands can:
 

@@ -22,6 +22,6 @@ This website  is a **no-fluff, hands-on** resource where I share **real-world ex
 **Connect with me:**  
 📷 Instagram: [@YourHandle]  
 🐦 Twitter: [@YourHandle]  
-🌍 Youtube: []  
+🌍 Youtube: [@My_linux_Journey]  
 
 *"The Linux philosophy is 'Do It Yourself.' Let’s embrace the journey!"* 🚀  
