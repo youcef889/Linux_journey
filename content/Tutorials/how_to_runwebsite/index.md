@@ -1,5 +1,5 @@
 +++
-title = "Run Downloaded Website Offline - Local Display Guide"
+title = "Run Downloaded Website Offline"
 date = "2026-03-18T16:06:40+01:00"
 draft = false
 description = "Learn how to display a wget-downloaded website offline. Open saved HTML files in browser for offline viewing."

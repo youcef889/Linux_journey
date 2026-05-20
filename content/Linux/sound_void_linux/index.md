@@ -1,5 +1,5 @@
 +++
-title = "Sound Setup on Void Linux - ALSA, PulseAudio, and PipeWire"
+title = "Sound Setup on Void Linux "
 date = "2026-03-18T16:06:37+01:00"
 draft = false
 description = "Complete guide to setting up sound on Void Linux. Covers ALSA, PulseAudio, and PipeWire installation and configuration."

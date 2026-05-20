@@ -1,5 +1,5 @@
 +++
-title = "Split MP3 into 5-Minute Chunks - FFmpeg No Re-encoding"
+title = "Split .MP3 Chunks - FFmpeg No Re-encoding"
 date = "2026-03-18T16:06:40+01:00"
 draft = false
 description = "Learn how to split MP3 files into 5-minute chunks without re-encoding using FFmpeg. Fast lossless splitting."

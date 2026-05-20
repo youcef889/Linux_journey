@@ -1,5 +1,5 @@
 ---
-title: "Linux Knowledge Base - Complete Linux Tutorials & guides"
+title: "Linux Knowledge Base"
 date: 2025-08-15
 draft: false
 description: "Comprehensive Linux tutorials covering system administration, virtualization with QEMU, Void Linux, Alpine Linux, networking, security, and more. Perfect for beginners and advanced users."
