@@ -5,6 +5,7 @@ draft = false
 description = "Learn how to manually install Bliss OS on Linux. Complete step-by-step guide for PC/Android emulation."
 summary = "Manual installation guide for Bliss OS on Linux. Covers ISO download, Grub configuration, and step-by-step installation for PC running Linux."
 slug = "install-bliss-os-linux"
+robots = "index, follow" 
 categories = ["Mobile", "Android", "Linux"]
 tags = ["blissos", "android", "linux", "emulation", "pc"]
 keywords = ["bliss os install", "bliss os linux", "android on pc", "bliss os manual"]
