@@ -2,7 +2,7 @@
 title: "Fix: modprobe FATAL Module dm_mod Not Found in Void Linux"
 date: 2026-05-26
 lastmod: 2026-05-26
-draft: true
+draft: false
 description: "Step-by-step guide to fix the 'modprobe: FATAL: Module dm_mod not found' error in Void Linux caused by a missing or broken initramfs, wrong kernel version, or incomplete kernel installation."
 summary: "Encountering 'modprobe: FATAL: Module dm_mod not found in directory /lib/modules/...' on Void Linux? This guide walks you through chrooting from a live ISO and rebuilding your initramfs and kernel hooks with xbps-reconfigure."
 keywords: ["void linux dm_mod not found", "modprobe FATAL module not found void linux", "void linux initramfs rebuild", "xbps-reconfigure void linux", "void linux kernel modules missing", "dm_mod fix linux"]
