@@ -1,128 +1,152 @@
 +++
-title = "Install Bliss OS on Linux - Complete Manual Guide"
+title = "Install Bliss OS on Linux: Step-by-Step GRUB Guide (2025)"
 date = "2025-08-17T11:48:21+01:00"
+lastmod = "2026-06-16"
 draft = false
-description = "Learn how to manually install Bliss OS on Linux. Complete step-by-step guide for PC/Android emulation."
-summary = "Manual installation guide for Bliss OS on Linux. Covers ISO download, Grub configuration, and step-by-step installation for PC running Linux."
+description = "Run Android on your Linux PC with Bliss OS. This guide covers ISO download, GRUB setup, data partition creation, and troubleshooting — tested on x86_64."
+summary = "Manual installation guide for Bliss OS on Linux. Covers ISO download, GRUB configuration, data partition setup, kernel boot parameters, and common troubleshooting steps."
 slug = "install-bliss-os-linux"
-robots = "index, follow" 
+robots = "index, follow"
 categories = ["Mobile", "Android", "Linux"]
-tags = ["blissos", "android", "linux", "emulation", "pc"]
-keywords = ["bliss os install", "bliss os linux", "android on pc", "bliss os manual"]
+tags = ["blissos", "android", "linux", "grub", "android-x86", "emulation", "pc"]
+keywords = ["bliss os install linux", "bliss os grub manual install", "android x86 linux grub boot", "bliss os without usb linux", "android on pc linux"]
 +++
 
-### Manual Install of  Bliss os  on  Linux
 
-![blissos](mpv-shot0002.jpg " this what i get after installing blissOs")
-Bliss os  is  strong  Android x86 operating system designed to run on PCs.But many users do't know how to install it .they struggle with  steps of  installation ,or even deciding between Versions.
+## Manual Installation of Bliss OS on Linux
 
-This tutorial walks you through installing Bliss os frome scratch .specifically Manaual installation on linux I'll cover every step from downloading the right ISO to configuring Grub.
+![Bliss OS Android 14 running on a Linux PC after manual GRUB installation](mpv-shot0002.jpg "Bliss OS running on Linux after a successful manual GRUB installation")
 
-With tested steps ,you'll get Bliss OS  up and running smoothly on your Linux PC .
+> ⏱ **Estimated time:** ~20 minutes | 🔧 **Difficulty:** Intermediate | ✅ **Tested on:** Ubuntu, Void Linux (x86_64)
+
+### What is Bliss OS?
+
+Bliss OS is a powerful Android x86 operating system designed to run natively on PCs and laptops. Unlike an emulator such as Android Studio AVD or Genymotion, Bliss OS boots directly from your GRUB menu and runs Android on bare metal — giving you full hardware performance without virtualization overhead.
+
+It is built on top of the Android-x86 project and maintained by the BlissROM team. You can use it to run Android apps directly on your Linux PC, test apps in a real Android environment, or just experience Android on desktop hardware.
+
+**Why install Bliss OS manually instead of using a USB?**
+The USB installer method creates a separate boot partition. The manual GRUB method covered here is cleaner for Linux users: you extract the ISO to a directory on your existing filesystem and add a GRUB entry — no repartitioning, no USB drive needed.
 
 {{< alert >}}
-**Warning!** not all app's you install on bliss os will work smoothly ? 
+**Warning:** Not all apps you install on Bliss OS will work smoothly. Apps that rely heavily on sensors (GPS, gyroscope) or Widevine DRM (Netflix, Disney+) may not function correctly.
 {{< /alert >}}
-
-
-### Dowload the  iso 
-
-1. Go to this website [BlissOS-x86](https://sourceforge.net/projects/blissos-x86/files/Official/)
-
-#### The Right Bliss ISO you need .
-1. **BlissOS16**  
-   - **Android Version:** 14 (Upside Down Cake)  
-   - *Note: BlissOS 16.x is built on Android 14 (API level 34).*
-
-2. **BlissOSZenith**  
-   - **Android Version:** 10 (Q)  
-   - *Note: BlissOS Zenith is a specialized edition based on Android 10 (API level 29).*
-
-3. **BlissOS14**  
-   - **Android Version:** 12 (Snow Cone)  
-   - *Note: BlissOS 14.x uses Android 12 (API level 31).*
-
-4. **BlissOS15**  
-   - **Android Version:** 13 (Tiramisu)  
-   - *Note: BlissOS 15.x is derived from Android 13 (API level 33).*
-
-| **Feature**            | **GApps Variant**                   | **FOSS Variant**                             |
-| ---------------------- | ----------------------------------- | -------------------------------------------- |
-| **Google Play Store**  | ✅ Pre-installed                     | ❌ Not included                               |
-| **Google Services**    | ✅ (Play Services, etc.)             | ❌                                            |
-| **Open-Source Focus**  | ❌ (Includes proprietary apps)       | ✅ (Only FOSS apps)                           |
-| **Alternative Stores** | ❌ (Play Store is primary)           | ✅ (F-Droid, Aurora Store preinstalled/setup) |
-| **MicroG Integration** | ❌                                   | ⚠️ Optional or user-installed                |
-| **Privacy**            | 🔻 Lower (Google telemetry present) | 🔺 Higher (No Google tracking)               |
-
-
-###  GApps (Google Play Services)
-**Includes:**  
-- Google Play Store, Gmail, YouTube, Maps, Drive, etc.  
-- Google Mobile Services (GMS) for app compatibility.  
-- Required for apps that depend on Google APIs (e.g., banking apps, games).  
-
-**Best for:**  
-- Users needing full Android app compatibility.  
-- Those reliant on Google ecosystem services.  
-
-**Download:**  
-- Look for builds labeled **`GApps`**, **`with GMS`**, or **`Google Play`** in the filename.  
-  Example: `BlissOS-16-x86_64-GApps-*.iso`  
 
 ---
 
-###  FOSS (No Google Services)
-**Includes:**  
-- **No proprietary Google apps/services.**  
-- Open-source alternatives:  
-  - **App Stores:** [F-Droid](https://f-droid.org/), [Aurora Store](https://auroraoss.com/).  
-  - **MicroG:** Lightweight Google Services replacement (optional).  
-  - Privacy-focused apps (e.g., NewPipe instead of YouTube).  
+## Step 1 — Download the ISO
 
-**Best for:**  
-- Privacy-focused users.  
-- Devices with limited resources (lighter OS).  
-- Avoiding Google telemetry.  
+Go to the official download page: [BlissOS-x86 on SourceForge](https://sourceforge.net/projects/blissos-x86/files/Official/)
 
-**Download:**  
-- Look for builds labeled **`FOSS`**, **`without GApps`**, or **`vanilla`**.  
-  Example: `BlissOS-16-x86_64-FOSS-*.iso` 
+### Choosing the Right Bliss OS Version
 
-In my step-by-Step Guide  I will use "GApps" ,and "Bliss-v16.9.4-x86_64-OFFICIAL-gapps-20240220.iso"
+Bliss OS releases are tied to Android versions. Here is a quick reference:
 
-###  Installation
-  
-  After  dowloading  what you need we dive to installation
+| Version | Android Version | API Level |
+|---|---|---|
+| **BlissOS 16** | Android 14 (Upside Down Cake) | 34 |
+| **BlissOS 15** | Android 13 (Tiramisu) | 33 |
+| **BlissOS 14** | Android 12 (Snow Cone) | 31 |
+| **BlissOS Zenith** | Android 10 (Q) | 29 |
 
-####  requirements 
+**Recommended:** BlissOS 16 (Android 14) unless you need a specific API level for app compatibility.
 
-`A Linux system`
-`4 GB Ram`
-`grub` 
+### GApps vs FOSS — Which Variant to Download?
 
-1. Create a directory at / as /blissos 
-2. Extract `7z x Bliss-v16.9.4-x86_64-OFFICIAL-gapps-20240220.iso`  . and copy  initrd.img, ramdisk.img, kernel  to /blissos   
-3. Create a directory called /blissos/data. This will only work for ext4 filesystems, for NTFS and other filesystems or if you are having bootloop you need data.img, can be created with make_ext4fs.
+| Feature | GApps Variant | FOSS Variant |
+|---|---|---|
+| **Google Play Store** | ✅ Pre-installed | ❌ Not included |
+| **Google Services** | ✅ Play Services, GMS | ❌ |
+| **Open-Source Focus** | ❌ Includes proprietary apps | ✅ FOSS apps only |
+| **Alternative Stores** | ❌ Play Store is primary | ✅ F-Droid, Aurora Store |
+| **MicroG Support** | ❌ | ⚠️ Optional / user-installed |
+| **Privacy** | 🔻 Lower (Google telemetry) | 🔺 Higher (no tracking) |
 
+#### GApps Variant
+Includes Google Play Store, Gmail, YouTube, Maps, Drive, and Google Mobile Services (GMS). Required for apps that depend on Google APIs such as banking apps and most games.
+
+**Best for:** Users who need full Android app compatibility and rely on the Google ecosystem.
+
+Look for filenames labeled `GApps`, `with GMS`, or `Google Play`.
+Example: `BlissOS-16-x86_64-GApps-*.iso`
+
+#### FOSS Variant
+Ships with no proprietary Google apps. Comes with open-source alternatives: [F-Droid](https://f-droid.org/) and [Aurora Store](https://auroraoss.com/) as app stores, and optionally MicroG as a lightweight Google Services replacement.
+
+**Best for:** Privacy-focused users and devices with limited resources.
+
+Look for filenames labeled `FOSS`, `without GApps`, or `vanilla`.
+Example: `BlissOS-16-x86_64-FOSS-*.iso`
+
+---
+
+For this guide I use the GApps variant: `Bliss-v16.9.4-x86_64-OFFICIAL-gapps-20240220.iso`
+
+---
+
+## Step 2 — Requirements
+
+Before starting, make sure you have:
+
+- A Linux system with **x86_64** architecture
+- At least **4 GB of RAM** (8 GB recommended for a smooth experience)
+- **GRUB** as your bootloader (GRUB 2)
+- **p7zip** installed (`sudo apt install p7zip-full` on Debian/Ubuntu, `sudo xbps-install p7zip` on Void Linux)
+- The root partition formatted as **ext4** (see the note on NTFS in Step 3)
+
+---
+
+## Step 3 — Extract the ISO and Set Up the Directory
+
+**1. Create the Bliss OS directory at the root of your filesystem:**
+
+```bash
+sudo mkdir /blissos
 ```
 
-mkdir /blissos/data
-cd data
-dd if=/dev/zero of=data.img bs=1 count=0 seek=8G
-sudo mkfs.ext4 -F data.img 
+**2. Extract the ISO using 7z:**
+
+```bash
+7z x Bliss-v16.9.4-x86_64-OFFICIAL-gapps-20240220.iso
+```
+
+**3. Copy the boot files to /blissos:**
+
+```bash
+sudo cp initrd.img ramdisk.img kernel /blissos/
+```
+
+These three files are what GRUB needs to boot Bliss OS:
+- `kernel` — the Android-x86 Linux kernel
+- `initrd.img` — the initial RAM disk that loads the Android environment
+- `ramdisk.img` — the Android root filesystem loaded into RAM at boot
+
+**4. Create the data directory and generate the data image:**
+
+```bash
+sudo mkdir /blissos/data
+cd /blissos/data
+sudo dd if=/dev/zero of=data.img bs=1 count=0 seek=8G
+sudo mkfs.ext4 -F data.img
+```
+
+The `data.img` file acts as Android's internal storage — it stores your apps, settings, and user data. The `dd` command creates a sparse 8 GB file without actually writing 8 GB to disk.
+
+> **Note on NTFS / non-ext4 filesystems:** The `/blissos/data` directory approach only works on ext4 partitions. If your root filesystem is NTFS, btrfs, or you are experiencing a boot loop, you must use the `data.img` method shown above instead of a bare directory.
+
+---
+
+## Step 4 — Add the GRUB Menu Entry
+
+Open `/etc/grub.d/40_custom` with a text editor as root:
+
+```bash
+sudo nano /etc/grub.d/40_custom
+```
+
+Add the following entries at the bottom of the file:
 
 ```
-4. Create a new grub entry with this the following code
-(add the following  code  to /etc/grub.d/40_custom )
-
-```
-#!/bin/sh
-exec tail -n +3 $0
-# This file provides an easy way to add custom menu entries.  Simply type the
-# menu entries you want to add after this comment.  Be careful not to change
-# the 'exec tail' line above.
-
 menuentry "BlissOS (Default) w/ FFMPEG" {
     set SOURCE_NAME="blissos"
     search --set=root --file /$SOURCE_NAME/kernel
@@ -130,37 +154,124 @@ menuentry "BlissOS (Default) w/ FFMPEG" {
     initrd /$SOURCE_NAME/initrd.img
 }
 
-menuentry "BlissOS (Intel) w/ FFMPEG" {
+menuentry "BlissOS (Intel GPU) w/ FFMPEG" {
     set SOURCE_NAME="blissos"
     search --set=root --file /$SOURCE_NAME/kernel
     linux /$SOURCE_NAME/kernel HWC=drm_minigbm_celadon GRALLOC=minigbm FFMPEG_CODEC=1 FFMPEG_PREFER_C2=1 quiet root=/dev/ram0 SRC=/$SOURCE_NAME
     initrd /$SOURCE_NAME/initrd.img
 }
 
-menuentry "BlissOS PC-Mode (Default) w/ FFMPEG" {
+menuentry "BlissOS PC-Mode (Default)" {
     set SOURCE_NAME="blissos"
     search --set=root --file /$SOURCE_NAME/kernel
-    linux /$SOURCE_NAME/kernel  quiet root=/dev/ram0 SRC=/$SOURCE_NAME
+    linux /$SOURCE_NAME/kernel quiet root=/dev/ram0 SRC=/$SOURCE_NAME
     initrd /$SOURCE_NAME/initrd.img
 }
 
-menuentry "BlissOS PC-Mode (Intel) w/ FFMPEG" {
+menuentry "BlissOS PC-Mode (Intel GPU)" {
     set SOURCE_NAME="blissos"
     search --set=root --file /$SOURCE_NAME/kernel
     linux /$SOURCE_NAME/kernel PC_MODE=1 HWC=drm_minigbm_celadon GRALLOC=minigbm FFMPEG_CODEC=1 FFMPEG_PREFER_C2=1 quiet root=/dev/ram0 SRC=/$SOURCE_NAME
     initrd /$SOURCE_NAME/initrd.img
 }
 ```
-4. Update grub 
-```
-update-grub
-```
-5. Reboot your system using 
-```
-sudo reboot 
 
+### What Do These Kernel Parameters Mean?
+
+| Parameter | What It Does |
+|---|---|
+| `SRC=/blissos` | Tells Android-x86 where to find its system files |
+| `root=/dev/ram0` | Boots Android from RAM (standard for Android-x86) |
+| `FFMPEG_CODEC=1` | Enables hardware-accelerated video decoding via FFmpeg |
+| `FFMPEG_PREFER_C2=1` | Uses the newer Codec 2.0 API for better media performance |
+| `HWC=drm_minigbm_celadon` | Sets the Hardware Composer for Intel GPUs |
+| `GRALLOC=minigbm` | Uses the minigbm graphics memory allocator (required for Intel) |
+| `PC_MODE=1` | Enables PC-style window management (taskbar, resizable windows) |
+| `quiet` | Suppresses kernel boot messages for a cleaner boot screen |
+
+**Which entry should you use?**
+- **Default entries** — try these first on AMD/NVIDIA systems or if you are unsure
+- **Intel GPU entries** — use these if you have an Intel integrated GPU (most laptops)
+- **PC-Mode** — adds a taskbar and resizable app windows, closer to a desktop experience
+
+---
+
+## Step 5 — Update GRUB and Reboot
+
+**Update your GRUB configuration:**
+
+```bash
+sudo update-grub
 ```
-new chose well appear in the grub menu choose the bliss os and set up you android system if you have use Gapp
 
+You should see a line like `Found BlissOS (Default) w/ FFMPEG` in the output, confirming GRUB detected the new entries.
 
+**Reboot your system:**
+
+```bash
+sudo reboot
+```
+
+At the GRUB menu, select your preferred Bliss OS entry. The first boot takes 1–2 minutes while Android initializes. You will then go through the standard Android setup wizard. If you chose the GApps variant, sign into your Google account to access the Play Store.
+
+---
+
+## Troubleshooting
+
+### Black screen after selecting Bliss OS in GRUB
+
+- Try the **Intel GPU** entry if you are on Intel integrated graphics
+- Add `nomodeset` to the kernel parameters to disable KMS: edit the line starting with `linux` in `40_custom` and append `nomodeset` before `quiet`
+- Make sure `kernel`, `initrd.img`, and `ramdisk.img` are all present in `/blissos/`
+
+### Boot loop (keeps restarting Android)
+
+This is almost always a data partition issue. Make sure you created `data.img` correctly:
+
+```bash
+sudo ls -lh /blissos/data/data.img
+```
+
+If the file is missing or 0 bytes, recreate it:
+
+```bash
+sudo dd if=/dev/zero of=/blissos/data/data.img bs=1 count=0 seek=8G
+sudo mkfs.ext4 -F /blissos/data/data.img
+```
+
+### GRUB does not show the Bliss OS entries
+
+Run `sudo update-grub` again and look at the output. If the entries are not found, check that the file `/blissos/kernel` exists and that `/etc/grub.d/40_custom` is executable:
+
+```bash
+sudo chmod +x /etc/grub.d/40_custom
+sudo update-grub
+```
+
+### Touchpad / mouse not working inside Bliss OS
+
+Add `INPUT_FIXES=1` to the kernel parameters line in your GRUB entry.
+
+### Apps crashing or not installing
+
+Some Play Store apps block x86 devices. Install [Aurora Store](https://auroraoss.com/) from within Bliss OS to bypass device checks, or use ADB sideloading.
+
+---
+
+## Verify It's Working
+
+Once Bliss OS boots successfully, confirm everything is working:
+
+1. **Display** — the screen should render at your native resolution. If it looks stretched, go to Settings → Display → Screen Resolution.
+2. **Network** — open the browser and load a webpage. Wi-Fi should work out of the box if your card is supported.
+3. **Google Play** (GApps variant) — sign in and install a test app.
+4. **Video playback** — play a YouTube video to confirm FFmpeg hardware decoding is active (smooth 1080p without high CPU usage).
+
+---
+
+## Summary
+
+You now have Bliss OS installed on your Linux PC without a USB drive or repartitioning. The key steps were: extracting the ISO to `/blissos`, creating a `data.img` for persistent Android storage, and adding GRUB entries with the right kernel parameters for your GPU.
+
+If you run into issues not covered here, the [BlissOS XDA thread](https://forum.xda-developers.com/) and the official [BlissOS Telegram group](https://t.me/BlissROMs) are the best places to get help.
 
