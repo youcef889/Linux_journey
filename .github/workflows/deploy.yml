@@ -1,69 +1,60 @@
 name: Deploy Hugo site to Pages
 
 on:
-push:
-branches:
-- main
+  push:
+    branches:
+      - main
 
 permissions:
-contents: read
-pages: write
-id-token: write
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
-group: "pages"
-cancel-in-progress: true
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
-build:
-runs-on: ubuntu-24.04
+  build:
+    runs-on: ubuntu-24.04
+    env:
+      HUGO_VERSION: "0.148.2"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
 
-```
-env:
-  HUGO_VERSION: "0.148.2"
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
 
-steps:
-  - name: Checkout
-    uses: actions/checkout@v4
-    with:
-      submodules: recursive
-      fetch-depth: 0
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
+          extended: true
 
-  - name: Setup Pages
-    uses: actions/configure-pages@v5
+      - name: Build site
+        run: |
+          hugo --gc --minify --baseURL "https://www.linuxjourney.blog/"
 
-  - name: Setup Hugo
-    uses: peaceiris/actions-hugo@v3
-    with:
-      hugo-version: ${{ env.HUGO_VERSION }}
-      extended: true
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./public
 
-  - name: Build site
-    run: |
-      hugo --gc --minify --baseURL "https://linuxjourney.blog"
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-24.04
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
-  - name: Upload artifact
-    uses: actions/upload-pages-artifact@v4
-    with:
-      path: ./public
-```
-
-deploy:
-environment:
-name: github-pages
-url: ${{ steps.deployment.outputs.page_url }}
-
-```
-runs-on: ubuntu-24.04
-needs: build
-
-steps:
-  - name: Deploy to GitHub Pages
-    id: deployment
-    uses: actions/deploy-pages@v4
-
-  - name: Notify IndexNow
-    run: |
-      curl "https://api.indexnow.org/indexnow?url=https://linuxjourney.blog/&key=ff2a70b473e20969a845c400cb490a43"
-```
-
+      - name: Notify IndexNow
+        run: |
+          curl "https://api.indexnow.org/indexnow?url=https://www.linuxjourney.blog/&key=ff2a70b473e20969a845c400cb490a43"
