@@ -40,7 +40,7 @@ steps:
 
   - name: Build site
     run: |
-      hugo --gc --minify --baseURL "https://youcef889.github.io/Linux_journey/"
+      hugo --gc --minify --baseURL "https://linuxjourney.blog"
 
   - name: Upload artifact
     uses: actions/upload-pages-artifact@v4
@@ -64,6 +64,6 @@ steps:
 
   - name: Notify IndexNow
     run: |
-      curl "https://api.indexnow.org/indexnow?url=https://youcef889.github.io/Linux_journey/&key=ff2a70b473e20969a845c400cb490a43"
+      curl "https://api.indexnow.org/indexnow?url=https://linuxjourney.blog/&key=ff2a70b473e20969a845c400cb490a43"
 ```
 
