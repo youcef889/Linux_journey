@@ -1,6 +1,6 @@
 disabled = false
-languageCode = "en-us"
-languageName = "English"
+locale = "en-us"
+label = "English"
 weight = 1
 title = "My Linux Journey"
 
