@@ -8,7 +8,7 @@
     defer
     type="text/javascript"
     src="{{ $mermaidJS.RelPermalink }}"
-    integrity="{{ $mermaidJS.Data.Integrity }}"></script>
+   ></script>
 {{ end }}
 
 {{/* Chart */}}
@@ -21,7 +21,7 @@
     defer
     type="text/javascript"
     src="{{ $chartJS.RelPermalink }}"
-    integrity="{{ $chartJS.Data.Integrity }}"></script>
+   ></script>
 {{ end }}
 
 {{/* Katex */}}
@@ -32,7 +32,7 @@
     type="text/css"
     rel="stylesheet"
     href="{{ $katexCSS.RelPermalink }}"
-    integrity="{{ $katexCSS.Data.Integrity }}">
+   >
   {{ $katexLib := resources.Get "lib/katex/katex.min.js" }}
   {{ $katexRenderLib := resources.Get "lib/katex/auto-render.min.js" }}
   {{ $katexJS := slice $katexLib $katexRenderLib | resources.Concat "js/katex.bundle.js" | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha512") }}
@@ -40,7 +40,7 @@
     defer
     type="text/javascript"
     src="{{ $katexJS.RelPermalink }}"
-    integrity="{{ $katexJS.Data.Integrity }}"
+   
     id="katex-render"></script>
   {{ $katexFonts := resources.Match "lib/katex/fonts/*" }}
   {{ range $katexFonts }}
@@ -51,7 +51,7 @@
 {{/* TypeIt */}}
 {{ if .Page.HasShortcode "typeit" }}
   {{ $typeitLib := resources.Get "lib/typeit/typeit.umd.js" | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha512") }}
-  <script defer src="{{ $typeitLib.RelPermalink }}" integrity="{{ $typeitLib.Data.Integrity }}"></script>
+  <script defer src="{{ $typeitLib.RelPermalink }}"></script>
 {{ end }}
 
 {{/* Packery */}}
@@ -62,21 +62,21 @@
     type="text/css"
     rel="stylesheet"
     href="{{ $galleryCSS.RelPermalink }}"
-    integrity="{{ $galleryCSS.Data.Integrity }}">
+   >
   {{ $packeryLib := resources.Get "lib/packery/packery.pkgd.min.js" }}
   {{ $packeryLib = $packeryLib | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha512") }}
   <script
     defer
     type="text/javascript"
     src="{{ $packeryLib.RelPermalink }}"
-    integrity="{{ $packeryLib.Data.Integrity }}"></script>
+   ></script>
 
   {{ $jsShortcodeGallery := resources.Get "js/shortcodes/gallery.js" }}
   {{ $jsShortcodeGallery = $jsShortcodeGallery | resources.Minify | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha512") }}
   <script
     type="text/javascript"
     src="{{ $jsShortcodeGallery.RelPermalink }}"
-    integrity="{{ $jsShortcodeGallery.Data.Integrity }}"></script>
+   ></script>
 {{ end }}
 
 {{/* tw-elements */}}
@@ -87,14 +87,14 @@
     type="text/css"
     rel="stylesheet"
     href="{{ $carouselCSS.RelPermalink }}"
-    integrity="{{ $carouselCSS.Data.Integrity }}">
+   >
   {{ $twelementsLib := resources.Get "lib/tw-elements/index.min.js" }}
   {{ $twelementsLib = $twelementsLib | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha512") }}
   <script
     defer
     type="text/javascript"
     src="{{ $twelementsLib.RelPermalink }}"
-    integrity="{{ $twelementsLib.Data.Integrity }}"></script>
+   ></script>
 {{ end }}
 
 {{/* youtubeLite */}}
@@ -105,13 +105,13 @@
     type="text/css"
     rel="stylesheet"
     href="{{ $youtubeLiteCSS.RelPermalink }}"
-    integrity="{{ $youtubeLiteCSS.Data.Integrity }}">
+   >
   {{ $youtubeLiteLib := resources.Get "lib/lite-youtube-embed/lite-yt-embed.js" }}
   {{ $youtubeLiteLib = $youtubeLiteLib | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha512") }}
   <script
     type="text/javascript"
     src="{{ $youtubeLiteLib.RelPermalink }}"
-    integrity="{{ $youtubeLiteLib.Data.Integrity }}"></script>
+   ></script>
 {{ end }}
 
 {{/* Repo cards */}}
@@ -141,14 +141,14 @@
   {{ $repoCardCSS := resources.FromString "css/repo-cards.css" (delimit $cssRules "\n")
     | minify | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha512")
   }}
-  <link rel="stylesheet" href="{{ $repoCardCSS.RelPermalink }}" integrity="{{ $repoCardCSS.Data.Integrity }}">
+  <link rel="stylesheet" href="{{ $repoCardCSS.RelPermalink }}">
 {{ end }}
 
 {{/* tabs */}}
 {{ if .Page.HasShortcode "tabs" }}
   {{ $tabJS := resources.Get "js/shortcodes/tabs.js" }}
   {{ with $tabJS | minify | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha512") }}
-    <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+    <script src="{{ .RelPermalink }}" crossorigin="anonymous"></script>
   {{ end }}
 {{ end }}
 
@@ -156,7 +156,7 @@
 {{ if site.Params.firebase.apiKey }}
   {{ $firebase := resources.Get "js/firebase.js" }}
   {{ $firebase = $firebase | resources.Minify | resources.Fingerprint (site.Params.fingerprintAlgorithm | default "sha512") }}
-  <script type="module" src="{{ $firebase.RelPermalink }}" integrity="{{ $firebase.Data.Integrity }}"></script>
+  <script type="module" src="{{ $firebase.RelPermalink }}"></script>
 
   {{ if in (slice "page" "section") .Kind }}
     {{ $translations := .AllTranslations }}
