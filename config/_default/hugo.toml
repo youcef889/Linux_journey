@@ -18,7 +18,7 @@ enableEmoji = true
 # add  19-05-2026
 canonifyURLs = true
 relativeURLs = false
-#googleAnalytics = "G-JFBC40Q9VW"
+googleAnalytics = "G-JFBC40Q9VW"
 
 [pagination]
   pagerSize = 100
