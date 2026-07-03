@@ -3,8 +3,6 @@ title: "Terms and Conditions"
 date: 2026-07-03
 draft: false
 showTableOfContents: false
-_build:
-  list: never
 ---
 
 ## Welcome to Linux Journey

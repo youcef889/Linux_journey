@@ -3,8 +3,7 @@ title: "Contact Us"
 date: 2026-07-03
 draft: false
 showTableOfContents: false
-_build:
-  list: never
+
 ---
 
 Have a question regarding one of our Linux tutorials, noticed a configuration error in a guide, or want to discuss a partnership? Feel free to reach out.
