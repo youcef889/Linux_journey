@@ -11,11 +11,11 @@ robots = "index, follow"
 keywords=["docker","void-linux"]
 +++
 
-# How to Install Docker on Void Linux Step by Step
+## How to Install Docker on Void Linux Step by Step
 
 Docker makes it easy to build, deploy, and manage containerized applications. In this guide, you will learn how to install Docker on Void Linux, enable the Docker service, and configure Docker for non-root users.
 
-## Prerequisites
+### Prerequisites
 
 Before installing Docker, make sure you:
 
@@ -23,7 +23,7 @@ Before installing Docker, make sure you:
 * Have sudo privileges
 * Have an internet connection
 
-## Update Your System
+### Update Your System
 
 First, update your package database and upgrade installed packages.
 

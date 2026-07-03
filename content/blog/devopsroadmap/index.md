@@ -11,34 +11,34 @@ keywords = ["devops roadmap", "learn devops", "devops career", "docker kubernete
 +++
 
 
-# Dev Ops Roadmap 
+## Dev Ops Roadmap 
 
-## Coding
+### Coding
  - progamming language  
  - bash 
  - git & gitflow
  - Python 
  - Yaml& json formats
-## Linux
+### Linux
  - Directory Structure 
  - Administration
  - iptables/firewall 
 
-## To read 
+### To read 
  - How Operating system manage processes 
 - Other programming languages 
 - Database types
 
-## Network 
+### Network 
  - Foundation  
  - IP, subnet, CIDR
  - HTTP, SSL
  - Port Forwarding 
-## Web 
+### Web 
  - Nginx [web server & API gateway] 
  - HAproxy [loadbalancing] 
 
-## To read 
+### To read 
  -  OSI
  - TCP
  - SSH
@@ -52,7 +52,7 @@ keywords = ["devops roadmap", "learn devops", "devops career", "docker kubernete
 - LXC
 - Docker
 - Kubernetes 
-## to read 
+### to read 
 - FreeBSD Jail
 - Kernel space 
 - User space 
