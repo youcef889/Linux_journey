@@ -82,10 +82,10 @@
  [[footer]]
    name = "Terms"
    pageRef = "terms"
-   weight = 3
+   weight = 4
   
  [[footer]]
    name = "Contact"
    pageRef = "contact"
-   weight = 4
+   weight = 3
      
