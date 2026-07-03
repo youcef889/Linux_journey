@@ -17,7 +17,7 @@ Since you're working with **Linux, Docker, and DevOps topics**, this is especial
 
 ---
 
-# 🔹 1. Hardware Virtualization (Server Virtualization)
+## 🔹 1. Hardware Virtualization (Server Virtualization)
 
 This creates **Virtual Machines (VMs)** that run full operating systems.
 
