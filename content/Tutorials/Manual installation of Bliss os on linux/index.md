@@ -1,7 +1,7 @@
 +++
 title = "Install Bliss OS on Linux: Step-by-Step GRUB Guide (2025)"
 date = "2025-08-17T11:48:21+01:00"
-lastmod = "2026-06-16"
+lastmod = "2026-06-16T00:00:00+01:00"
 draft = false
 description = "Run Android on your Linux PC with Bliss OS. This guide covers ISO download, GRUB setup, data partition creation, and troubleshooting — tested on x86_64."
 summary = "Manual installation guide for Bliss OS on Linux. Covers ISO download, GRUB configuration, data partition setup, kernel boot parameters, and common troubleshooting steps."
