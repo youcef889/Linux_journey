@@ -1,7 +1,7 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "Setup Void Linux Network Manager"
 description: ""
-date: {{.Date}}
+date: 2026-07-03T15:13:17+01:00
 author: "Youcef Bouaissi"
 category: ""
 tags: []
