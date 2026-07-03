@@ -1,0 +1,31 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {{ range .Pages }}
+    {{ if not .Params.private }}
+    <url>
+      <loc>{{ .Permalink }}</loc>
+      {{ if not .Lastmod.IsZero }}
+        <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>
+      {{ end }}
+
+      {{/* Dynamic Change Frequency */}}
+      <changefreq>
+        {{- if .IsHome -}} daily
+        {{- else if eq .Section "tutorials" "linux" -}} weekly
+        {{- else -}} monthly
+        {{- end -}}
+      </changefreq>
+
+      {{/* Dynamic Priority Assignment */}}
+      <priority>
+        {{- if .IsHome -}} 1.0
+        {{- else if eq .Section "tutorials" "linux" -}} 0.8
+        {{- else if eq .Type "legal" -}} 0.2
+        {{- else -}} 0.5
+        {{- end -}}
+      </priority>
+    </url>
+    {{ end }}
+  {{ end }}
+</urlset>

@@ -32,6 +32,8 @@ sudo xbps-install -S system-config-printer
 
 ### 🔧 **Step 2: Enable and Start the CUPS service**
 
+Before installing the printer templates, verify that your service supervisor is active. For a deeper breakdown on managing system links, see our tutorial on [Void Linux Runit Configuration](/linux/runit-service-management-void-linux/).
+
 Void Linux uses **runit**, not systemd.
 
 ```bash
@@ -65,5 +67,4 @@ sudo usermod -aG lpadmin $USER
 Then **log out and back in** for the changes to take effect.
 
 ---
-
 

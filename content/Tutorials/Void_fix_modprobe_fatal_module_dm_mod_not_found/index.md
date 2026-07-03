@@ -125,6 +125,7 @@ reboot
 
 Your system should now boot normally with `dm_mod` loading correctly.
 
+> **Next Step:** Once your kernel modules are safely loaded, ensure your background system logs are tracking properly by adjusting your active parameters in our [Runit Service Management Guide](/linux/runit-service-management-void-linux/).
 ---
 
 ## Summary

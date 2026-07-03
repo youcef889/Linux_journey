@@ -2,7 +2,7 @@
 title: "How to Reinstall initramfs, vmlinuz, and Kernel on Void Linux"
 description: "Complete guide to restore deleted initramfs, vmlinuz, and kernel configuration files on Void Linux using a live USB boot and chroot recovery method."
 summary: "Learn step-by-step how to recover your Void Linux system when initramfs, vmlinuz, or kernel files are deleted, by booting from a live USB and using xbps-install with dracut."
-slug: "reinstall-initramfs-vmlinuz-void-linux"
+url: "/linux/reinstall-initramfs-void-linux/"
 tags: ["Void Linux", "kernel recovery", "initramfs", "chroot", "dracut", "system recovery", "boot repair"]
 keywords: ["Void Linux kernel reinstall", "restore initramfs Void Linux", "vmlinuz recovery", "initrd generation Void", "boot repair guide"]
 date: 2026-04-25
