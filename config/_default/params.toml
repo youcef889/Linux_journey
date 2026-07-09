@@ -146,10 +146,10 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # domain = "llama.yoursite.com"
 
 [umamiAnalytics]
-#   websiteid = "df53099f-c8f6-4b9d-b122-0f125e4a9589"
-#   domain = "youcef889.github.io"
-#   enableTrackEvent = true
-#   doNotTrack = false
+   websiteid = "df53099f-c8f6-4b9d-b122-0f125e4a9589"
+   domain = "linuxjourney.blog"
+   enableTrackEvent = true
+   doNotTrack = false
 
 [selineAnalytics]
   # token = "XXXXXX"
