@@ -1,7 +1,7 @@
 +++
 title = "Install Google Apps on LineageOS - GApps Guide"
 date = "2026-03-18T16:06:40+01:00"
-draft = false
+draft = true
 description = "Learn how to install Google Apps (GApps) on LineageOS. Flash OpenGApps orMindTheGapps in recovery."
 summary = "Guide to installing Google Apps on LineageOS after flashing custom ROM. Covers GApps packages, recovery flashing, and post-install configuration."
 slug = "install-gapps-lineageos"

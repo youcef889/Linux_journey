@@ -1,7 +1,7 @@
 +++
 title = "Expose Docker App to Internet - Methods Guide"
 date = "2026-03-18T16:06:41+01:00"
-draft = false
+draft = true
 description = "Learn different methods to make Docker applications accessible from the internet. Covers port forwarding, reverse proxy, tunnels, and cloudflare tunnel."
 summary = "Guide to exposing Docker apps to the internet. Covers port forwarding, reverse proxies (nginx, caddy), tunneling (cloudflared, ngrok), and security best practices."
 slug = "expose-docker-app-internet"

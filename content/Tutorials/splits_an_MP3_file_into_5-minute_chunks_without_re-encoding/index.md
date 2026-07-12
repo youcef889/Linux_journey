@@ -1,7 +1,7 @@
 +++
 title = "Split .MP3 Chunks - FFmpeg No Re-encoding"
 date = "2026-03-18T16:06:40+01:00"
-draft = false
+draft = true
 description = "Learn how to split MP3 files into 5-minute chunks without re-encoding using FFmpeg. Fast lossless splitting."
 summary = "Guide to splitting MP3 files into 5-minute chunks without re-encoding using FFmpeg. Uses -c copy for fast lossless audio extraction."
 slug = "split-mp3-chunks-ffmpeg"

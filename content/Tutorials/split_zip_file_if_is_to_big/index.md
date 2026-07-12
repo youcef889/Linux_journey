@@ -1,7 +1,7 @@
 +++
 title = "Split Large File for FAT32 USB - Linux Guide"
 date = "2026-03-18T16:06:40+01:00"
-draft = false
+draft = true
 description = "Learn how to split large files into smaller chunks for FAT32 USB drives. Fix 'File too large' errors on Linux."
 summary = "Guide to splitting large files into smaller chunks for FAT32 USB transfer. Uses split command to create 4GB parts and cat to rejoin them."
 slug = "split-large-file-linux-usb"

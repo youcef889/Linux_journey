@@ -1,7 +1,7 @@
 +++
 title = "FFmpeg Screen Recording Script - Linux Guide"
 date = "2026-03-18T16:06:36+01:00"
-draft = false
+draft = true
 description = "Learn how to use FFmpeg script for screen recording on Linux. Capture desktop with audio, microphone, and system sounds."
 summary = "Guide to FFmpeg screen recording on Linux. Script breakdown for capturing desktop, microphone, and audio with real-time monitoring."
 slug = "ffmpeg-screen-recording-script"

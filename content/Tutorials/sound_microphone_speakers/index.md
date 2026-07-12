@@ -1,7 +1,7 @@
 +++
 title = "Fix Sound Switching to USB Microphone on Linux"
 date = "2026-03-18T16:06:36+01:00"
-draft = false
+draft = true
 description = "Learn how to fix audio switching to USB microphone on Linux. Keep sound output on speakers when plugging in USB audio devices."
 summary = "Guide to fixing audio device switching on Linux. Prevent system from switching to USB microphone as default output. Uses PulseAudio and ALSA configuration."
 slug = "fix-sound-usb-microphone-linux"

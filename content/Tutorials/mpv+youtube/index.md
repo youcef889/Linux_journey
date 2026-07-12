@@ -1,7 +1,7 @@
 +++
 title = "Watch YouTube Videos with mpv Player - Complete Guide"
 date = "2026-03-18T16:06:37+01:00"
-draft = false
+draft = true
 description = "Learn how to watch YouTube videos using mpv player with yt-dlp. Terminal-based viewing with ad-free experience."
 summary = "Guide to using mpv with YouTube support. Covers yt-dlp installation, playback controls, streaming YouTube from terminal, and advanced options."
 slug = "mpv-youtube-player"
