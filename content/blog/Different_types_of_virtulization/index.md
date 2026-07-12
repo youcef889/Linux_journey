@@ -1,7 +1,7 @@
 +++
 title = "Types of Virtualization - Complete Guide"
 date = "2026-03-18T16:06:40+01:00"
-draft = false
+draft = true
 description = "Learn about different types of virtualization. Covers full virtualization, paravirtualization, hardware-assisted, and container virtualization."
 summary = "Guide to virtualization types for Linux and DevOps. Covers full virtualization (QEMU), paravirtualization, hardware-assisted (KVM), containers (Docker), and more."
 slug = "types-of-virtualization"

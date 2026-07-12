@@ -1,7 +1,7 @@
 +++
 title = "Best Database Books - Learning Resources"
 date = "2026-03-18T16:06:36+01:00"
-draft = false
+draft = true
 description = "Best books for learning databases and SQL. Covers relational algebra, database design, and practical SQL guides."
 summary = "Curated list of best books for learning databases. Covers SQL, relational algebra, database design, and practical guides for beginners to experts."
 slug = "database-books"

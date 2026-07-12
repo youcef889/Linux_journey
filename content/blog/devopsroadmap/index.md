@@ -1,7 +1,7 @@
 +++
 title = "DevOps Roadmap - Complete Learning Path"
 date = "2026-03-18T16:06:36+01:00"
-draft = false
+draft = true
 description = "Complete DevOps learning roadmap. Covers Linux, Git, Docker, Kubernetes, CI/CD, and cloud platforms for beginners."
 summary = "Comprehensive DevOps learning path from beginner to professional. Covers Linux, Git, Docker, Kubernetes, CI/CD pipelines, cloud platforms, and infrastructure as code."
 slug = "devops-roadmap"

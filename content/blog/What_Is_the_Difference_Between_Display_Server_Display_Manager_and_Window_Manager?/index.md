@@ -1,7 +1,7 @@
 +++
 title = "Display Server vs Display Manager vs Window Manager - Explained"
 date = "2025-07-27T11:00:00+01:00"
-draft = false
+draft = true
 description = "Learn the difference between display server, display manager, and window manager in Linux. Complete explanation of X11, Wayland, and desktop components."
 summary = "Complete explanation of display server, display manager, and window manager. Covers X11, Wayland, LightDM, SDDM, and window managers like i3, Openbox."
 slug = "display-server-manager-window-manager"
