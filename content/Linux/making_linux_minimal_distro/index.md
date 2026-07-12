@@ -1,7 +1,7 @@
 +++
 title = "Build Minimal Linux Distro - Complete Guide"
 date = "2026-03-18T16:06:37+01:00"
-draft = false
+draft = true
 description = "Learn how to build a minimal Linux distribution from scratch. Covers kernel, init system, BusyBox, and filesystem requirements."
 summary = "Complete guide to building a minimal Linux distro. Covers essential components: kernel, init (BusyBox/systemd/runit), C library, shell, and filesystem."
 slug = "build-minimal-linux-distro"

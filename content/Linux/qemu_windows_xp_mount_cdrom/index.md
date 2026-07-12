@@ -1,7 +1,7 @@
 +++
 title = "QEMU Windows XP - Mount Multiple CD-ROMs Tutorial"
 date = "2026-03-18T16:06:37+01:00"
-draft = false
+draft = true
 description = "Learn how to mount and use multiple CD-ROMs in QEMU for Windows XP installation. Perfect for multi-disc software like SolidWorks."
 summary = "Complete guide to installing Windows XP in QEMU with multiple CD-ROMs. Covers ISO mounting, IDE configuration, and driver installation for multi-disc setups."
 slug = "qemu-windows-xp-multiple-cdrom"

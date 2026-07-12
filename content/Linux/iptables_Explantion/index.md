@@ -11,7 +11,7 @@ keywords = ["iptables tutorial", "linux firewall", "iptables rules", "nat iptabl
 +++
 
 
-# Iptables Explanation
+## Iptables Explanation
 
 ## What is iptables?
 Iptables is a user-space utility program that allows system administrators to configure the IP packet filter rules of the Linux kernel firewall. It serves as the front-end to the netfilter framework, which provides packet filtering, network address translation (NAT), and other packet mangling functions.

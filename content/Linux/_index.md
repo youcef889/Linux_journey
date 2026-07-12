@@ -12,8 +12,3 @@ series_order: 6
 
 ---
 
-###  Linux 
-
-
-
-

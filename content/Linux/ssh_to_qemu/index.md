@@ -1,7 +1,7 @@
 +++
 title = "SSH to QEMU VM - Fix Host Key Verification Error"
 date = "2026-03-18T16:06:37+01:00"
-draft = false
+draft = true
 description = "Learn how to resolve SSH host key verification errors when connecting to QEMU virtual machines. Fix known_hosts issues quickly."
 summary = "Simple guide to fix SSH host key verification errors when connecting to QEMU VMs. Uses ssh-keygen to remove old keys and reconnect safely."
 slug = "ssh-qemu-vm-fix"

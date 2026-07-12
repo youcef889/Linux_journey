@@ -1,7 +1,7 @@
 +++
 title = "Install Windows XP on QEMU - Complete Guide"
 date = "2026-03-18T16:06:36+01:00"
-draft = false
+draft = true
 description = "Learn how to install Windows XP in QEMU virtual machine. Covers IDE and virtio methods, network drivers, and configuration."
 summary = "Complete guide to installing Windows XP on QEMU. Covers boot configuration, virtio drivers, network setup, and troubleshooting."
 slug = "install-windows-xp-qemu"

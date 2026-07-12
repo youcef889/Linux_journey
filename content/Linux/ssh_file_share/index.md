@@ -15,7 +15,7 @@ Thanks for sharing the detailed content from *Linux Handbook*! Here's a concise 
 
 ---
 
-### ✅ **Summary: Upload Files to Remote System Over SSH**
+###  **Summary: Upload Files to Remote System Over SSH**
 
 #### **1. `scp` (Secure Copy) — Easy but Deprecated**
 

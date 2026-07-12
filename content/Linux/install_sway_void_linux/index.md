@@ -15,7 +15,7 @@ Here is a **clean, simple guide to install and run Sway on Void Linux**, includi
 
 ---
 
-# ✅ **Install Sway on Void Linux**
+## ✅ **Install Sway on Void Linux**
 
 ### 1️⃣ Install Sway and essential tools
 
