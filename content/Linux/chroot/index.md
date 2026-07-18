@@ -6,7 +6,7 @@ description = "Learn how to use chroot to fix broken Linux systems, recover from
 summary = "Complete guide to using chroot for Linux system recovery. Covers mounting, entering chroot, fixing broken packages (libmount, openssl), and system repair."
 slug = "chroot-repair-linux-system"
 categories = ["Linux", "Troubleshooting", "Recovery"]
-tags = ["chroot", "linux-recovery", "system-repair", "broken-linux", "rescue"]
+tags = ["chroot", "linux-recovery"]
 keywords = ["chroot tutorial", "fix linux with chroot", "chroot recovery", "broken system fix", "rescue linux"]
 +++
 

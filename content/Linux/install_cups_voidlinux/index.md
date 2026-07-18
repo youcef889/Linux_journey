@@ -5,8 +5,8 @@ draft = false
 description = "Learn how to install and configure CUPS printer server on Void Linux. Web interface, service setup, and troubleshooting."
 summary = "Complete guide to installing CUPS on Void Linux. Covers installation via XBPS, runit service configuration, web interface access, and printer management."
 slug = "install-cups-void-linux"
-categories = ["Linux", "Void Linux", "Hardware"]
-tags = ["cups", "void-linux", "printer", "printing", "linux"]
+categories = ["Void Linux"]
+tags = ["cups"]
 keywords = ["cups void linux", "install printer void linux", "linux printing", "cups server"]
 +++
 

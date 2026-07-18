@@ -5,8 +5,8 @@ draft = false
 description = "Learn how to run Alpine Linux 32-bit on QEMU virtual machine. Step-by-step installation, networking, and SSH access guide."
 summary = "Complete guide to running Alpine Linux 32-bit on QEMU. Covers disk image creation, ISO boot, installation, and SSH configuration."
 slug = "alpine-linux-32-bit-qemu"
-categories = ["Virtualization", "QEMU", "Alpine Linux"]
-tags = ["alpine-linux", "qemu", "32-bit", "virtualization", "vm"]
+categories = ["Virtualization", "Alpine Linux"]
+tags = ["qemu"]
 keywords = ["alpine linux qemu", "alpine 32 bit qemu", "qemu alpine", "run alpine in vm"]
 +++
 

@@ -6,7 +6,7 @@ description = "Learn how to configure multiple monitors on Linux using xrandr. A
 summary = "Guide to configuring monitors with xrandr on Linux. Create scripts to detect HDMI connections and automatically set display resolution and position."
 slug = "configure-monitors-xrandr-linux"
 categories = ["Linux", "Desktop", "Display"]
-tags = ["xrandr", "multi-monitor", "display", "linux-desktop", "hdmi"]
+tags = ["xrandr"]
 keywords = ["xrandr multi monitor", "configure monitor linux", "hdmi display setup", "linux display config"]
 +++
 

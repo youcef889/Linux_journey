@@ -6,7 +6,7 @@ description = "Learn how to build libmount and mount from source on Linux. Fix l
 summary = "Guide to building libmount and mount from source. Covers util-linux compilation, library linking, and fixing version mismatches."
 slug = "build-libmount-from-source"
 categories = ["Linux", "Development", "Troubleshooting"]
-tags = ["libmount", "mount", "util-linux", "build", "source"]
+tags = ["mount"]
 keywords = ["build libmount", "compile mount", "util-linux source", "library mismatch fix"]
 +++
 

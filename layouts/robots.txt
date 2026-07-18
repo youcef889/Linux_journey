@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+{{/* Block empty taxonomy pages from being crawled independently */}}
+{{ range $taxonomy, $terms := .Site.Taxonomies }}
+  {{ range $term, $pages := $terms }}
+    {{ if eq (len $pages) 1 }}
+Disallow: /{{ $taxonomy }}/{{ $term | urlize }}/
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+Sitemap: {{ "sitemap.xml" | absURL }}

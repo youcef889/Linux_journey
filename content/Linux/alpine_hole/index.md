@@ -5,8 +5,8 @@ draft = false
 description = "Learn how to install Pi-hole network-wide ad blocker on Alpine Linux. Configuration, router setup, and maintenance."
 summary = "Guide to installing Pi-hole on Alpine Linux. Covers dependencies, installation, router DNS configuration, and admin interface access."
 slug = "pihole-alpine-linux"
-categories = ["Linux", "Alpine Linux", "Network"]
-tags = ["pihole", "alpine-linux", "ad-blocker", "dns", "network"]
+categories = ["Alpine Linux"]
+tags = ["network"]
 keywords = ["pi-hole alpine linux", "network ad blocker", "dns pi-hole", "alpine linux pihole"]
 +++
 

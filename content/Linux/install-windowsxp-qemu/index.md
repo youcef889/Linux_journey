@@ -6,7 +6,7 @@ description = "Learn how to install Windows XP in QEMU virtual machine. Covers I
 summary = "Complete guide to installing Windows XP on QEMU. Covers boot configuration, virtio drivers, network setup, and troubleshooting."
 slug = "install-windows-xp-qemu"
 categories = ["Virtualization", "QEMU", "Windows"]
-tags = ["windows-xp", "qemu", "virtualization", "install", "vm"]
+tags = ["windows-xp"]
 keywords = ["install windows xp qemu", "qemu windows xp", "windows xp virtual machine", "qemu virtualization"]
 +++
 

@@ -11,7 +11,7 @@ tags = ["dwm", "st", "suckless", "window-manager", "void-linux"]
 keywords = ["install dwm void linux", "dwm window manager", "suckless tools", "minimal wm"]
 +++
 
-## How to install and configer Dwm on void linux
+## How to install and configure Dwm on void linux
 
 ### Why Dwm
 
@@ -32,14 +32,24 @@ gcc
 libXft-devel
 libXrandr-devel
 ```
+| Package           | Purpose               |
+| ----------------- | --------------------- |
+| gcc               | Compile source code   |
+| make              | Build software        |
+| git               | Download repositories |
+| libX11-devel      | X11 headers           |
+| libXft-devel      | Font rendering        |
+| libXinerama-devel | Multi-monitor support |
+| freetype-devel    | Font support          |
+| libXrandr-devel   | Screen resolution     |
 
 Before building suckless tools from source on Void Linux, you need to install the necessary development tools and X11 header files using `xbps-install`. 
 
-Run the following  command to install  all required dependencices : 
+Run the following  command to install  all required dependencies : 
 ```
 sudo xbps-install -S git wget make gcc libX11-devel libXinerama-devel freetype-devel libXft-devel libXrandr-devel
 ```
-### Installtion
+### Installation
 
 After installing dependencies, you can clone, configure, and build dwm ,st and dmenu:
 
@@ -73,7 +83,7 @@ cd dmenu
 sudo make clean install
 ```
 
-after that you have a minmal system with dwm
+after that you have a minimal system with dwm
 
 
 
@@ -81,4 +91,12 @@ after that you have a minmal system with dwm
 
 You now have a functional, ultra-minimal desktop environment powered by suckless software. To launch your new setup, ensure you add `exec dwm` to your local `~/.xinitrc` file and start your session using `startx`.
 
+## Popular DWM Patches
+
+- Vanity Gaps
+- Systray
+- Fullgaps
+- Alpha
+- Pertag
+- Fibonacci Layout
 

@@ -5,8 +5,8 @@ draft = false
 description = "Learn how to install local .xbps packages on Void Linux manually. Covers xbps-rindex and xbps-install commands."
 summary = "Guide to installing downloaded XBPS packages on Void Linux manually. Uses xbps-rindex to index packages and xbps-install to install locally."
 slug = "install-local-xbps-packages"
-categories = ["Linux", "Void Linux", "Package Management"]
-tags = ["xbps", "void-linux", "local-package", "package-install"]
+categories = ["Linux", "Void Linux"]
+tags = ["xbps"]
 keywords = ["install local xbps", "void linux manual install", "xbps install local"]
 +++
 

@@ -5,8 +5,8 @@ draft = false
 description = "Learn how to install Wayland on Void Linux. Covers Sway, labwc, wayfire compositors and required packages."
 summary = "Complete guide to installing Wayland compositors on Void Linux. Covers Sway, labwc, wayfire, seatd, and display manager setup."
 slug = "install-wayland-void-linux"
-categories = ["Linux", "Wayland", "Desktop"]
-tags = ["wayland", "sway", " compositor", "wayland-compositor", "void-linux"]
+categories = ["Void Linux"]
+tags = ["wayland", "sway"]
 keywords = ["install wayland", "wayland compositor", "sway void linux", "wayland setup"]
 +++
 

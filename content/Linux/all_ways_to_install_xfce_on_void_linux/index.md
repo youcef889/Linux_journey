@@ -5,8 +5,8 @@ draft = false
 description = "Multiple ways to install XFCE on Void Linux. Covers full desktop, minimal setup, LightDM, SDDM, startx, and VNC methods."
 summary = "Comprehensive guide to installing XFCE on Void Linux. Covers meta-package, minimal components, display managers, startx, XWayland, VNC, and Docker methods."
 slug = "install-xfce-void-linux"
-categories = ["Linux", "Void Linux", "XFCE", "Desktop"]
-tags = ["xfce", "void-linux", "desktop", "linux-desktop", "xfce4"]
+categories = ["Void Linux"]
+tags = ["void-linux"]
 keywords = ["install xfce void linux", "xfce desktop", "void linux xfce", "xfce4 setup"]
 +++
 

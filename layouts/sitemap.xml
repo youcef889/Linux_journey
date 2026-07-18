@@ -1,30 +1,71 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  {{/* ============================================
+       FILTER 1: Skip empty taxonomies (orphan pages)
+       FILTER 2: Skip draft/private pages
+       FILTER 3: Skip utility/section index pages with no unique content
+       ============================================ */}}
+
   {{ range .Pages }}
-    {{ if not .Params.private }}
+    {{ $isEmptyTaxonomy := and (or (eq .Kind "taxonomy") (eq .Kind "term")) (eq (len .Pages) 0) }}
+    {{ $isNoIndex := or .Params.private .Params.noindex .Draft }}
+    {{ $isThinUtility := and (eq .Kind "section") (not .Content) (eq (len .RegularPages) 0) }}
+
+    {{ if and (not $isEmptyTaxonomy) (not $isNoIndex) (not $isThinUtility) }}
+
     <url>
       <loc>{{ .Permalink }}</loc>
-      {{ if not .Lastmod.IsZero }}
-        <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>
+
+      {{/* FORCE lastmod: fall back to .Date if .Lastmod is zero */}}
+      {{ $lastmod := .Lastmod }}
+      {{ if $lastmod.IsZero }}
+        {{ $lastmod = .Date }}
+      {{ end }}
+      {{ if not $lastmod.IsZero }}
+        <lastmod>{{ $lastmod.Format "2006-01-02T15:04:05-07:00" }}</lastmod>
+      {{ else }}
+        <lastmod>{{ now.Format "2006-01-02T15:04:05-07:00" }}</lastmod>
       {{ end }}
 
-      {{/* Dynamic Change Frequency */}}
+      {{/* Smarter changefreq based on content age & type */}}
       <changefreq>
-        {{- if .IsHome -}} daily
-        {{- else if eq .Section "tutorials" "linux" -}} weekly
-        {{- else -}} monthly
+        {{- if .IsHome -}}daily
+        {{- else if eq .Section "tutorials" "linux" -}}weekly
+        {{- else if eq .Type "post" -}}
+          {{- $daysOld := div (sub now.Unix $lastmod.Unix) 86400 -}}
+          {{- if gt $daysOld 365 -}}monthly
+          {{- else if gt $daysOld 90 -}}weekly
+          {{- else -}}daily
+          {{- end -}}
+        {{- else if eq .Type "legal" -}}yearly
+        {{- else -}}monthly
         {{- end -}}
       </changefreq>
 
-      {{/* Dynamic Priority Assignment */}}
+      {{/* Priority: home > fresh tutorials > evergreen pages > old posts > legal */}}
       <priority>
-        {{- if .IsHome -}} 1.0
-        {{- else if eq .Section "tutorials" "linux" -}} 0.8
-        {{- else if eq .Type "legal" -}} 0.2
-        {{- else -}} 0.5
+        {{- if .IsHome -}}1.0
+        {{- else if eq .Section "tutorials" "linux" -}}
+          {{- $daysOld := div (sub now.Unix $lastmod.Unix) 86400 -}}
+          {{- if lt $daysOld 90 -}}0.9
+          {{- else -}}0.8
+          {{- end -}}
+        {{- else if eq .Type "post" -}}0.6
+        {{- else if eq .Type "page" -}}0.5
+        {{- else if eq .Type "legal" -}}0.2
+        {{- else -}}0.3
         {{- end -}}
       </priority>
+
+      {{/* Optional: hreflang if you expand to multiple languages later */}}
+      {{ if .IsTranslated }}
+        {{ range .Translations }}
+        <xhtml:link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}"/>
+        {{ end }}
+      {{ end }}
+
     </url>
     {{ end }}
   {{ end }}

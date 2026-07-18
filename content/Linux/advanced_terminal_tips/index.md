@@ -5,8 +5,8 @@ draft = false
 description = "Master Linux terminal with advanced tips. Covers bash shortcuts, aliases, functions, tmux, autojump, and productivity tools."
 summary = "Advanced terminal tips for Linux power users. Learn bash shortcuts, aliases, functions, tmux, screen, autojump, and essential tools for productivity."
 slug = "advanced-terminal-tips-linux"
-categories = ["Linux", "Terminal", "Productivity"]
-tags = ["terminal", "bash", "tips", "tricks", "productivity", "shell"]
+categories = ["Linux", "Terminal"]
+tags = ["terminal", "bash"]
 keywords = ["terminal tips", "bash shortcuts", "linux productivity", "tmux", "shell tricks"]
 +++
 

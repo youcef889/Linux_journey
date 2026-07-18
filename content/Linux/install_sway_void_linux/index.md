@@ -5,8 +5,8 @@ draft = false
 description = "Complete guide to installing and configuring Sway on Void Linux. Covers seatd, greetd, waybar, and common fixes."
 summary = "Step-by-step guide to install Sway on Void Linux. Includes seatd setup, greetd display manager, waybar configuration, and troubleshooting."
 slug = "install-sway-void-linux"
-categories = ["Linux", "Void Linux", "Sway", "Desktop"]
-tags = ["sway", "void-linux", "wayland", "tiling-wm", "linux-desktop"]
+categories = ["Linux", "Void Linux", "Sway"]
+tags = ["sway","wayland"]
 keywords = ["install sway void linux", "sway wayland", "void linux desktop", "sway config", "tiling window manager"]
 +++
 
