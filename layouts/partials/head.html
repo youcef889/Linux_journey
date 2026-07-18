@@ -1,0 +1,8 @@
+{{/* Blowfish head + custom SEO fixes */}}
+{{ partial "blowfish/head.html" . }}
+
+{{/* Canonical tag for aliased taxonomies */}}
+{{ if and (or (eq .Kind "taxonomy") (eq .Kind "term")) (eq (len .Pages) 0) }}
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="{{ "/" | absURL }}">
+{{ end }}

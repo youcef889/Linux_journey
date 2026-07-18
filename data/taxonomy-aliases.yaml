@@ -1,0 +1,9 @@
+# Redirect old/duplicate tags to canonical versions
+aliases:
+  "linux-basics": "linux"
+  "linux-kernel": "linux"
+  "how-to": "tutorial"
+  "guide": "tutorial"
+  "network": "networking"
+  "sound": "audio"
+  "vm": "virtualization"
