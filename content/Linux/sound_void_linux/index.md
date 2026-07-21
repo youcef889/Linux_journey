@@ -15,7 +15,7 @@ To set up sound on **Void Linux**, you usually need to install and configure **A
 
 ---
 
-### ✅ 1. Check Your Audio Hardware
+###  1. Check Your Audio Hardware
 
 ```bash
 lspci | grep -i audio
@@ -29,7 +29,7 @@ lsusb
 
 ---
 
-### ✅ 2. Install Audio Packages
+###  2. Install Audio Packages
 
 Void Linux uses **runit**, so we'll avoid systemd-specific commands.
 
@@ -78,7 +78,7 @@ pw-cli ls Node
 
 ---
 
-### ✅ 3. Add Your User to the `audio` Group
+###  3. Add Your User to the `audio` Group
 
 ```bash
 sudo usermod -aG audio $USER
@@ -88,7 +88,7 @@ Log out and log back in.
 
 ---
 
-### ✅ 4. Unmute and Set Volumes with `alsamixer`
+###  4. Unmute and Set Volumes with `alsamixer`
 
 Run:
 
@@ -108,7 +108,7 @@ sudo alsactl store
 
 ---
 
-### ✅ 5. Test Audio Output
+###  5. Test Audio Output
 
 Play a test sound:
 
@@ -125,7 +125,7 @@ mpv somefile.mp3
 
 ---
 
-### ✅ 6. Check Permissions and Devices
+###  6. Check Permissions and Devices
 
 Make sure your user can access `/dev/snd/*`:
 
@@ -137,7 +137,7 @@ You should see `audio` as the group.
 
 ---
 
-### ✅ 7. Troubleshooting Tips
+###  7. Troubleshooting Tips
 
 * Use `pavucontrol` to switch output devices.
 * Check if HDMI or headphone output is selected.
@@ -150,7 +150,7 @@ You should see `audio` as the group.
 
 ---
 
-### 🧠 Optional: Autostart in runit
+###  Optional: Autostart in runit
 
 Create runit services for PipeWire or PulseAudio if you want them system-wide:
 

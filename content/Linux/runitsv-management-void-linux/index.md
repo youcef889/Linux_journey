@@ -6,7 +6,7 @@ description = "Learn how to manage services with Runit on Void Linux. Commands f
 summary = "Complete guide to Runit service management on Void Linux. Covers sv up, down, restart, status, and service enabling/disabling."
 slug = "runit-service-management-void-linux"
 categories = ["Linux", "Void Linux", "Runit"]
-tags = ["runit", "void-linux", "service-management", "sv"]
+tags = ["runit","service-management", "sv"]
 keywords = ["runit void linux", "service management void", "sv command", "void linux services"]
 +++
 
