@@ -1,7 +1,7 @@
 +++
 title = "Install Bliss OS on Linux: Step-by-Step GRUB Guide (2025)"
 date = "2025-08-17T11:48:21+01:00"
-lastmod = "2026-06-16T00:00:00+01:00"
+lastmod = "2026-07-21"
 draft = false
 description = "Run Android on your Linux PC with Bliss OS. This guide covers ISO download, GRUB setup, data partition creation, and troubleshooting — tested on x86_64."
 summary = "Manual installation guide for Bliss OS on Linux. Covers ISO download, GRUB configuration, data partition setup, kernel boot parameters, and common troubleshooting steps."
@@ -113,14 +113,13 @@ sudo mkdir /blissos
 **3. Copy the boot files to /blissos:**
 
 ```bash
-sudo cp initrd.img ramdisk.img kernel /blissos/
+sudo cp initrd.img  kernel system.efs /blissos/
 ```
 
 These three files are what GRUB needs to boot Bliss OS:
 - `kernel` — the Android-x86 Linux kernel
 - `initrd.img` — the initial RAM disk that loads the Android environment
-- `ramdisk.img` — the Android root filesystem loaded into RAM at boot
-
+-  `system.efs`  —  essentially the Android system partition image
 **4. Create the data directory and generate the data image:**
 
 ```bash
