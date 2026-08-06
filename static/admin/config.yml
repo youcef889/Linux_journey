@@ -1,0 +1,171 @@
+backend:
+  name: github
+  repo: youcef889/Linux_journey
+  branch: main
+
+media_folder: static/images/uploads
+public_folder: /images/uploads
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: tutorials
+    label: Tutorials
+    folder: content/Tutorials
+    create: true
+    path: "{{slug}}/index"
+    fields:
+      - label: Title
+        name: title
+        widget: string
+
+      - label: Description
+        name: description
+        widget: text
+
+      - label: Date
+        name: date
+        widget: datetime
+
+      - label: Tags
+        name: tags
+        widget: list
+
+      - label: Categories
+        name: categories
+        widget: list
+
+      - label: Draft
+        name: draft
+        widget: boolean
+        default: false
+
+      - label: Featured Image
+        name: featured
+        widget: image
+        required: false
+
+      - label: Body
+        name: body
+        widget: markdown
+
+  - name: linux
+    label: Linux
+    folder: content/Linux
+    create: true
+    path: "{{slug}}/index"
+    fields:
+      - label: Title
+        name: title
+        widget: string
+
+      - label: Description
+        name: description
+        widget: text
+
+      - label: Date
+        name: date
+        widget: datetime
+
+      - label: Tags
+        name: tags
+        widget: list
+
+      - label: Categories
+        name: categories
+        widget: list
+
+      - label: Draft
+        name: draft
+        widget: boolean
+        default: false
+
+      - label: Featured Image
+        name: featured
+        widget: image
+        required: false
+
+      - label: Body
+        name: body
+        widget: markdown
+
+  - name: blog
+    label: Blog
+    folder: content/blog
+    create: true
+    path: "{{slug}}/index"
+    fields:
+      - label: Title
+        name: title
+        widget: string
+
+      - label: Description
+        name: description
+        widget: text
+
+      - label: Date
+        name: date
+        widget: datetime
+
+      - label: Tags
+        name: tags
+        widget: list
+
+      - label: Categories
+        name: categories
+        widget: list
+
+      - label: Draft
+        name: draft
+        widget: boolean
+        default: false
+
+      - label: Featured Image
+        name: featured
+        widget: image
+        required: false
+
+      - label: Body
+        name: body
+        widget: markdown
+
+  - name: pages
+    label: Pages
+    files:
+      - label: Home
+        name: home
+        file: content/_index.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }
+
+      - label: About
+        name: about
+        file: content/about.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }
+
+      - label: Contact Us
+        name: contact
+        file: content/contact_us.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }
+
+      - label: Privacy Policy
+        name: privacy
+        file: content/privacy-policy.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }
+
+      - label: Terms
+        name: terms
+        file: content/terms.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }

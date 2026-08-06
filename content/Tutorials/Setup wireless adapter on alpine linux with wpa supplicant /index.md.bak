@@ -6,12 +6,7 @@ draft: false
 description: "Complete guide to configuring wireless adapters on Alpine Linux. Covers driver installation, wpa_supplicant setup, WiFi connection, and persistent configuration."
 summary: "Get a MediaTek or other USB WiFi adapter working on Alpine Linux using wpa_supplicant — step-by-step from driver install to boot persistence."
 keywords: ["alpine linux wifi", "wpa_supplicant alpine", "mediatek mt7601u linux", "wireless setup alpine"]
-tags:
-  - alpine linux
-  - network
-  - wifi
-  - wireless
-  - wpa supplicant
+tags: ["Alpine-Linux", "Wifi", "Wireless", "Wpa-Supplicant", "Network"]
 categories: ["Linux", "Alpine Linux", "Networking", "Guide"]
 robots: "index, follow"
 showHero: true
