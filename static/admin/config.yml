@@ -12,160 +12,106 @@ slug:
   sanitize_replacement: "-"
 
 collections:
+  # ─────────────────────────────────────────
+  # TUTORIALS
+  # ─────────────────────────────────────────
   - name: tutorials
     label: Tutorials
     folder: content/Tutorials
     create: true
     path: "{{slug}}/index"
+    media_folder: ''
+    public_folder: ''
     fields:
-      - label: Title
-        name: title
-        widget: string
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false, hint: "Auto-generated from title if left empty" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", default: [] }
+      - { label: "Categories", name: "categories", widget: "list", default: [] }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Featured Image", name: "featured", widget: "image", required: false, hint: "e.g. featured.png / featured.jpg" }
+      - { label: "Body", name: "body", widget: "markdown" }
 
-      - label: Description
-        name: description
-        widget: text
-
-      - label: Date
-        name: date
-        widget: datetime
-
-      - label: Tags
-        name: tags
-        widget: list
-
-      - label: Categories
-        name: categories
-        widget: list
-
-      - label: Draft
-        name: draft
-        widget: boolean
-        default: false
-
-      - label: Featured Image
-        name: featured
-        widget: image
-        required: false
-
-      - label: Body
-        name: body
-        widget: markdown
-
+  # ─────────────────────────────────────────
+  # LINUX
+  # ─────────────────────────────────────────
   - name: linux
     label: Linux
     folder: content/Linux
     create: true
     path: "{{slug}}/index"
+    media_folder: ''
+    public_folder: ''
     fields:
-      - label: Title
-        name: title
-        widget: string
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", default: [] }
+      - { label: "Categories", name: "categories", widget: "list", default: [] }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Featured Image", name: "featured", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
 
-      - label: Description
-        name: description
-        widget: text
-
-      - label: Date
-        name: date
-        widget: datetime
-
-      - label: Tags
-        name: tags
-        widget: list
-
-      - label: Categories
-        name: categories
-        widget: list
-
-      - label: Draft
-        name: draft
-        widget: boolean
-        default: false
-
-      - label: Featured Image
-        name: featured
-        widget: image
-        required: false
-
-      - label: Body
-        name: body
-        widget: markdown
-
+  # ─────────────────────────────────────────
+  # BLOG
+  # ─────────────────────────────────────────
   - name: blog
     label: Blog
     folder: content/blog
     create: true
     path: "{{slug}}/index"
+    media_folder: ''
+    public_folder: ''
     fields:
-      - label: Title
-        name: title
-        widget: string
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", default: [] }
+      - { label: "Categories", name: "categories", widget: "list", default: [] }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Featured Image", name: "featured", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
 
-      - label: Description
-        name: description
-        widget: text
-
-      - label: Date
-        name: date
-        widget: datetime
-
-      - label: Tags
-        name: tags
-        widget: list
-
-      - label: Categories
-        name: categories
-        widget: list
-
-      - label: Draft
-        name: draft
-        widget: boolean
-        default: false
-
-      - label: Featured Image
-        name: featured
-        widget: image
-        required: false
-
-      - label: Body
-        name: body
-        widget: markdown
-
+  # ─────────────────────────────────────────
+  # PAGES (single files)
+  # ─────────────────────────────────────────
   - name: pages
     label: Pages
     files:
-      - label: Home
-        name: home
-        file: content/_index.md
+      - label: "Home"
+        name: "home"
+        file: "content/_index.md"
         fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Body, name: body, widget: markdown }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
 
-      - label: About
-        name: about
-        file: content/about.md
+      - label: "About"
+        name: "about"
+        file: "content/about.md"
         fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Body, name: body, widget: markdown }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
 
-      - label: Contact Us
-        name: contact
-        file: content/contact_us.md
+      - label: "Contact Us"
+        name: "contact"
+        file: "content/contact_us.md"
         fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Body, name: body, widget: markdown }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
 
-      - label: Privacy Policy
-        name: privacy
-        file: content/privacy-policy.md
+      - label: "Privacy Policy"
+        name: "privacy"
+        file: "content/privacy-policy.md"
         fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Body, name: body, widget: markdown }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
 
-      - label: Terms
-        name: terms
-        file: content/terms.md
+      - label: "Terms"
+        name: "terms"
+        file: "content/terms.md"
         fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Body, name: body, widget: markdown }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
