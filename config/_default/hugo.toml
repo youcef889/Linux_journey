@@ -16,7 +16,7 @@ buildFuture = false
 
 enableEmoji = true
 # add  19-05-2026
-canonifyURLs = true
+# canonifyURLs = true
 relativeURLs = false
 #googleAnalytics = "G-JFBC40Q9VW"
 
