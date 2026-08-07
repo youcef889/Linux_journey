@@ -2,7 +2,8 @@ backend:
   name: github
   repo: youcef889/Linux_journey
   branch: main
-
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
 media_folder: static/images/uploads
 public_folder: /images/uploads
 
