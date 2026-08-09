@@ -1,14 +1,27 @@
-+++
-title = "Split Large File for FAT32 USB - Linux Guide"
-date = "2026-03-18T16:06:40+01:00"
-draft = true
-description = "Learn how to split large files into smaller chunks for FAT32 USB drives. Fix 'File too large' errors on Linux."
-summary = "Guide to splitting large files into smaller chunks for FAT32 USB transfer. Uses split command to create 4GB parts and cat to rejoin them."
-slug = "split-large-file-linux-usb"
-categories = ["Linux", "File Management"]
-tags = ["split-file", "fat32", "usb", "file-management", "linux"]
-keywords = ["split large file", "file too large fat32", "linux split file", "usb file transfer"]
-+++
+---
+title: Split Large File for FAT32 USB - Linux Guide
+date: 2026-03-18T16:06:40+01:00
+tags:
+  - split-file
+  - fat32
+  - usb
+  - file-management
+  - linux
+categories:
+  - Linux
+  - File Management
+draft: true
+summary: Guide to splitting large files into smaller chunks for FAT32 USB
+  transfer. Uses split command to create 4GB parts and cat to rejoin them.
+keywords:
+  - split large file
+  - file too large fat32
+  - linux split file
+  - usb file transfer
+slug: split-large-file-linux-usb
+description: Learn how to split large files into smaller chunks for FAT32 USB
+  drives. Fix 'File too large' errors on Linux.
+---
 
 
 The error:
@@ -27,9 +40,9 @@ means that the destination file system (in this case, likely mounted at `/mnt/`)
 
 ---
 
-### ✅ Solution Options
+###  Solution Options
 
-#### 🔍 1. Check the file system type:
+####  1. Check the file system type:
 
 Run:
 
@@ -39,9 +52,9 @@ df -T /mnt
 
 Look at the `Type` column — if it's `vfat` (FAT32), it has a 4 GB file size limit.
 
-#### 💡 2. Solutions:
+####  2. Solutions:
 
-##### ✅ a. Reformat the destination with a large-file-friendly filesystem:
+#####  a. Reformat the destination with a large-file-friendly filesystem:
 
 * **Use `exFAT`**, **NTFS**, **ext4**, **XFS**, or **Btrfs**.
 
@@ -50,7 +63,7 @@ Look at the `Type` column — if it's `vfat` (FAT32), it has a 4 GB file size li
   sudo mkfs.exfat /dev/sdX1
   ```
 
-##### ✅ b. Compress or split the file before moving:
+#####  b. Compress or split the file before moving:
 
 Split the file into parts:
 
@@ -70,7 +83,7 @@ To reassemble later:
 cat as.zip.part-* > as.zip
 ```
 
-##### ✅ c. Use a different destination:
+#####  c. Use a different destination:
 
 Move the file to a location with an ext4, xfs, or exfat file system.
 
