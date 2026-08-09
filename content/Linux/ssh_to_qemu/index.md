@@ -1,14 +1,30 @@
-+++
-title = "SSH to QEMU VM - Fix Host Key Verification Error"
-date = "2026-03-18T16:06:37+01:00"
-draft = true
-description = "Learn how to resolve SSH host key verification errors when connecting to QEMU virtual machines. Fix known_hosts issues quickly."
-summary = "Simple guide to fix SSH host key verification errors when connecting to QEMU VMs. Uses ssh-keygen to remove old keys and reconnect safely."
-slug = "ssh-qemu-vm-fix"
-categories = ["Virtualization", "QEMU", "How-To"]
-tags = ["ssh", "qemu", "virtualization", "vm", "ssh-keys", "known-hosts"]
-keywords = ["ssh qemu", "qemu ssh connection", "host key changed", "known_hosts", "qemu vm ssh"]
-+++
+---
+title: SSH to QEMU VM - Fix Host Key Verification Error
+date: 2026-03-18T16:06:37+01:00
+tags:
+  - ssh
+  - qemu
+  - virtualization
+  - vm
+  - ssh-keys
+  - known-hosts
+categories:
+  - Virtualization
+  - QEMU
+  - How-To
+draft: true
+summary: Simple guide to fix SSH host key verification errors when connecting to
+  QEMU VMs. Uses ssh-keygen to remove old keys and reconnect safely.
+keywords:
+  - ssh qemu
+  - qemu ssh connection
+  - host key changed
+  - known_hosts
+  - qemu vm ssh
+slug: ssh-qemu-vm-fix
+description: Learn how to resolve SSH host key verification errors when
+  connecting to QEMU virtual machines. Fix known_hosts issues quickly.
+---
 
 
 This warning means the SSH host key for `localhost:2222` has changed since the last time you connected — very likely because:
@@ -20,7 +36,7 @@ This is a **normal safety feature** to prevent man-in-the-middle attacks, but si
 
 ---
 
-### ✅ To resolve the issue:
+###  To resolve the issue:
 
 Edit the `known_hosts` file to remove the offending entry:
 

@@ -1,7 +1,7 @@
 local_backend: true
+
 backend:
-  name: github
-  repo: youcef889/Linux_journey
+  name: git-gateway
   branch: main
 media_folder: static/images/uploads
 public_folder: /images/uploads

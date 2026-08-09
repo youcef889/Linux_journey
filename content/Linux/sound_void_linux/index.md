@@ -1,14 +1,30 @@
-+++
-title = "Sound Setup on Void Linux "
-date = "2026-03-18T16:06:37+01:00"
-draft = false
-description = "Complete guide to setting up sound on Void Linux. Covers ALSA, PulseAudio, and PipeWire installation and configuration."
-summary = "Guide to configuring audio on Void Linux. Covers ALSA, PulseAudio, PipeWire setup, alsamixer, and troubleshooting sound issues."
-slug = "sound-setup-void-linux"
-categories = ["Linux", "Void Linux", "Audio"]
-tags = ["void-linux", "sound", "alsa", "pulseaudio", "pipewire", "audio"]
-keywords = ["void linux sound", "alsa void linux", "pulseaudio void linux", "pipewire_void_linux", "audio linux"]
-+++
+---
+title: "Sound Setup on Void Linux "
+date: 2026-03-18T16:06:37+01:00
+tags:
+  - void-linux
+  - sound
+  - alsa
+  - pulseaudio
+  - pipewire
+  - audio
+categories:
+  - Linux
+  - Void Linux
+  - Audio
+draft: false
+summary: Guide to configuring audio on Void Linux. Covers ALSA, PulseAudio,
+  PipeWire setup, alsamixer, and troubleshooting sound issues.
+keywords:
+  - void linux sound
+  - alsa void linux
+  - pulseaudio void linux
+  - pipewire_void_linux
+  - audio linux
+slug: sound-setup-void-linux
+description: Complete guide to setting up sound on Void Linux. Covers ALSA,
+  PulseAudio, and PipeWire installation and configuration.
+---
 
 
 To set up sound on **Void Linux**, you usually need to install and configure **ALSA**, **PulseAudio**, or **PipeWire**, depending on your preferences. Here’s a full step-by-step guide to get basic and advanced audio working:
@@ -33,7 +49,7 @@ lsusb
 
 Void Linux uses **runit**, so we'll avoid systemd-specific commands.
 
-#### 🔹 For ALSA (basic sound):
+####  For ALSA (basic sound):
 
 ```bash
 sudo xbps-install -S alsa-utils alsa-lib
@@ -45,7 +61,7 @@ You can test ALSA:
 aplay /usr/share/sounds/alsa/Front_Center.wav
 ```
 
-#### 🔹 For PulseAudio (easier desktop audio control):
+####  For PulseAudio (easier desktop audio control):
 
 ```bash
 sudo xbps-install -S pulseaudio pulsemixer pavucontrol
