@@ -1,14 +1,26 @@
-+++
-title = "Linux iptables Firewall Guide - Complete Tutorial"
-date = "2026-03-18T16:06:37+01:00"
-draft = false
-description = "Master Linux iptables firewall with this comprehensive guide. Learn filter, NAT, and mangle tables, chains, rules, and practical examples for securing Linux systems."
-summary = "Complete guide to Linux iptables firewall. Covers tables (filter, nat, mangle), chains (INPUT, OUTPUT, FORWARD), targets (ACCEPT, DROP, REJECT), and practical firewall rules."
-slug = "linux-iptables-firewall"
-categories = ["Linux", "Security", "Networking"]
-tags = ["iptables", "firewall", "linux-security", "nat", "netfilter", "networking"]
-keywords = ["iptables tutorial", "linux firewall", "iptables rules", "nat iptables", "secure linux"]
-+++
+---
+title: Linux iptables Firewall Guide - Complete Tutorial
+date: 2026-03-18T16:06:37+01:00
+tags:
+  - networking
+categories:
+  - Linux
+  - Security
+draft: false
+summary: Complete guide to Linux iptables firewall. Covers tables (filter, nat,
+  mangle), chains (INPUT, OUTPUT, FORWARD), targets (ACCEPT, DROP, REJECT), and
+  practical firewall rules.
+keywords:
+  - iptables tutorial
+  - linux firewall
+  - iptables rules
+  - nat iptables
+  - secure linux
+slug: linux-iptables-firewall
+description: Master Linux iptables firewall with this comprehensive guide. Learn
+  filter, NAT, and mangle tables, chains, rules, and practical examples for
+  securing Linux systems.
+---
 
 
 ## Iptables Explanation

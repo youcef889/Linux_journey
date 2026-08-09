@@ -1,14 +1,24 @@
-+++
-title = "Run Downloaded Website Offline"
-date = "2026-03-18T16:06:40+01:00"
-draft = false
-description = "Learn how to display a wget-downloaded website offline. Open saved HTML files in browser for offline viewing."
-summary = "Guide to running and displaying websites downloaded with wget for offline viewing. Covers directory structure, local server options, and browser viewing."
-slug = "run-website-offline-linux"
-categories = ["Linux", "Web Development"]
-tags = ["wget", "offline", "website", "local-server", "web"]
-keywords = ["wget website offline", "view downloaded site", "local website", "offline browsing"]
-+++
+---
+title: Run Downloaded Website Offline
+date: 2026-03-18T16:06:40+01:00
+tags:
+  - self-hosted
+categories:
+  - Linux
+  - Web Development
+draft: false
+summary: Guide to running and displaying websites downloaded with wget for
+  offline viewing. Covers directory structure, local server options, and browser
+  viewing.
+keywords:
+  - wget website offline
+  - view downloaded site
+  - local website
+  - offline browsing
+slug: run-website-offline-linux
+description: Learn how to display a wget-downloaded website offline. Open saved
+  HTML files in browser for offline viewing.
+---
 
 
 When you use **`wget`** to download a website for offline viewing, you'll need to open the saved files in a web browser. Here’s how to properly display the downloaded website:
