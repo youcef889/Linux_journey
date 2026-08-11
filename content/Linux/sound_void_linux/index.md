@@ -9,13 +9,6 @@ tags:
   - pipewire
   - audio
 categories:
-  - Linux
-  - Void Linux
-  - audio
-  - alsa
-  - pulseaudio
-  - pipewire
-categories:
   - Audio
 draft: false
 summary: Guide to configuring audio on Void Linux. Covers ALSA, PulseAudio,
