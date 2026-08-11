@@ -3,21 +3,13 @@ title: SSH to QEMU VM - Fix Host Key Verification Error
 date: 2026-03-18T16:06:37+01:00
 tags:
   - ssh
-<<<<<<< HEAD
   - qemu
   - virtualization
   - vm
   - ssh-keys
   - known-hosts
 categories:
-  - Virtualization
   - QEMU
-  - How-To
-=======
-  - virtualization
-categories:
-  - QEMU
->>>>>>> 9fe27a9c8
 draft: true
 summary: Simple guide to fix SSH host key verification errors when connecting to
   QEMU VMs. Uses ssh-keygen to remove old keys and reconnect safely.

@@ -2,17 +2,6 @@
 title: Clean XBPS Cache on Void Linux - Free Disk Space
 date: 2026-03-18T16:06:37+01:00
 tags:
-<<<<<<< HEAD
-  - void-linux
-  - xbps
-  - cache
-  - maintenance
-  - package-manager
-categories:
-  - Linux
-  - Void Linux
-  - How-To
-=======
   - xbps
   - package-management
   - cache
@@ -20,7 +9,6 @@ categories:
 categories:
   - Linux
   - Void Linux
->>>>>>> 9fe27a9c8
 draft: false
 summary: Guide to cleaning Void Linux package cache using xbps-remove commands.
   Covers removing all cached packages, obsolete packages, and manual cleanup.

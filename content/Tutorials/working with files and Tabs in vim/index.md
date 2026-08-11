@@ -1,18 +1,11 @@
 ---
 title: Working with Files and Tabs in Vim - Complete Guide
 date: 2025-08-29T06:26:19+01:00
-<<<<<<< HEAD
-tags: []
-categories:
-  - Linux
-  - Vim
-=======
 tags:
   - vim
   - text-editor
 categories:
   - Editors
->>>>>>> 9fe27a9c8
 draft: false
 summary: Guide to working with files and tabs in Vim. Covers opening files,
   saving, tab management, and multiple file workflows in the vim text editor.
