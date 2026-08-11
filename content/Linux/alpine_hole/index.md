@@ -1,14 +1,26 @@
-+++
-title = "Install Pi-hole on Alpine Linux - Complete Guide"
-date = "2026-03-18T16:06:37+01:00"
-draft = false
-description = "Learn how to install Pi-hole network-wide ad blocker on Alpine Linux. Configuration, router setup, and maintenance."
-summary = "Guide to installing Pi-hole on Alpine Linux. Covers dependencies, installation, router DNS configuration, and admin interface access."
-slug = "pihole-alpine-linux"
-categories = ["Alpine Linux"]
-tags = ["network"]
-keywords = ["pi-hole alpine linux", "network ad blocker", "dns pi-hole", "alpine linux pihole"]
-+++
+---
+title: Install Pi-hole on Alpine Linux - Complete Guide
+date: 2026-03-18T16:06:37+01:00
+tags:
+  - pihole
+  - dns
+  - networking
+  - alpine-linux
+  - ad-blocking
+categories:
+  - Networking
+draft: false
+summary: Guide to installing Pi-hole on Alpine Linux. Covers dependencies,
+  installation, router DNS configuration, and admin interface access.
+keywords:
+  - pi-hole alpine linux
+  - network ad blocker
+  - dns pi-hole
+  - alpine linux pihole
+slug: pihole-alpine-linux
+description: Learn how to install Pi-hole network-wide ad blocker on Alpine
+  Linux. Configuration, router setup, and maintenance.
+---
 
 
 Running Pi-hole on Alpine Linux is a bit different from other distributions, as Alpine is designed to be lightweight and uses `apk` for package management. Here’s how to set up Pi-hole on a 32-bit PC running Alpine Linux:

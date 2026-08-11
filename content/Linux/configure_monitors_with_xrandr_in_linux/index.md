@@ -1,14 +1,25 @@
-+++
-title = "Configure Monitors with xrandr on Linux"
-date = "2026-03-18T16:06:36+01:00"
-draft = false
-description = "Learn how to configure multiple monitors on Linux using xrandr. Auto-detect HDMI connections and set up display positions."
-summary = "Guide to configuring monitors with xrandr on Linux. Create scripts to detect HDMI connections and automatically set display resolution and position."
-slug = "configure-monitors-xrandr-linux"
-categories = ["Linux", "Desktop", "Display"]
-tags = ["xrandr"]
-keywords = ["xrandr multi monitor", "configure monitor linux", "hdmi display setup", "linux display config"]
-+++
+---
+title: Configure Monitors with xrandr on Linux
+date: 2026-03-18T16:06:36+01:00
+tags:
+  - xrandr
+  - display
+  - multi-monitor
+  - desktop
+categories:
+  - Desktop
+draft: false
+summary: Guide to configuring monitors with xrandr on Linux. Create scripts to
+  detect HDMI connections and automatically set display resolution and position.
+keywords:
+  - xrandr multi monitor
+  - configure monitor linux
+  - hdmi display setup
+  - linux display config
+slug: configure-monitors-xrandr-linux
+description: Learn how to configure multiple monitors on Linux using xrandr.
+  Auto-detect HDMI connections and set up display positions.
+---
 
 
 You can use a simple shell script in your `.xinitrc` file (or a standalone script) to check if the HDMI monitor is connected using `xrandr` and then execute the appropriate commands based on the presence of the HDMI monitor. Here's how you can do that:

@@ -1,15 +1,23 @@
-+++
-date = '2026-05-28T11:27:08+01:00'
-draft = false
-title = 'How to Install Docker on Void Linux Step by Step'
-description = 'Learn how to install Docker on Void Linux step by step, enable the Docker service, and run Docker commands as a non-root user.'
-summary='How to Install Docker on Void Linux' 
-slug = 'install-docker-on-void-linux'
-tags = ['docker', 'void-linux', 'linux', 'containers', 'devops']
-categories = ['Linux', 'Docker']
-robots = "index, follow" 
-keywords=["docker","void-linux"]
-+++
+---
+description: Learn how to install Docker on Void Linux step by step, enable the
+  Docker service, and run Docker commands as a non-root user.
+categories:
+  - Linux
+  - Containers
+draft: false
+summary: How to Install Docker on Void Linux
+robots: index, follow
+keywords:
+  - docker
+  - void-linux
+title: How to Install Docker on Void Linux Step by Step
+slug: install-docker-on-void-linux
+date: 2026-05-28T11:27:08+01:00
+tags:
+  - docker
+  - containers
+  - runit
+---
 
 ## How to Install Docker on Void Linux Step by Step
 

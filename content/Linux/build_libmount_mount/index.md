@@ -1,14 +1,25 @@
-+++
-title = "Build libmount and mount from Source on Linux"
-date = "2026-03-18T16:06:36+01:00"
-draft = false
-description = "Learn how to build libmount and mount from source on Linux. Fix library mismatches and rebuild util-linux."
-summary = "Guide to building libmount and mount from source. Covers util-linux compilation, library linking, and fixing version mismatches."
-slug = "build-libmount-from-source"
-categories = ["Linux", "Development", "Troubleshooting"]
-tags = ["mount"]
-keywords = ["build libmount", "compile mount", "util-linux source", "library mismatch fix"]
-+++
+---
+title: Build libmount and mount from Source on Linux
+date: 2026-03-18T16:06:36+01:00
+tags:
+  - libmount
+  - mount
+  - building-from-source
+  - development
+categories:
+  - Development
+draft: false
+summary: Guide to building libmount and mount from source. Covers util-linux
+  compilation, library linking, and fixing version mismatches.
+keywords:
+  - build libmount
+  - compile mount
+  - util-linux source
+  - library mismatch fix
+slug: build-libmount-from-source
+description: Learn how to build libmount and mount from source on Linux. Fix
+  library mismatches and rebuild util-linux.
+---
 
 
 Here’s a **clear, step-by-step guide** to rebuilding **libmount + mount (util-linux)** from source on Void Linux.

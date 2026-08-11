@@ -1,14 +1,25 @@
-+++
-title = "Install Wayland Compositors on Void Linux"
-date = "2026-03-18T16:06:37+01:00"
-draft = false
-description = "Learn how to install Wayland on Void Linux. Covers Sway, labwc, wayfire compositors and required packages."
-summary = "Complete guide to installing Wayland compositors on Void Linux. Covers Sway, labwc, wayfire, seatd, and display manager setup."
-slug = "install-wayland-void-linux"
-categories = ["Void Linux"]
-tags = ["wayland", "sway"]
-keywords = ["install wayland", "wayland compositor", "sway void linux", "wayland setup"]
-+++
+---
+title: Install Wayland Compositors on Void Linux
+date: 2026-03-18T16:06:37+01:00
+tags:
+  - wayland
+  - sway
+  - seatd
+  - wlroots
+categories:
+  - Desktop
+draft: false
+summary: Complete guide to installing Wayland compositors on Void Linux. Covers
+  Sway, labwc, wayfire, seatd, and display manager setup.
+keywords:
+  - install wayland
+  - wayland compositor
+  - sway void linux
+  - wayland setup
+slug: install-wayland-void-linux
+description: Learn how to install Wayland on Void Linux. Covers Sway, labwc,
+  wayfire compositors and required packages.
+---
 
 
 On Void Linux, Wayland itself is just a display protocol — you don’t "run" Wayland directly.

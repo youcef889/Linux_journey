@@ -1,14 +1,26 @@
-+++
-title = "Filebrowser Configuration Guide - Complete Reference"
-date = "2026-03-18T16:06:36+01:00"
-draft = false
-description = "Comprehensive guide to filebrowser configuration. Covers CLI flags, config file options, environment variables, and customization."
-summary = "Complete reference for filebrowser configuration. Covers all CLI flags, configuration file options, and environment variables for self-hosted file browser."
-slug = "filebrowser-configuration"
-categories = ["Linux", "Self-Hosted", "File Management"]
-tags = ["filebrowser", "configuration", "self-hosted", "file-manager"]
-keywords = ["filebrowser config", "filebrowser setup", "self-hosted file manager"]
-+++
+---
+title: Filebrowser Configuration Guide - Complete Reference
+date: 2026-03-18T16:06:36+01:00
+tags:
+  - filebrowser
+  - file-management
+  - self-hosted
+  - configuration
+  - file-manager
+categories:
+  - Self-Hosted
+draft: false
+summary: Complete reference for filebrowser configuration. Covers all CLI flags,
+  configuration file options, and environment variables for self-hosted file
+  browser.
+keywords:
+  - filebrowser config
+  - filebrowser setup
+  - self-hosted file manager
+slug: filebrowser-configuration
+description: Comprehensive guide to filebrowser configuration. Covers CLI flags,
+  config file options, environment variables, and customization.
+---
 
 
 `filebrowser` has many configurable options that you can use via command-line flags, environment variables, or a config file. Below is a comprehensive list of **commonly used CLI flags and configuration options**.

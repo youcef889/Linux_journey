@@ -2,9 +2,11 @@
 title: Run Downloaded Website Offline
 date: 2026-03-18T16:06:40+01:00
 tags:
-  - self-hosted
+  - wget
+  - offline
+  - local-server
+  - web-development
 categories:
-  - Linux
   - Web Development
 draft: false
 summary: Guide to running and displaying websites downloaded with wget for

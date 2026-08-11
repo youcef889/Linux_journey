@@ -1,16 +1,31 @@
-+++
-title = "Install Bliss OS on Linux: Step-by-Step GRUB Guide (2025)"
-date = "2025-08-17T11:48:21+01:00"
-lastmod = "2026-07-21"
-draft = false
-description = "Run Android on your Linux PC with Bliss OS. This guide covers ISO download, GRUB setup, data partition creation, and troubleshooting — tested on x86_64."
-summary = "Manual installation guide for Bliss OS on Linux. Covers ISO download, GRUB configuration, data partition setup, kernel boot parameters, and common troubleshooting steps."
-slug = "install-bliss-os-linux"
-robots = "index, follow"
-categories = ["Mobile", "Android","Linux"]
-tags = ["blissos","android-x86"]
-keywords = ["bliss os install linux", "bliss os grub manual install", "android x86 linux grub boot", "bliss os without usb linux", "android on pc linux"]
-+++
+---
+description: Run Android on your Linux PC with Bliss OS. This guide covers ISO
+  download, GRUB setup, data partition creation, and troubleshooting — tested on
+  x86_64.
+tags:
+  - liss-os
+  - android-x86
+  - android
+  - grub
+categories:
+  - Android
+  - Operating Systems
+draft: false
+summary: Manual installation guide for Bliss OS on Linux. Covers ISO download,
+  GRUB configuration, data partition setup, kernel boot parameters, and common
+  troubleshooting steps.
+robots: index, follow
+keywords:
+  - bliss os install linux
+  - bliss os grub manual install
+  - android x86 linux grub boot
+  - bliss os without usb linux
+  - android on pc linux
+slug: install-bliss-os-linux
+lastmod: 2026-07-21
+title: "Install Bliss OS on Linux: Step-by-Step GRUB Guide (2025)"
+date: 2025-08-17T11:48:21+01:00
+---
 
 
 ## Manual Installation of Bliss OS on Linux

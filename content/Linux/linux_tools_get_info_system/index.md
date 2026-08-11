@@ -1,14 +1,26 @@
-+++
-title = "Linux System Information Commands - Complete Reference"
-date = "2026-03-18T16:06:37+01:00"
-draft = false
-description = "Comprehensive list of Linux commands to get system information. Covers CPU, RAM, disk, GPU, network, and hardware info tools."
-summary = "Complete reference for Linux system information commands. Learn to use lscpu, free, df, lsblk, lspci, ip, and other tools for monitoring."
-slug = "linux-system-info-commands"
-categories = ["Linux", "Reference", "Commands"]
-tags = ["linux", "system-info", "commands", "monitoring", "hardware"]
-keywords = ["linux system commands", "check cpu linux", "check ram linux", "system monitoring", "linux hardware info"]
-+++
+---
+title: Linux System Information Commands - Complete Reference
+date: 2026-03-18T16:06:37+01:00
+tags:
+  - system-information
+  - commands
+  - monitoring
+  - hardware
+categories:
+  - Linux Administration
+draft: false
+summary: Complete reference for Linux system information commands. Learn to use
+  lscpu, free, df, lsblk, lspci, ip, and other tools for monitoring.
+keywords:
+  - linux system commands
+  - check cpu linux
+  - check ram linux
+  - system monitoring
+  - linux hardware info
+slug: linux-system-info-commands
+description: Comprehensive list of Linux commands to get system information.
+  Covers CPU, RAM, disk, GPU, network, and hardware info tools.
+---
 
 
 Here's a comprehensive list of **command-line tools** to gather system information like **RAM, CPU, storage, devices**, etc., on a **Linux machine**:

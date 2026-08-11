@@ -2,9 +2,13 @@
 title: Linux iptables Firewall Guide - Complete Tutorial
 date: 2026-03-18T16:06:37+01:00
 tags:
+  - iptables
+  - netfilter
+  - firewall
+  - nat
   - networking
 categories:
-  - Linux
+  - Networking
   - Security
 draft: false
 summary: Complete guide to Linux iptables firewall. Covers tables (filter, nat,

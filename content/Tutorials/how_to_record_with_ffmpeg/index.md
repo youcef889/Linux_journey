@@ -2,10 +2,12 @@
 title: FFmpeg Screen Recording - Command Breakdown
 date: 2026-03-18T16:06:36+01:00
 tags:
+  - ffmpeg
   - screen-recording
+  - pulseaudio
+  - audio
 categories:
-  - Linux
-  - Media
+  - Multimedia
 draft: false
 summary: Complete breakdown of FFmpeg screen recording commands. Covers video
   capture, pulse/alsa audio input, and encoding options for Linux.

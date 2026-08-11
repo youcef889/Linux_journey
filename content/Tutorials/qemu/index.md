@@ -2,11 +2,11 @@
 title: Setup KVM + QEMU + libvirt on Void Linux
 date: 2026-03-18T16:06:39+01:00
 tags:
-  - virtualization
+  - kvm
+  - qemu
+  - libvirt
 categories:
-  - Linux
   - Virtualization
-  - Void Linux
 draft: false
 summary: Complete guide to setting up KVM + QEMU + libvirt on Void Linux. Covers
   hardware virtualization check, package installation, libvirt configuration,

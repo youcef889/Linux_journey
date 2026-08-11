@@ -3,9 +3,12 @@ title: Advanced ADB Shell Commands for Android Devices
 date: 2026-03-18T16:06:39+01:00
 tags:
   - adb
+  - shell
+  - debugging
+  - android
+  - root
 categories:
   - Android
-  - Development
 draft: false
 summary: Advanced ADB shell commands for Android devices - both rooted and
   unrooted. Covers debugging, performance tuning, package control, logs,

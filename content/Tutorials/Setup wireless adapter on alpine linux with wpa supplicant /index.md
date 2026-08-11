@@ -19,12 +19,12 @@ description: Complete guide to configuring wireless adapters on Alpine Linux.
   Covers driver installation, wpa_supplicant setup, WiFi connection, and
   persistent configuration.
 tags:
+  - alpine-linux
   - wifi
-  - wireless
   - wpa-supplicant
+  - wireless
+  - networking
 categories:
-  - Linux
-  - Alpine Linux
   - Networking
 sharingLinks:
   - linkedin

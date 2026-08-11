@@ -1,14 +1,23 @@
-+++
-title = "Install Local XBPS Packages on Void Linux"
-date = "2026-03-18T16:06:36+01:00"
-draft = false
-description = "Learn how to install local .xbps packages on Void Linux manually. Covers xbps-rindex and xbps-install commands."
-summary = "Guide to installing downloaded XBPS packages on Void Linux manually. Uses xbps-rindex to index packages and xbps-install to install locally."
-slug = "install-local-xbps-packages"
-categories = ["Linux", "Void Linux"]
-tags = ["xbps"]
-keywords = ["install local xbps", "void linux manual install", "xbps install local"]
-+++
+---
+title: Install Local XBPS Packages on Void Linux
+date: 2026-03-18T16:06:36+01:00
+tags:
+  - xbps
+  - local-packages
+  - package-management
+categories:
+  - Package Management
+draft: false
+summary: Guide to installing downloaded XBPS packages on Void Linux manually.
+  Uses xbps-rindex to index packages and xbps-install to install locally.
+keywords:
+  - install local xbps
+  - void linux manual install
+  - xbps install local
+slug: install-local-xbps-packages
+description: Learn how to install local .xbps packages on Void Linux manually.
+  Covers xbps-rindex and xbps-install commands.
+---
 
 
 

@@ -1,14 +1,27 @@
-+++
-title = "Advanced Terminal Tips and Tricks for Linux"
-date = "2026-03-18T16:06:37+01:00"
-draft = false
-description = "Master Linux terminal with advanced tips. Covers bash shortcuts, aliases, functions, tmux, autojump, and productivity tools."
-summary = "Advanced terminal tips for Linux power users. Learn bash shortcuts, aliases, functions, tmux, screen, autojump, and essential tools for productivity."
-slug = "advanced-terminal-tips-linux"
-categories = ["Linux", "Terminal"]
-tags = ["terminal", "bash"]
-keywords = ["terminal tips", "bash shortcuts", "linux productivity", "tmux", "shell tricks"]
-+++
+---
+title: Advanced Terminal Tips and Tricks for Linux
+date: 2026-03-18T16:06:37+01:00
+tags:
+  - terminal
+  - bash
+  - shell
+  - productivity
+categories:
+  - Command Line
+draft: false
+summary: Advanced terminal tips for Linux power users. Learn bash shortcuts,
+  aliases, functions, tmux, screen, autojump, and essential tools for
+  productivity.
+keywords:
+  - terminal tips
+  - bash shortcuts
+  - linux productivity
+  - tmux
+  - shell tricks
+slug: advanced-terminal-tips-linux
+description: Master Linux terminal with advanced tips. Covers bash shortcuts,
+  aliases, functions, tmux, autojump, and productivity tools.
+---
 
 
 Here are **advanced tips** for using the terminal efficiently on Linux or Unix-based systems. These will help you boost productivity, automate tasks, and navigate like a power user:
