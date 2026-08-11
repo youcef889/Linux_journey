@@ -1,9 +1,20 @@
-+++
-date = '2026-05-14T04:57:57+01:00'
-draft = false
-title = 'Deploy Suwayomi Server with PostgreSQL and Docker Compose'
-description = 'Deploy Suwayomi Server with PostgreSQL using Docker Compose. This guide covers installation, configuration, persistent storage, troubleshooting, and verification.'
-+++
+---
+title: Deploy Suwayomi Server with PostgreSQL and Docker Compose
+description: Deploy Suwayomi Server with PostgreSQL using Docker Compose. This
+  guide covers installation, configuration, persistent storage, troubleshooting,
+  and verification.
+date: 2026-05-14T04:57:57+01:00
+tags:
+  - self-hosted
+  - suwayomi
+  - docker
+  - docker-compose
+  - postgresql
+  - flaresolverr
+categories:
+  - Self-Hosted
+draft: false
+---
 
 In this guide, you'll learn how to deploy Suwayomi Server with PostgreSQL using Docker Compose. PostgreSQL provides better reliability and scalability than the default SQLite database, making it a good choice for larger libraries and long-term deployments.
 

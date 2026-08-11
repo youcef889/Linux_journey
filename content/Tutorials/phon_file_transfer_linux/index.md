@@ -1,14 +1,26 @@
-+++
-title = "Mount Android Phone on Linux - File Transfer Guide"
-date = "2026-03-18T16:06:38+01:00"
-draft = false
-description = "Learn how to mount and transfer files between Android phone and Linux. Covers MTP, USB debugging, and file manager configuration."
-summary = "Guide to mounting Android phone on Linux for file transfer. Covers MTP protocol, USB debugging mode, and troubleshooting mount point errors."
-slug = "mount-android-phone-linux"
-categories = ["Linux", "Android", "File Transfer"]
-tags = ["android", "linux", "mtp", "usb-debugging", "file-transfer"]
-keywords = ["android file transfer linux", "mount phone linux", "mtp linux", "adb file transfer"]
-+++
+---
+title: Mount Android Phone on Linux - File Transfer Guide
+date: 2026-03-18T16:06:38+01:00
+tags:
+  - android
+  - mtp
+  - file-transfer
+  - usb
+categories:
+  - Linux
+  - Android
+draft: false
+summary: Guide to mounting Android phone on Linux for file transfer. Covers MTP
+  protocol, USB debugging mode, and troubleshooting mount point errors.
+keywords:
+  - android file transfer linux
+  - mount phone linux
+  - mtp linux
+  - adb file transfer
+slug: mount-android-phone-linux
+description: Learn how to mount and transfer files between Android phone and
+  Linux. Covers MTP, USB debugging, and file manager configuration.
+---
 
 
 That error simply means the mount point (`~/Phone`) doesn’t exist yet — you just need to create that folder before mounting.

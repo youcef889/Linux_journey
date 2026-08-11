@@ -1,14 +1,25 @@
-+++
-title = "Picom Configuration Guide - X11 Compositor"
-date = "2026-03-18T16:06:39+01:00"
-draft = false
-description = "Complete guide to picom compositor configuration. Covers all configuration parameters, backends, and visual effects."
-summary = "Comprehensive reference for picom (X11 compositor) configuration. Covers general settings, backend options, transparency, blur, and animations."
-slug = "picom-configuration"
-categories = ["Linux", "Desktop", "X11"]
-tags = ["picom", "compositor", "x11", "window-manager", "transparency"]
-keywords = ["picom config", "x11 compositor", "picom transparency", "linux compositor"]
-+++
+---
+title: Picom Configuration Guide - X11 Compositor
+date: 2026-03-18T16:06:39+01:00
+tags:
+  - picom
+  - x11
+  - compositor
+  - window-manager
+categories:
+  - Desktop
+draft: false
+summary: Comprehensive reference for picom (X11 compositor) configuration.
+  Covers general settings, backend options, transparency, blur, and animations.
+keywords:
+  - picom config
+  - x11 compositor
+  - picom transparency
+  - linux compositor
+slug: picom-configuration
+description: Complete guide to picom compositor configuration. Covers all
+  configuration parameters, backends, and visual effects.
+---
 
 
 Here is a comprehensive list of many configuration parameters for picom (a popular X11 compositor) — note: the available parameters may differ slightly between versions/forks (for example, the official version vs forks with extra features). Use this as a reference and always check your version’s man-page or sample config. ([picom.app][1])

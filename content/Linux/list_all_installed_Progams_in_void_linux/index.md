@@ -1,14 +1,26 @@
-+++
-title = "List Installed Packages on Void Linux - Complete Guide"
-date = "2026-03-18T16:06:37+01:00"
-draft = false
-description = "Learn how to list all installed packages on Void Linux using XBPS. Covers xbps-query commands for all packages, explicit installs, versions, and orphans."
-summary = "Guide to listing installed packages on Void Linux. Uses xbps-query to show all packages, manually installed programs, versions, and orphaned dependencies."
-slug = "void-linux-list-packages"
-categories = ["Linux", "Void Linux", "Package Management"]
-tags = ["void-linux", "xbps", "packages", "installed", "sysadmin"]
-keywords = ["void linux list packages", "xbps-query", "list installed programs void linux", "xbps list"]
-+++
+---
+title: List Installed Packages on Void Linux - Complete Guide
+date: 2026-03-18T16:06:37+01:00
+tags:
+  - xbps
+  - package-management
+  - installed-packages
+categories:
+  - Package Management
+draft: false
+summary: Guide to listing installed packages on Void Linux. Uses xbps-query to
+  show all packages, manually installed programs, versions, and orphaned
+  dependencies.
+keywords:
+  - void linux list packages
+  - xbps-query
+  - list installed programs void linux
+  - xbps list
+slug: void-linux-list-packages
+description: Learn how to list all installed packages on Void Linux using XBPS.
+  Covers xbps-query commands for all packages, explicit installs, versions, and
+  orphans.
+---
 
 
 On **Void Linux**, installed programs are managed by **XBPS**. Here are the common and useful ways to list them, depending on what you want to see.

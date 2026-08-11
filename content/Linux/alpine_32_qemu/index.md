@@ -1,14 +1,25 @@
-+++
-title = "Run Alpine Linux 32-bit on QEMU - Complete Guide"
-date = "2026-03-18T16:06:37+01:00"
-draft = false
-description = "Learn how to run Alpine Linux 32-bit on QEMU virtual machine. Step-by-step installation, networking, and SSH access guide."
-summary = "Complete guide to running Alpine Linux 32-bit on QEMU. Covers disk image creation, ISO boot, installation, and SSH configuration."
-slug = "alpine-linux-32-bit-qemu"
-categories = ["Virtualization", "Alpine Linux"]
-tags = ["qemu"]
-keywords = ["alpine linux qemu", "alpine 32 bit qemu", "qemu alpine", "run alpine in vm"]
-+++
+---
+title: Run Alpine Linux 32-bit on QEMU - Complete Guide
+date: 2026-03-18T16:06:37+01:00
+tags:
+  - qemu
+  - alpine-linux
+  - virtualization
+  - 32-bit
+categories:
+  - Virtualization
+draft: false
+summary: Complete guide to running Alpine Linux 32-bit on QEMU. Covers disk
+  image creation, ISO boot, installation, and SSH configuration.
+keywords:
+  - alpine linux qemu
+  - alpine 32 bit qemu
+  - qemu alpine
+  - run alpine in vm
+slug: alpine-linux-32-bit-qemu
+description: Learn how to run Alpine Linux 32-bit on QEMU virtual machine.
+  Step-by-step installation, networking, and SSH access guide.
+---
 
 
 Running Alpine Linux (32-bit) on QEMU is a straightforward process. Below are the steps to set up and run Alpine Linux in a QEMU virtual machine.

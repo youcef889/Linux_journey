@@ -1,14 +1,24 @@
-+++
-title = "FFmpeg Screen Recording - Command Breakdown"
-date = "2026-03-18T16:06:36+01:00"
-draft = false
-description = "Learn FFmpeg screen recording commands. Capture desktop video and audio with pulse and alsa inputs."
-summary = "Complete breakdown of FFmpeg screen recording commands. Covers video capture, pulse/alsa audio input, and encoding options for Linux."
-slug = "ffmpeg-screen-recording"
-categories = ["Linux", "Media", "Recording"]
-tags = ["ffmpeg", "screen-recording", "linux", "pulseaudio", "recording"]
-keywords = ["ffmpeg record screen", "linux screen record", "ffmpeg capture desktop"]
-+++
+---
+title: FFmpeg Screen Recording - Command Breakdown
+date: 2026-03-18T16:06:36+01:00
+tags:
+  - ffmpeg
+  - screen-recording
+  - pulseaudio
+  - audio
+categories:
+  - Multimedia
+draft: false
+summary: Complete breakdown of FFmpeg screen recording commands. Covers video
+  capture, pulse/alsa audio input, and encoding options for Linux.
+keywords:
+  - ffmpeg record screen
+  - linux screen record
+  - ffmpeg capture desktop
+slug: ffmpeg-screen-recording
+description: Learn FFmpeg screen recording commands. Capture desktop video and
+  audio with pulse and alsa inputs.
+---
 
 
 Let me break down each part of this FFmpeg command:

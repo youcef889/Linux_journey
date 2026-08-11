@@ -1,14 +1,25 @@
-+++
-title = "Runit Service Management on Void Linux"
-date = "2026-03-18T16:06:36+01:00"
-draft = false
-description = "Learn how to manage services with Runit on Void Linux. Commands for start, stop, restart, enable, and disable services."
-summary = "Complete guide to Runit service management on Void Linux. Covers sv up, down, restart, status, and service enabling/disabling."
-slug = "runit-service-management-void-linux"
-categories = ["Linux", "Void Linux", "Runit"]
-tags = ["runit","service-management", "sv"]
-keywords = ["runit void linux", "service management void", "sv command", "void linux services"]
-+++
+---
+title: Runit Service Management on Void Linux
+date: 2026-03-18T16:06:36+01:00
+tags:
+  - runit
+  - service-management
+  - sv
+  - void-linux
+categories:
+  - System Administration
+draft: false
+summary: Complete guide to Runit service management on Void Linux. Covers sv up,
+  down, restart, status, and service enabling/disabling.
+keywords:
+  - runit void linux
+  - service management void
+  - sv command
+  - void linux services
+slug: runit-service-management-void-linux
+description: Learn how to manage services with Runit on Void Linux. Commands for
+  start, stop, restart, enable, and disable services.
+---
 
 
 ## Basic Usage 

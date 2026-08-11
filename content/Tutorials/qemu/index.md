@@ -1,14 +1,25 @@
-+++
-title = "Setup KVM + QEMU + libvirt on Void Linux"
-date = "2026-03-18T16:06:39+01:00"
-draft = false
-description = "Learn how to set up KVM, QEMU, and libvirt for virtualization on Void Linux. Complete guide for lightweight hypervisor."
-summary = "Complete guide to setting up KVM + QEMU + libvirt on Void Linux. Covers hardware virtualization check, package installation, libvirt configuration, and VM management."
-slug = "kvm-qemu-libvirt-void-linux"
-categories = ["Linux", "Virtualization", "Void Linux"]
-tags = ["kvm", "qemu", "libvirt", "virtualization", "void-linux"]
-keywords = ["kvm void linux", "qemu virtualization", "libvirt setup", "vm void linux"]
-+++
+---
+title: Setup KVM + QEMU + libvirt on Void Linux
+date: 2026-03-18T16:06:39+01:00
+tags:
+  - kvm
+  - qemu
+  - libvirt
+categories:
+  - Virtualization
+draft: false
+summary: Complete guide to setting up KVM + QEMU + libvirt on Void Linux. Covers
+  hardware virtualization check, package installation, libvirt configuration,
+  and VM management.
+keywords:
+  - kvm void linux
+  - qemu virtualization
+  - libvirt setup
+  - vm void linux
+slug: kvm-qemu-libvirt-void-linux
+description: Learn how to set up KVM, QEMU, and libvirt for virtualization on
+  Void Linux. Complete guide for lightweight hypervisor.
+---
 
 
 Setting up **virtualization in Void Linux** using **KVM + QEMU + libvirt** is totally doable and provides a solid lightweight hypervisor environment. 

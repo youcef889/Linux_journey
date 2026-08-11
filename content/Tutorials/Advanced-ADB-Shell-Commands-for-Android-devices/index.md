@@ -1,14 +1,29 @@
-+++
-title = "Advanced ADB Shell Commands for Android Devices"
-date = "2026-03-18T16:06:39+01:00"
-draft = false
-description = "Comprehensive collection of advanced ADB shell commands for Android. Covers debugging, performance tuning, package management, and networking."
-summary = "Advanced ADB shell commands for Android devices - both rooted and unrooted. Covers debugging, performance tuning, package control, logs, networking, and system inspection."
-slug = "adb-shell-commands-android"
-categories = ["Android", "Development", "ADB"]
-tags = ["adb", "android", "shell", "debugging", "root"]
-keywords = ["adb shell commands", "android adb", "adb debugging", "android shell", "root adb"]
-+++
+---
+title: Advanced ADB Shell Commands for Android Devices
+date: 2026-03-18T16:06:39+01:00
+tags:
+  - adb
+  - shell
+  - debugging
+  - android
+  - root
+categories:
+  - Android
+draft: false
+summary: Advanced ADB shell commands for Android devices - both rooted and
+  unrooted. Covers debugging, performance tuning, package control, logs,
+  networking, and system inspection.
+keywords:
+  - adb shell commands
+  - android adb
+  - adb debugging
+  - android shell
+  - root adb
+slug: adb-shell-commands-android
+description: Comprehensive collection of advanced ADB shell commands for
+  Android. Covers debugging, performance tuning, package management, and
+  networking.
+---
 
 
 **practical collection of advanced ADB shell commands** you can use on Android devices—**both unrooted and rooted**—including debugging, performance tuning, package control, logs, networking, and system inspection.

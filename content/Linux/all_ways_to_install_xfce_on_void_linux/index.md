@@ -1,14 +1,25 @@
-+++
-title = "Install XFCE on Void Linux - All Methods Guide"
-date = "2026-03-18T16:06:37+01:00"
-draft = false
-description = "Multiple ways to install XFCE on Void Linux. Covers full desktop, minimal setup, LightDM, SDDM, startx, and VNC methods."
-summary = "Comprehensive guide to installing XFCE on Void Linux. Covers meta-package, minimal components, display managers, startx, XWayland, VNC, and Docker methods."
-slug = "install-xfce-void-linux"
-categories = ["Void Linux"]
-tags = ["void-linux"]
-keywords = ["install xfce void linux", "xfce desktop", "void linux xfce", "xfce4 setup"]
-+++
+---
+title: Install XFCE on Void Linux - All Methods Guide
+date: 2026-03-18T16:06:37+01:00
+tags:
+  - xfce
+  - desktop-environment
+  - void-linux
+categories:
+  - Desktop
+draft: false
+summary: Comprehensive guide to installing XFCE on Void Linux. Covers
+  meta-package, minimal components, display managers, startx, XWayland, VNC, and
+  Docker methods.
+keywords:
+  - install xfce void linux
+  - xfce desktop
+  - void linux xfce
+  - xfce4 setup
+slug: install-xfce-void-linux
+description: Multiple ways to install XFCE on Void Linux. Covers full desktop,
+  minimal setup, LightDM, SDDM, startx, and VNC methods.
+---
 
 
 Here are **all common ways to install and run XFCE on Void Linux**, depending on whether you want a full desktop environment, a minimal setup, or to start it manually.

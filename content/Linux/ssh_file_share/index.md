@@ -1,14 +1,28 @@
-+++
-title = "Transfer Files Over SSH - scp, rsync, sshfs Guide"
-date = "2026-03-18T16:06:36+01:00"
-draft = false
-description = "Learn how to transfer files between systems over SSH. Covers scp, rsync, sshfs, and FileZilla SFTP methods."
-summary = "Complete guide to file transfer over SSH. Covers scp, rsync, sshfs mounting, and FileZilla SFTP client for secure file sharing."
-slug = "ssh-file-transfer-methods"
-categories = ["Linux", "Networking", "SSH"]
-tags = ["ssh", "scp", "rsync", "sshfs", "sftp", "file-transfer"]
-keywords = ["ssh file transfer", "scp command", "rsync ssh", "sshfs mount", "sftp file transfer"]
-+++
+---
+title: Transfer Files Over SSH - scp, rsync, sshfs Guide
+date: 2026-03-18T16:06:36+01:00
+tags:
+  - ssh
+  - scp
+  - rsync
+  - sshfs
+  - sftp
+  - file-transfer
+categories:
+  - Networking
+draft: false
+summary: Complete guide to file transfer over SSH. Covers scp, rsync, sshfs
+  mounting, and FileZilla SFTP client for secure file sharing.
+keywords:
+  - ssh file transfer
+  - scp command
+  - rsync ssh
+  - sshfs mount
+  - sftp file transfer
+slug: ssh-file-transfer-methods
+description: Learn how to transfer files between systems over SSH. Covers scp,
+  rsync, sshfs, and FileZilla SFTP methods.
+---
 
 
 Thanks for sharing the detailed content from *Linux Handbook*! Here's a concise summary of the key methods discussed for uploading and downloading files over SSH:
