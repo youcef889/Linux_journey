@@ -2,7 +2,6 @@
 title: Mount Android Phone on Linux - File Transfer Guide
 date: 2026-03-18T16:06:38+01:00
 tags:
-  - android
   - mtp
   - file-transfer
   - usb

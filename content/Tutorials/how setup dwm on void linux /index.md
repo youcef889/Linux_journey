@@ -3,6 +3,7 @@ description: Learn how to install and configure DWM and ST on Void Linux.
   Minimalistic window manager and terminal from suckless.org.
 categories:
   - Desktop
+  - Void Linux
 draft: false
 summary: Guide to installing DWM (Dynamic Window Manager) and ST terminal on
   Void Linux. Covers build from source, patches, and configuration.

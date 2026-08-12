@@ -6,7 +6,6 @@ tags:
   - kvm
   - libvirt
   - emulation
-  - virtualization
 categories:
   - Virtualization
 draft: false
@@ -24,11 +23,11 @@ description: Comprehensive QEMU tutorial covering emulation, virtualization with
 ---
 
 
-# 🧠 What Is QEMU?
+##  What Is QEMU?
 
 **QEMU** (Quick EMUlator) is a **generic and open-source emulator and virtualizer**.
 
-### 🧰 QEMU Has Two Main Modes:
+###  QEMU Has Two Main Modes:
 
 1. **Emulation Mode**:
 
@@ -43,7 +42,7 @@ description: Comprehensive QEMU tutorial covering emulation, virtualization with
 
 ---
 
-## 🖥️ Real-World Use Cases
+###  Real-World Use Cases
 
 | Use Case              | Description                                                        |
 | --------------------- | ------------------------------------------------------------------ |
@@ -55,9 +54,9 @@ description: Comprehensive QEMU tutorial covering emulation, virtualization with
 
 ---
 
-# ✅ Installing QEMU in Detail
+##  Installing QEMU in Detail
 
-## 🐧 On Ubuntu/Debian:
+###  On Ubuntu/Debian:
 
 ```bash
 sudo apt update
@@ -77,9 +76,9 @@ qemu-system-x86_64 --version
 
 ---
 
-# 🏗️ Step-by-Step VM Creation (x86 Example)
+##  Step-by-Step VM Creation (x86 Example)
 
-## 🔹 Step 1: Create a virtual disk
+###  Step 1: Create a virtual disk
 
 ```bash
 qemu-img create -f qcow2 myvm.qcow2 20G
@@ -88,7 +87,7 @@ qemu-img create -f qcow2 myvm.qcow2 20G
 * `qcow2`: QEMU's optimized disk format (supports snapshots, compression)
 * `20G`: Disk size
 
-## 🔹 Step 2: Download an ISO (e.g., Ubuntu, Debian, TinyCore, etc.)
+###  Step 2: Download an ISO (e.g., Ubuntu, Debian, TinyCore, etc.)
 
 Example:
 
@@ -96,7 +95,7 @@ Example:
 wget https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-*.iso
 ```
 
-## 🔹 Step 3: Start VM with ISO
+###  Step 3: Start VM with ISO
 
 ```bash
 qemu-system-x86_64 \
@@ -119,9 +118,9 @@ qemu-system-x86_64 \
 
 ---
 
-# 💡 Running QEMU Without GUI (Headless)
+## Running QEMU Without GUI (Headless)
 
-## 📦 `-nographic`
+###  `-nographic`
 
 ```bash
 qemu-system-x86_64 -hda myvm.qcow2 -m 1024 -nographic
@@ -144,9 +143,9 @@ qemu-system-x86_64 -hda myvm.qcow2 -m 1024 -nographic -serial mon:stdio
 
 ---
 
-# 🌐 Networking Setup
+##  Networking Setup
 
-## 🧾 Basic NAT Networking
+###  Basic NAT Networking
 
 ```bash
 -net nic -net user
@@ -154,7 +153,7 @@ qemu-system-x86_64 -hda myvm.qcow2 -m 1024 -nographic -serial mon:stdio
 
 Adds a virtual NIC and uses user-mode NAT networking.
 
-## 🔌 Port Forwarding (e.g., SSH into VM):
+###  Port Forwarding (e.g., SSH into VM):
 
 ```bash
 -net nic -net user,hostfwd=tcp::2222-:22
@@ -168,7 +167,7 @@ ssh -p 2222 user@localhost
 
 ---
 
-# 🔄 Snapshot Support
+##  Snapshot Support
 
 ```bash
 qemu-system-x86_64 -hda myvm.qcow2 -snapshot
@@ -179,11 +178,11 @@ qemu-system-x86_64 -hda myvm.qcow2 -snapshot
 
 ---
 
-# 🔗 Sharing Files Between Host and Guest
+##  Sharing Files Between Host and Guest
 
-## Using 9p VirtIO (Linux guest):
+### Using 9p VirtIO (Linux guest):
 
-### On host:
+#### On host:
 
 ```bash
 qemu-system-x86_64 \
@@ -192,7 +191,7 @@ qemu-system-x86_64 \
   -virtfs local,path=/home/user/shared,security_model=passthrough,mount_tag=hostshare
 ```
 
-### Inside guest:
+#### Inside guest:
 
 ```bash
 sudo mount -t 9p -o trans=virtio hostshare /mnt
@@ -200,9 +199,9 @@ sudo mount -t 9p -o trans=virtio hostshare /mnt
 
 ---
 
-# ⚙️ Emulating Other Architectures
+##  Emulating Other Architectures
 
-## 🧬 ARM Example:
+###  ARM Example:
 
 ```bash
 qemu-system-arm -M versatilepb -m 256 \
@@ -215,7 +214,7 @@ qemu-system-arm -M versatilepb -m 256 \
 * `-kernel`: Bootloader kernel image
 * `-append`: Boot parameters
 
-## 🐏 RISC-V Example:
+###  RISC-V Example:
 
 ```bash
 qemu-system-riscv64 \
@@ -229,15 +228,15 @@ qemu-system-riscv64 \
 
 ---
 
-# 📊 Disk Image Management
+##  Disk Image Management
 
-### Convert a raw disk to qcow2:
+#### Convert a raw disk to qcow2:
 
 ```bash
 qemu-img convert -f raw -O qcow2 disk.img disk.qcow2
 ```
 
-### Resize a disk:
+#### Resize a disk:
 
 ```bash
 qemu-img resize myvm.qcow2 +10G
@@ -245,7 +244,7 @@ qemu-img resize myvm.qcow2 +10G
 
 ---
 
-# 🔒 Secure and Isolated Testing
+##  Secure and Isolated Testing
 
 You can run potentially dangerous software inside a QEMU VM with `-snapshot` and no network:
 
@@ -255,7 +254,7 @@ qemu-system-x86_64 -hda malware.qcow2 -snapshot -net none
 
 ---
 
-# 🧪 Bonus: Run QEMU in Daemon Mode
+## Bonus: Run QEMU in Daemon Mode
 
 Run VM in the background:
 
@@ -267,7 +266,7 @@ Control VM via QEMU monitor socket or SSH.
 
 ---
 
-# 🛑 Stop and Kill QEMU VMs
+##  Stop and Kill QEMU VMs
 
 List QEMU instances:
 
@@ -283,7 +282,7 @@ kill <pid>
 
 ---
 
-# 📁 QEMU vs VirtualBox vs KVM
+## QEMU vs VirtualBox vs KVM
 
 | Feature              | QEMU                   | VirtualBox | KVM                   |
 | -------------------- | ---------------------- | ---------- | --------------------- |
@@ -295,14 +294,14 @@ kill <pid>
 
 ---
 
-# 🧭 Summary: What You Can Do with QEMU
+##  Summary: What You Can Do with QEMU
 
-✅ Run Linux or BSD headlessly
-✅ Emulate ARM/RISC-V boards
-✅ Build custom test environments
-✅ Automate CI pipelines
-✅ Use with Docker for full-stack testing
-✅ Perfect for OS/driver/kernel development
+- Run Linux or BSD headlessly
+- Emulate ARM/RISC-V boards
+- Build custom test environments
+- Automate CI pipelines
+- Use with Docker for full-stack testing
+- Perfect for OS/driver/kernel development
 
 ---
 
@@ -320,21 +319,21 @@ Great! Let's now dive into **advanced QEMU usage**, focusing on topics like:
 
 ---
 
-# 🧠 1. **Custom CPU Models and Feature Masking**
+##  1. **Custom CPU Models and Feature Masking**
 
-### Use a specific CPU model:
+#### Use a specific CPU model:
 
 ```bash
 qemu-system-x86_64 -cpu Skylake-Client
 ```
 
-### Use your host CPU and enable all features:
+#### Use your host CPU and enable all features:
 
 ```bash
 -cpu host,+vmx,+aes,+sse4.2
 ```
 
-### See available CPU models:
+#### See available CPU models:
 
 ```bash
 qemu-system-x86_64 -cpu help
@@ -344,9 +343,9 @@ This is helpful when the guest OS depends on specific features like virtualizati
 
 ---
 
-# 🧰 2. **BIOS vs UEFI Boot**
+##  2. **BIOS vs UEFI Boot**
 
-## BIOS Boot (Default):
+### BIOS Boot (Default):
 
 QEMU uses **SeaBIOS** by default:
 
@@ -354,17 +353,17 @@ QEMU uses **SeaBIOS** by default:
 qemu-system-x86_64 -hda disk.qcow2
 ```
 
-## UEFI Boot:
+### UEFI Boot:
 
 Use OVMF firmware:
 
-### 📦 Install OVMF (on Ubuntu):
+####  Install OVMF (on Ubuntu):
 
 ```bash
 sudo apt install ovmf
 ```
 
-### ✅ Boot with UEFI:
+####  Boot with UEFI:
 
 ```bash
 qemu-system-x86_64 \
@@ -375,7 +374,7 @@ qemu-system-x86_64 \
 
 ---
 
-# 🔐 3. **TPM Passthrough (for Secure Boot / Windows 11)**
+##  3. **TPM Passthrough (for Secure Boot / Windows 11)**
 
 ### Step 1: Install swtpm
 
@@ -399,9 +398,9 @@ This makes Windows 11 or secure-boot Linux guests work.
 
 ---
 
-# 🌐 4. **Advanced Networking**
+##  4. **Advanced Networking**
 
-### ✅ Multiple Interfaces:
+####  Multiple Interfaces:
 
 ```bash
 -netdev user,id=net0 -device e1000,netdev=net0 \
@@ -427,15 +426,15 @@ For persistent setup, use **bridge-utils** or **systemd-networkd**.
 
 ---
 
-# 🧪 5. **Monitor, QMP, and Live Control**
+##  5. **Monitor, QMP, and Live Control**
 
-### ⌨️ Human-readable Monitor:
+####  Human-readable Monitor:
 
 ```bash
 -monitor stdio
 ```
 
-### 🧠 QMP JSON API:
+####  QMP JSON API:
 
 Enable the machine protocol interface:
 
@@ -443,7 +442,7 @@ Enable the machine protocol interface:
 -qmp unix:/tmp/qmp-sock,server,nowait
 ```
 
-### Send QMP commands:
+#### Send QMP commands:
 
 Use `socat`:
 
@@ -465,7 +464,7 @@ QMP lets you:
 
 ---
 
-# 🧰 6. **Running QEMU as a Systemd Service**
+##  6. **Running QEMU as a Systemd Service**
 
 Create a service file:
 
@@ -492,7 +491,7 @@ Perfect for headless servers.
 
 ---
 
-# 📦 7. **Use Cloud-Init for VM Provisioning**
+##  7. **Use Cloud-Init for VM Provisioning**
 
 1. Download cloud image:
 
@@ -525,21 +524,21 @@ Cloud-init automates:
 
 ---
 
-# ⚡ 8. **Performance Tuning**
+##  8. **Performance Tuning**
 
-### Use `virtio` devices:
+#### Use `virtio` devices:
 
 ```bash
 -device virtio-blk-pci,drive=hd -drive file=vm.qcow2,if=none,id=hd
 ```
 
-### Use cache=none for best disk performance:
+#### Use cache=none for best disk performance:
 
 ```bash
 -drive file=vm.qcow2,if=virtio,cache=none
 ```
 
-### Use hugepages:
+#### Use hugepages:
 
 ```bash
 -m 4096 -mem-path /dev/hugepages -mem-prealloc
@@ -553,9 +552,9 @@ echo 256 > /proc/sys/vm/nr_hugepages
 
 ---
 
-# 📁 9. **Templates for Lab Automation**
+##  9. **Templates for Lab Automation**
 
-### Create a reusable VM template:
+#### Create a reusable VM template:
 
 1. Install Linux into a qcow2 image.
 2. Don't autologin or add user config.
@@ -570,7 +569,7 @@ Linked clones make dev labs fast and space-efficient.
 
 ---
 
-# 🧠 10. **Other Tips**
+##  10. **Other Tips**
 
 * Combine with **virt-manager** or **libvirt** for hybrid GUI/CLI use.
 * Use **SPICE** instead of VNC for better graphics:

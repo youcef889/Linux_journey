@@ -8,6 +8,7 @@ tags:
   - wlroots
 categories:
   - Desktop
+  - Void Linux
 draft: false
 summary: Complete guide to installing Wayland compositors on Void Linux. Covers
   Sway, labwc, wayfire, seatd, and display manager setup.

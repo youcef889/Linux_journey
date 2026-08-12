@@ -4,9 +4,9 @@ date: 2026-03-18T16:06:37+01:00
 tags:
   - sway
   - wayland
-  - void-linux
 categories:
   - Desktop
+  - Void Linux
 draft: false
 summary: Step-by-step guide to install Sway on Void Linux. Includes seatd setup,
   greetd display manager, waybar configuration, and troubleshooting.

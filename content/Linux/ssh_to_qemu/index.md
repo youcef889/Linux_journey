@@ -3,7 +3,6 @@ title: SSH to QEMU VM - Fix Host Key Verification Error
 date: 2026-03-18T16:06:37+01:00
 tags:
   - ssh
-  - qemu
   - virtualization
   - vm
   - ssh-keys

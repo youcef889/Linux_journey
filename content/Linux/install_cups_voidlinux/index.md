@@ -3,11 +3,10 @@ title: Install cups on Void Linux - Printer Setup Guide
 date: 2026-03-18T16:06:37+01:00
 tags:
   - cups
-  - printing
-  - void-linux
 categories:
   - Hardware
   - Printing
+  - Void Linux
 draft: false
 summary: Complete guide to installing CUPS on Void Linux. Covers installation
   via XBPS, runit service configuration, web interface access, and printer

@@ -4,9 +4,9 @@ date: 2026-03-18T16:06:36+01:00
 tags:
   - xbps
   - local-packages
-  - package-management
 categories:
   - Package Management
+  - Void Linux
 draft: false
 summary: Guide to installing downloaded XBPS packages on Void Linux manually.
   Uses xbps-rindex to index packages and xbps-install to install locally.

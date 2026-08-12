@@ -5,7 +5,6 @@ tags:
   - libmount
   - mount
   - building-from-source
-  - development
 categories:
   - Development
 draft: false

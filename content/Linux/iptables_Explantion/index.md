@@ -6,7 +6,6 @@ tags:
   - netfilter
   - firewall
   - nat
-  - networking
 categories:
   - Networking
   - Security

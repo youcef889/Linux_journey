@@ -23,7 +23,6 @@ tags:
   - initramfs
   - kernel
   - vmlinuz
-  - void-linux
 ---
 How reinstall the deleted initramfs, vmlinuz, and configuration files on a Void Linux system using a live USB, you'll need to boot from the live ISO, mount your existing Void installation, and then use xbps-install to reinstall the necessary packages. You may also need to recreate the initial RAM disk (initrd) using dracut. 
 Here's a more detailed breakdown:

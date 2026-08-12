@@ -23,7 +23,6 @@ tags:
   - wifi
   - wpa-supplicant
   - wireless
-  - networking
 categories:
   - Networking
 sharingLinks:

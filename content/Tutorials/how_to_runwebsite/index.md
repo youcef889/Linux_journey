@@ -5,7 +5,6 @@ tags:
   - wget
   - offline
   - local-server
-  - web-development
 categories:
   - Web Development
 draft: false

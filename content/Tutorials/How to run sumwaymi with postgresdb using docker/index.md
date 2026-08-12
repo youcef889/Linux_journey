@@ -5,7 +5,6 @@ description: Deploy Suwayomi Server with PostgreSQL using Docker Compose. This
   and verification.
 date: 2026-05-14T04:57:57+01:00
 tags:
-  - self-hosted
   - suwayomi
   - docker
   - docker-compose

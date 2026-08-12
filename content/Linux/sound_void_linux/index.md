@@ -2,14 +2,13 @@
 title: "Sound Setup on Void Linux "
 date: 2026-03-18T16:06:37+01:00
 tags:
-  - void-linux
   - sound
   - alsa
   - pulseaudio
   - pipewire
-  - audio
 categories:
   - Audio
+  - Void Linux
 draft: false
 summary: Guide to configuring audio on Void Linux. Covers ALSA, PulseAudio,
   PipeWire setup, alsamixer, and troubleshooting sound issues.

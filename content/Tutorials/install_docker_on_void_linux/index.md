@@ -15,7 +15,6 @@ slug: install-docker-on-void-linux
 date: 2026-05-28T11:27:08+01:00
 tags:
   - docker
-  - containers
   - runit
 ---
 

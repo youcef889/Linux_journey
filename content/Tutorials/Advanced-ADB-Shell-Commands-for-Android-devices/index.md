@@ -5,7 +5,6 @@ tags:
   - adb
   - shell
   - debugging
-  - android
   - root
 categories:
   - Android

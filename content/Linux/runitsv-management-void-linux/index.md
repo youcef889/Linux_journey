@@ -5,9 +5,9 @@ tags:
   - runit
   - service-management
   - sv
-  - void-linux
 categories:
   - System Administration
+  - Void Linux
 draft: false
 summary: Complete guide to Runit service management on Void Linux. Covers sv up,
   down, restart, status, and service enabling/disabling.

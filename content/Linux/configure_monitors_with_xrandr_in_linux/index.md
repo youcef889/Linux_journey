@@ -5,7 +5,6 @@ tags:
   - xrandr
   - display
   - multi-monitor
-  - desktop
 categories:
   - Desktop
 draft: false

@@ -5,7 +5,6 @@ description: Run Android on your Linux PC with Bliss OS. This guide covers ISO
 tags:
   - liss-os
   - android-x86
-  - android
   - grub
 categories:
   - Android
