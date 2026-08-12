@@ -1,5 +1,5 @@
 ---
-title: "Privacy Policy"
+title: Privacy Policy
 date: 2026-07-03
 draft: false
 showTableOfContents: false
@@ -21,7 +21,7 @@ Google is one of the third-party vendors on our site. It also uses cookies, know
 
 ## Our Advertising Partners
 Some of advertisers on our site may use cookies and web beacons. Our advertising partners include:
-* **Google AdSense**
+**Google AdSense**
 
 Third-party ad servers or ad networks use technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Linux Journey, which are sent directly to users' browsers. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
 

@@ -58,27 +58,24 @@ If you want to delete everything in the cache:
 sudo rm -rf /var/cache/xbps/*
 ```
 
-<<<<<<< HEAD
  This is safe, but `xbps-remove -O` is cleaner because it understands the package database.
 
 ---
 
 ##  Check cache size before cleaning
-=======
-<<<<<<< HEAD
+
 This is safe, but `xbps-remove -O` is cleaner because it understands the package database.
 
 ---
 
 ## Check cache size before cleaning
-=======
+
  This is safe, but `xbps-remove -O` is cleaner because it understands the package database.
 
 ---
 
 ##  Check cache size before cleaning
->>>>>>> 6bc20ad66 ( update  content)
->>>>>>> 9fe27a9c8
+
 
 ```bash
 du -sh /var/cache/xbps

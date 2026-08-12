@@ -1,6 +1,6 @@
 ---
-title: "Contact Us"
-layaout : "simple"
+title: Contact Us
+layaout: simple
 ---
 
 ### **Contact Us**
@@ -21,6 +21,6 @@ Whether you’re just starting out or already an experienced user, here you’ll
 We’d love to hear from you!  
 Whether you have questions, feedback, or collaboration ideas, don’t hesitate to get in touch. Your thoughts help us improve and continue building a helpful resource for the Linux community.  
 
-📬 **Let’s connect and continue the journey together!**
+ **Let’s connect and continue the journey together!**
 
 Email : youcef7770@gmail.com
