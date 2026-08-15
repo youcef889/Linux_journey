@@ -2,9 +2,7 @@
 title: Advanced Terminal Tips and Tricks for Linux
 date: 2026-03-18T16:06:37+01:00
 tags:
-  - terminal
-  - bash
-  - shell
+  - Shell
   - productivity
 categories:
   - Command Line
@@ -28,9 +26,9 @@ Here are **advanced tips** for using the terminal efficiently on Linux or Unix-b
 
 ---
 
-## 🔥 Advanced Terminal Tips & Tricks
+##  Advanced Terminal Tips & Tricks
 
-### 🧠 1. **Master Bash Shortcuts**
+###  1. **Master Bash Shortcuts**
 
 | Shortcut   | Action                               |
 | ---------- | ------------------------------------ |
@@ -44,7 +42,7 @@ Here are **advanced tips** for using the terminal efficiently on Linux or Unix-b
 
 ---
 
-### 🧾 2. **Use Aliases to Save Time**
+###  2. **Use Aliases to Save Time**
 
 Define shortcuts in `~/.bashrc` or `~/.zshrc`:
 
@@ -59,7 +57,7 @@ Then reload with `source ~/.bashrc`.
 
 ---
 
-### 🧰 3. **Use Functions for Complex Tasks**
+###  3. **Use Functions for Complex Tasks**
 
 Example: extract any archive format
 
@@ -81,7 +79,7 @@ extract() {
 
 ---
 
-### ⌛ 4. **Use `tmux` or `screen` for Terminal Sessions**
+###  4. **Use `tmux` or `screen` for Terminal Sessions**
 
 * Run long processes without worrying about disconnection
 * Split terminal windows
@@ -94,7 +92,7 @@ extract() {
 
 ---
 
-### 🔍 5. **Search & Reuse Commands**
+###  5. **Search & Reuse Commands**
 
 ```bash
 history | grep ssh
@@ -104,7 +102,7 @@ Or use reverse search with `Ctrl + R`, then type a keyword.
 
 ---
 
-### 📁 6. **Jump to Directories Quickly**
+###  6. **Jump to Directories Quickly**
 
 Use [`autojump`](https://github.com/wting/autojump):
 
@@ -116,7 +114,7 @@ It learns your habits and allows you to `j`ump to frequently visited folders.
 
 ---
 
-### 🧪 7. **Use Process Substitution**
+###  7. **Use Process Substitution**
 
 Compare output of two commands:
 
@@ -126,7 +124,7 @@ diff <(ls /etc) <(ls /usr/etc)
 
 ---
 
-### 📋 8. **Copy Output to Clipboard**
+###  8. **Copy Output to Clipboard**
 
 Depends on system:
 
@@ -137,7 +135,7 @@ ls | pbcopy                           # macOS
 
 ---
 
-### ⚙️ 9. **Use `xargs` Like a Pro**
+###  9. **Use `xargs` Like a Pro**
 
 Example: delete all `.bak` files
 
@@ -153,7 +151,7 @@ cat urls.txt | xargs -n 1 -P 10 curl -O
 
 ---
 
-### 🐚 10. **Customize Your Prompt (`PS1`)**
+###  10. **Customize Your Prompt (`PS1`)**
 
 Example:
 
@@ -165,7 +163,7 @@ Try [Starship Prompt](https://starship.rs) for a powerful, cross-shell prompt.
 
 ---
 
-### 📡 11. **Run Commands Over SSH Easily**
+###  11. **Run Commands Over SSH Easily**
 
 ```bash
 ssh user@host 'df -h'
@@ -173,7 +171,7 @@ ssh user@host 'df -h'
 
 ---
 
-### 📜 12. **Use `tee` to View and Save Output**
+###  12. **Use `tee` to View and Save Output**
 
 ```bash
 ls -l | tee output.txt
@@ -181,7 +179,7 @@ ls -l | tee output.txt
 
 ---
 
-### 🔄 13. **Loop Through Commands**
+###  13. **Loop Through Commands**
 
 Example: batch rename
 
@@ -191,7 +189,7 @@ for f in *.JPG; do mv "$f" "${f%.JPG}.jpg"; done
 
 ---
 
-### 🧮 14. **Use Arithmetic**
+###  14. **Use Arithmetic**
 
 ```bash
 echo $(( 10 + 5 ))
@@ -199,7 +197,7 @@ echo $(( 10 + 5 ))
 
 ---
 
-### ⏱️ 15. **Time Commands**
+###  15. **Time Commands**
 
 ```bash
 time tar czf archive.tar.gz folder/
@@ -207,7 +205,7 @@ time tar czf archive.tar.gz folder/
 
 ---
 
-## 🧑‍💻 Bonus Tools
+##  Bonus Tools
 
 * `fzf` — Fuzzy finder for files and history
 * `bat` — Better `cat` with syntax highlighting

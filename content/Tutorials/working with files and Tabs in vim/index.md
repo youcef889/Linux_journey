@@ -2,7 +2,6 @@
 title: Working with Files and Tabs in Vim - Complete Guide
 date: 2025-08-29T06:26:19+01:00
 tags:
-  - vim
   - text-editor
 categories:
   - Editors

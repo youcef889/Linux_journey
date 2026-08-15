@@ -2,8 +2,7 @@
 title: Build libmount and mount from Source on Linux
 date: 2026-03-18T16:06:36+01:00
 tags:
-  - libmount
-  - mount
+  - Hardware
   - building-from-source
 categories:
   - Development

@@ -2,9 +2,8 @@
 title: Mount Android Phone on Linux - File Transfer Guide
 date: 2026-03-18T16:06:38+01:00
 tags:
-  - mtp
+  - Hardware
   - file-transfer
-  - usb
 categories:
   - Linux
   - Android
@@ -24,7 +23,7 @@ description: Learn how to mount and transfer files between Android phone and
 
 That error simply means the mount point (`~/Phone`) doesn’t exist yet — you just need to create that folder before mounting.
 
-Here’s how to fix it step-by-step 👇
+Here’s how to fix it step-by-step 
 
 ```bash
 # 1. Create a folder to mount the phone
@@ -34,7 +33,7 @@ mkdir -p ~/Phone
 jmtpfs ~/Phone
 ```
 
-✅ If successful, your phone’s internal storage will now appear inside `~/Phone`.
+ If successful, your phone’s internal storage will now appear inside `~/Phone`.
 
 To verify:
 
@@ -46,7 +45,7 @@ You should see folders like `DCIM`, `Pictures`, `Downloads`, etc.
 
 ---
 
-### 📤 When you’re done
+###  When you’re done
 
 Always unmount properly before unplugging:
 

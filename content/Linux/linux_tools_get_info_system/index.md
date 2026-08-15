@@ -2,9 +2,8 @@
 title: Linux System Information Commands - Complete Reference
 date: 2026-03-18T16:06:37+01:00
 tags:
-  - system-information
-  - commands
-  - monitoring
+  - Sysadmin
+  - Shell
   - hardware
 categories:
   - Linux Administration

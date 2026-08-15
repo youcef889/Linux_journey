@@ -3,9 +3,6 @@ title: QEMU Complete Tutorial - Virtualization Guide
 date: 2026-03-18T16:06:37+01:00
 tags:
   - qemu
-  - kvm
-  - libvirt
-  - emulation
 categories:
   - Virtualization
 draft: false

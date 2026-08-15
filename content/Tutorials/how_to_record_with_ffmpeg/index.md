@@ -2,7 +2,6 @@
 title: FFmpeg Screen Recording - Command Breakdown
 date: 2026-03-18T16:06:36+01:00
 tags:
-  - ffmpeg
   - screen-recording
   - pulseaudio
   - audio

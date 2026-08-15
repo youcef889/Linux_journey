@@ -2,9 +2,7 @@
 title: Setup KVM + QEMU + libvirt on Void Linux
 date: 2026-03-18T16:06:39+01:00
 tags:
-  - kvm
   - qemu
-  - libvirt
 categories:
   - Virtualization
 draft: false

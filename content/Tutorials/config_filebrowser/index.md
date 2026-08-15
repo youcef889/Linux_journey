@@ -2,7 +2,6 @@
 title: Filebrowser Configuration Guide - Complete Reference
 date: 2026-03-18T16:06:36+01:00
 tags:
-  - filebrowser
   - configuration
   - file-manager
 categories:

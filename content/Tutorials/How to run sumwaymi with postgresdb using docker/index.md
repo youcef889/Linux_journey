@@ -7,7 +7,6 @@ date: 2026-05-14T04:57:57+01:00
 tags:
   - suwayomi
   - docker
-  - docker-compose
   - postgresql
   - flaresolverr
 categories:

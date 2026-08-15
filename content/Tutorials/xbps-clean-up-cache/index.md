@@ -3,9 +3,7 @@ title: Clean XBPS Cache on Void Linux - Free Disk Space
 date: 2026-03-18T16:06:37+01:00
 tags:
   - xbps
-  - package-management
-  - cache
-  - maintenance
+  - Sysadmin
 categories:
   - Linux
   - Void Linux

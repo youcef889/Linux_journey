@@ -21,8 +21,6 @@ description: Complete guide to configuring wireless adapters on Alpine Linux.
 tags:
   - alpine-linux
   - wifi
-  - wpa-supplicant
-  - wireless
 categories:
   - Networking
 sharingLinks:

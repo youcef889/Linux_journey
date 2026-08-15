@@ -2,9 +2,7 @@
 title: Configure Monitors with xrandr on Linux
 date: 2026-03-18T16:06:36+01:00
 tags:
-  - xrandr
   - display
-  - multi-monitor
 categories:
   - Desktop
 draft: false

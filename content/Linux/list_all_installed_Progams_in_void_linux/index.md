@@ -3,7 +3,6 @@ title: List Installed Packages on Void Linux - Complete Guide
 date: 2026-03-18T16:06:37+01:00
 tags:
   - xbps
-  - installed-packages
 categories:
   - Package Management
 draft: false

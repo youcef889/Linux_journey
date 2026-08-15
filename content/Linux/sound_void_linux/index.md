@@ -2,8 +2,6 @@
 title: "Sound Setup on Void Linux "
 date: 2026-03-18T16:06:37+01:00
 tags:
-  - sound
-  - alsa
   - pulseaudio
   - pipewire
 categories:

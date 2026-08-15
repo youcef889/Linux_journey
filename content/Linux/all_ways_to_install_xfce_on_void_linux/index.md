@@ -4,7 +4,6 @@ date: 2026-03-18T16:06:37+01:00
 tags:
   - xfce
   - desktop-environment
-  - void-linux
 categories:
   - Desktop
 draft: false

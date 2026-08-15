@@ -2,9 +2,7 @@
 title: Runit Service Management on Void Linux
 date: 2026-03-18T16:06:36+01:00
 tags:
-  - runit
   - service-management
-  - sv
 categories:
   - System Administration
   - Void Linux

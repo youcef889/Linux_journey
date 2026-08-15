@@ -23,10 +23,7 @@ description: "Step-by-step guide to fix the 'modprobe: FATAL: Module dm_mod not
   found' error in Void Linux caused by a missing or broken initramfs, wrong
   kernel version, or incomplete kernel installation."
 tags:
-  - dm-mod
-  - initramfs
-  - kernel
-  - modprobe
+  - Kernel
 categories:
   - Troubleshooting
   - Void Linux

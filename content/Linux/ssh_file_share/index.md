@@ -2,11 +2,6 @@
 title: Transfer Files Over SSH - scp, rsync, sshfs Guide
 date: 2026-03-18T16:06:36+01:00
 tags:
-  - ssh
-  - scp
-  - rsync
-  - sshfs
-  - sftp
   - file-transfer
 categories:
   - Networking

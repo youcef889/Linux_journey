@@ -4,6 +4,7 @@ date: 2026-03-18T16:06:37+01:00
 tags:
   - sway
   - wayland
+  - Desktop-Environment
 categories:
   - Desktop
   - Void Linux

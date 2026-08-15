@@ -2,7 +2,6 @@
 title: Picom Configuration Guide - X11 Compositor
 date: 2026-03-18T16:06:39+01:00
 tags:
-  - picom
   - x11
   - compositor
   - window-manager

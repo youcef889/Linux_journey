@@ -17,11 +17,10 @@ lastmod: 2026-07-08T14:30:00+01:00
 title: Install DWM and ST on Void Linux - Suckless Tools
 date: 2025-08-16T12:43:06+01:00
 tags:
-  - dwm
-  - st
   - suckless
   - window-manager
   - x11
+  - Desktop-Environment
 ---
 
 ## How to install and configure Dwm on void linux

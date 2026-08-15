@@ -4,8 +4,7 @@ date: 2026-03-18T16:06:39+01:00
 tags:
   - adb
   - shell
-  - debugging
-  - root
+  - Sysadmin
 categories:
   - Android
 draft: false

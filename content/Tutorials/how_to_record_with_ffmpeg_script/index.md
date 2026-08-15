@@ -1,14 +1,26 @@
-+++
-title = "FFmpeg Screen Recording Script - Linux Guide"
-date = "2026-03-18T16:06:36+01:00"
-draft = true
-description = "Learn how to use FFmpeg script for screen recording on Linux. Capture desktop with audio, microphone, and system sounds."
-summary = "Guide to FFmpeg screen recording on Linux. Script breakdown for capturing desktop, microphone, and audio with real-time monitoring."
-slug = "ffmpeg-screen-recording-script"
-categories = ["Linux", "Media", "Recording"]
-tags = ["ffmpeg", "screen-recording", "linux", "audio", "script"]
-keywords = ["ffmpeg screen record", "linux screen capture", "record desktop ffmpeg"]
-+++
+---
+title: FFmpeg Screen Recording Script - Linux Guide
+date: 2026-03-18T16:06:36+01:00
+tags:
+  - screen-recording
+  - linux
+  - audio
+  - script
+categories:
+  - Linux
+  - Media
+  - Recording
+draft: true
+summary: Guide to FFmpeg screen recording on Linux. Script breakdown for
+  capturing desktop, microphone, and audio with real-time monitoring.
+keywords:
+  - ffmpeg screen record
+  - linux screen capture
+  - record desktop ffmpeg
+slug: ffmpeg-screen-recording-script
+description: Learn how to use FFmpeg script for screen recording on Linux.
+  Capture desktop with audio, microphone, and system sounds.
+---
 
 
 This is a nice bash script for screen recording! It has some clever features. Let me explain and suggest improvements:

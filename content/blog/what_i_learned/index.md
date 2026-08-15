@@ -18,8 +18,8 @@ title: Linux Kernel Insights - What I Learned
 slug: linux-kernel-insights
 date: 2024-08-15
 tags:
-  - linux-kernel
   - linux-basics
+  - Kernel
 ---
 
 # The Kernel  

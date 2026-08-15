@@ -3,7 +3,6 @@ title: Install Local XBPS Packages on Void Linux
 date: 2026-03-18T16:06:36+01:00
 tags:
   - xbps
-  - local-packages
 categories:
   - Package Management
   - Void Linux

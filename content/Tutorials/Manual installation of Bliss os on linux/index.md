@@ -3,9 +3,8 @@ description: Run Android on your Linux PC with Bliss OS. This guide covers ISO
   download, GRUB setup, data partition creation, and troubleshooting — tested on
   x86_64.
 tags:
-  - liss-os
   - android-x86
-  - grub
+  - Kernel
 categories:
   - Android
   - Operating Systems
