@@ -1,70 +1,72 @@
 
-{{ $subscribeURL := .Site.Params.subscribeURL }}
+{{- $subscribeURL := site.Params.subscribeURL -}}
 
-<form id="newsletter-form" class="mt-6">
-  <div class="flex flex-col sm:flex-row gap-3">
-    <input
-      type="email"
-      name="email"
-      placeholder="Enter your email address"
-      required
-      class="w-full rounded-lg px-4 py-3"
-    >
+<div class="newsletter-box my-6 rounded-xl border border-neutral-300 dark:border-neutral-700 p-6">
+  <div class="flex flex-col gap-3">
+    <h2 class="text-xl font-bold text-neutral-900 dark:text-neutral-100">
+      Get new Linux tutorials by email
+    </h2>
 
-    <input
-      type="text"
-      name="website"
-      tabindex="-1"
-      autocomplete="off"
-      aria-hidden="true"
-      style="position:absolute;left:-9999px"
-    >
+    <p class="text-sm text-neutral-600 dark:text-neutral-400">
+      Receive practical Linux tutorials, Bash scripts,
+      sysadmin guides, and open-source tips directly
+      in your inbox.
+    </p>
 
-    <button
-      type="submit"
-      class="rounded-lg px-6 py-3 font-semibold"
-    >
-      Subscribe
-    </button>
+    {{ if $subscribeURL }}
+      <form class="newsletter-form mt-2"
+            action="{{ $subscribeURL }}"
+            method="POST">
+
+        <div class="flex flex-col sm:flex-row gap-3">
+          <input
+            type="email"
+            name="email"
+            required
+            maxlength="254"
+            autocomplete="email"
+            placeholder="Enter your email address"
+            aria-label="Email address"
+            class="min-w-0 flex-1 rounded-lg border border-neutral-300
+                   bg-white px-4 py-3 text-neutral-900
+                   dark:border-neutral-600 dark:bg-neutral-800
+                   dark:text-neutral-100"
+          >
+
+          <input
+            type="text"
+            name="website"
+            tabindex="-1"
+            autocomplete="off"
+            aria-hidden="true"
+            class="newsletter-honeypot"
+          >
+
+          <button
+            type="submit"
+            class="rounded-lg bg-primary-600 px-6 py-3
+                   font-semibold text-white transition
+                   hover:bg-primary-700 disabled:opacity-50"
+          >
+            Subscribe
+          </button>
+        </div>
+
+        <input type="hidden" name="page" value="">
+
+        <p class="newsletter-message mt-3 text-sm"
+           role="status"
+           aria-live="polite"></p>
+      </form>
+
+      <p class="text-xs text-neutral-500 dark:text-neutral-400">
+        Free newsletter. No spam. Unsubscribe anytime.
+      </p>
+    {{ else }}
+      <p class="text-sm text-red-600">
+        Newsletter is temporarily unavailable.
+      </p>
+    {{ end }}
   </div>
-
-  <p id="newsletter-message" class="mt-3 text-sm"></p>
-</form>
-
-<script>
-(() => {
-  const form = document.getElementById("newsletter-form");
-  if (!form) return;
-
-  form.addEventListener("submit", async (event) => {
-    event.preventDefault();
-
-    const button = form.querySelector("button");
-    const message = document.getElementById("newsletter-message");
-
-    button.disabled = true;
-    button.textContent = "Subscribing...";
-    message.textContent = "";
-
-    const data = new FormData(form);
-    data.append("page", window.location.pathname);
-
-    try {
-      await fetch({{ $subscribeURL | jsonify }}, {
-        method: "POST",
-        body: data,
-        mode: "no-cors"
-      });
-
-      message.textContent = "Thank you for subscribing!";
-      form.reset();
-    } catch (error) {
-      message.textContent = "Unable to subscribe. Please try again.";
-    } finally {
-      button.disabled = false;
-      button.textContent = "Subscribe";
-    }
-  });
-})();
-</script>
+</div>
 

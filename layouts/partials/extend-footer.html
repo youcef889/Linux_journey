@@ -1,4 +1,67 @@
-<div class="max-w-prose mx-auto px-4 pb-6 text-center">
-  <p class="font-semibold">Get new Linux tutorials by email</p>
-  {{ partial "subscribe-form.html" (dict "button" "Subscribe") }}
-</div>
+
+<section class="mx-auto max-w-5xl px-4 py-8">
+  {{ partial "newsletter.html" . }}
+</section>
+
+<script>
+(function () {
+  const forms = document.querySelectorAll(".newsletter-form");
+
+  forms.forEach(function (form) {
+    form.addEventListener("submit", async function (event) {
+      event.preventDefault();
+
+      const button = form.querySelector('button[type="submit"]');
+      const message = form.querySelector(".newsletter-message");
+      const email = form.querySelector('[name="email"]');
+
+      if (!email.checkValidity()) {
+        email.reportValidity();
+        return;
+      }
+
+      const originalText = button.textContent;
+
+      button.disabled = true;
+      button.textContent = "Subscribing...";
+      message.textContent = "";
+
+      const data = new FormData(form);
+
+      data.set("page", window.location.pathname);
+
+      try {
+        await fetch(form.action, {
+          method: "POST",
+          body: data,
+          mode: "no-cors"
+        });
+
+        message.textContent =
+          "Thank you! Your subscription request has been sent. If you are already subscribed, you won't be added again.";
+
+        form.reset();
+
+      } catch (error) {
+        message.textContent =
+          "Unable to send your request. Please check your connection and try again.";
+      } finally {
+        button.disabled = false;
+        button.textContent = originalText;
+      }
+    });
+  });
+})();
+</script>
+
+<style>
+.newsletter-honeypot {
+  position: absolute !important;
+  left: -10000px !important;
+  width: 1px !important;
+  height: 1px !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+</style>
+
