@@ -1,67 +1,159 @@
-
 <section class="mx-auto max-w-5xl px-4 py-8">
   {{ partial "newsletter.html" . }}
 </section>
 
 <script>
 (function () {
-  const forms = document.querySelectorAll(".newsletter-form");
+  var EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+  var POLL_DELAY = 700;
+  var MAX_POLLS = 24;
+  var MESSAGES = {
+    success: "Thanks! You are subscribed.",
+    duplicate: "This email is already subscribed.",
+    invalid: "Please enter a valid email address.",
+    spam: "Thanks for your interest.",
+    busy: "The newsletter service is busy. Please try again.",
+    error: "Something went wrong. Please try again."
+  };
 
-  forms.forEach(function (form) {
+  function setMessage(form, status, text) {
+    var message = form.querySelector(".newsletter-message");
+    if (!message) return;
+    message.textContent = text || "";
+    message.dataset.status = status || "";
+  }
+
+  function createToken() {
+    var bytes = new Uint8Array(16);
+    if (window.crypto && window.crypto.getRandomValues) {
+      window.crypto.getRandomValues(bytes);
+    } else {
+      for (var i = 0; i < bytes.length; i++) {
+        bytes[i] = Math.floor(Math.random() * 256);
+      }
+    }
+    return Array.prototype.map.call(bytes, function (byte) {
+      return ("0" + byte.toString(16)).slice(-2);
+    }).join("");
+  }
+
+  function jsonp(url, callbackName) {
+    return new Promise(function (resolve, reject) {
+      var script = document.createElement("script");
+      var finished = false;
+
+      function finish(fn, value) {
+        if (finished) return;
+        finished = true;
+        clearTimeout(timer);
+        delete window[callbackName];
+        if (script.parentNode) script.parentNode.removeChild(script);
+        fn(value);
+      }
+
+      var timer = setTimeout(function () {
+        finish(reject, new Error("timeout"));
+      }, 8000);
+
+      window[callbackName] = function (payload) {
+        finish(resolve, payload);
+      };
+      script.onerror = function () {
+        finish(reject, new Error("network"));
+      };
+      script.src = url;
+      document.head.appendChild(script);
+    });
+  }
+
+  function wait(ms) {
+    return new Promise(function (resolve) {
+      setTimeout(resolve, ms);
+    });
+  }
+
+  function checkStatus(action, value) {
+    var callbackName = "__newsletter_" + value + "_" + Math.floor(Math.random() * 1e9).toString(36);
+    var url = action +
+      "?action=status&token=" + encodeURIComponent(value) +
+      "&callback=" + encodeURIComponent(callbackName);
+    return jsonp(url, callbackName);
+  }
+
+  document.querySelectorAll(".newsletter-form").forEach(function (form) {
+    var emailInput = form.querySelector('[name="email"]');
+
+    if (emailInput) {
+      emailInput.addEventListener("input", function () {
+        var message = form.querySelector(".newsletter-message");
+        if (message && (message.dataset.status === "invalid" || message.dataset.status === "error")) {
+          setMessage(form, "", "");
+        }
+      });
+    }
+
     form.addEventListener("submit", async function (event) {
       event.preventDefault();
 
-      const button = form.querySelector('button[type="submit"]');
-      const message = form.querySelector(".newsletter-message");
-      const email = form.querySelector('[name="email"]');
+      var button = form.querySelector('button[type="submit"]');
+      var label = form.querySelector(".newsletter-button-label");
+      var pageField = form.querySelector('[name="page"]');
+      var tokenField = form.querySelector('[name="token"]');
+      if (!button || !emailInput || !pageField || !tokenField) return;
 
-      if (!email.checkValidity()) {
-        email.reportValidity();
+      var originalLabel = label ? label.textContent : "Subscribe";
+      var normalizedEmail = emailInput.value.trim().toLowerCase();
+
+      if (!emailInput.checkValidity() || !EMAIL_RE.test(normalizedEmail)) {
+        setMessage(form, "invalid", MESSAGES.invalid);
+        emailInput.focus();
         return;
       }
 
-      const originalText = button.textContent;
-
+      var value = createToken();
+      tokenField.value = value;
+      pageField.value = window.location.pathname || "/";
+      form.classList.add("is-loading");
       button.disabled = true;
-      button.textContent = "Subscribing...";
-      message.textContent = "";
-
-      const data = new FormData(form);
-
-      data.set("page", window.location.pathname);
+      if (label) label.textContent = "Subscribing…";
+      setMessage(form, "loading", "Sending your request…");
 
       try {
         await fetch(form.action, {
           method: "POST",
-          body: data,
-          mode: "no-cors"
+          mode: "no-cors",
+          body: new URLSearchParams(new FormData(form))
         });
 
-        message.textContent =
-          "Thank you! Your subscription request has been sent. If you are already subscribed, you won't be added again.";
+        var payload = null;
+        for (var attempt = 0; attempt < MAX_POLLS; attempt++) {
+          try {
+            payload = await checkStatus(form.action, value);
+          } catch (error) {
+            payload = null;
+          }
+          if (payload && payload.status && payload.status !== "pending") break;
+          await wait(POLL_DELAY + Math.min(attempt * 100, 1200));
+        }
 
-        form.reset();
+        if (!payload || !payload.status || payload.status === "pending") {
+          setMessage(form, "error", "We could not confirm your subscription. Please try again.");
+          return;
+        }
 
+        var status = payload.status;
+        if (status === "ignored") status = "spam";
+        setMessage(form, status, payload.message || MESSAGES[status] || MESSAGES.error);
+        if (status === "success" || status === "duplicate" || status === "spam") form.reset();
       } catch (error) {
-        message.textContent =
-          "Unable to send your request. Please check your connection and try again.";
+        setMessage(form, "error", "Unable to send your request. Please try again.");
       } finally {
+        form.classList.remove("is-loading");
         button.disabled = false;
-        button.textContent = originalText;
+        if (label) label.textContent = originalLabel;
+        tokenField.value = "";
       }
     });
   });
 })();
 </script>
-
-<style>
-.newsletter-honeypot {
-  position: absolute !important;
-  left: -10000px !important;
-  width: 1px !important;
-  height: 1px !important;
-  opacity: 0 !important;
-  pointer-events: none !important;
-}
-</style>
-

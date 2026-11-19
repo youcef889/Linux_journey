@@ -1,31 +1,76 @@
-.subscribe-form {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .5rem;
-  align-items: center;
-  margin: 1.5rem 0;
+.newsletter-honeypot {
+  position: absolute !important;
+  left: -10000px !important;
+  width: 1px !important;
+  height: 1px !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
-.subscribe-form input[type="email"] {
-  flex: 1 1 220px;
-  padding: .6rem .9rem;
-  border-radius: .5rem;
-  border: 1px solid rgb(var(--color-neutral-300));
-  background: rgb(var(--color-neutral));
-  color: rgb(var(--color-neutral-800));
+
+.newsletter-form input[type="email"],
+.newsletter-form button {
+  outline: none;
 }
-.dark .subscribe-form input[type="email"] {
-  border-color: rgb(var(--color-neutral-600));
-  background: rgb(var(--color-neutral-800));
+
+.newsletter-form input[type="email"]:focus,
+.newsletter-form button:focus-visible {
+  outline: 2px solid rgb(var(--color-primary-500));
+  outline-offset: 2px;
+}
+
+.newsletter-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.newsletter-spinner {
+  display: none;
+  width: 1rem;
+  height: 1rem;
+  margin-inline-end: 0.5rem;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-top-color: #fff;
+  border-radius: 9999px;
+  vertical-align: -0.2rem;
+  animation: newsletter-spin 0.7s linear infinite;
+}
+
+.newsletter-form.is-loading .newsletter-spinner {
+  display: inline-block;
+}
+
+.newsletter-message[data-status="success"] {
+  color: rgb(var(--color-primary-600));
+}
+
+.dark .newsletter-message[data-status="success"] {
+  color: rgb(var(--color-primary-300));
+}
+
+.newsletter-message[data-status="invalid"],
+.newsletter-message[data-status="error"],
+.newsletter-message[data-status="busy"] {
+  color: rgb(var(--color-primary-700));
+}
+
+.dark .newsletter-message[data-status="invalid"],
+.dark .newsletter-message[data-status="error"],
+.dark .newsletter-message[data-status="busy"] {
+  color: rgb(var(--color-primary-200));
+}
+
+.newsletter-message[data-status="duplicate"],
+.newsletter-message[data-status="spam"] {
+  color: rgb(var(--color-neutral-700));
+}
+
+.dark .newsletter-message[data-status="duplicate"],
+.dark .newsletter-message[data-status="spam"] {
   color: rgb(var(--color-neutral-200));
 }
-.subscribe-form button {
-  padding: .6rem 1.2rem;
-  border-radius: .5rem;
-  border: 0;
-  cursor: pointer;
-  font-weight: 600;
-  background: rgb(var(--color-primary-600));
-  color: #fff;
+
+@keyframes newsletter-spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
-.subscribe-form button:hover { background: rgb(var(--color-primary-500)); }
-.subscribe-form .msg { flex-basis: 100%; margin: 0; font-size: .9rem; }

@@ -1,5 +1,5 @@
-
-{{- $subscribeURL := site.Params.subscribeURL -}}
+{{- $subscribeURL := site.Params.subscribeURL | default "" -}}
+{{- $id := printf "newsletter-email-%s" (md5 .Page.RelPermalink) -}}
 
 <div class="newsletter-box my-6 rounded-xl border border-neutral-300 dark:border-neutral-700 p-6">
   <div class="flex flex-col gap-3">
@@ -18,15 +18,17 @@
             action="{{ $subscribeURL }}"
             method="POST">
 
+        <label class="sr-only" for="{{ $id }}">Email address</label>
+
         <div class="flex flex-col sm:flex-row gap-3">
           <input
+            id="{{ $id }}"
             type="email"
             name="email"
             required
             maxlength="254"
             autocomplete="email"
             placeholder="Enter your email address"
-            aria-label="Email address"
             class="min-w-0 flex-1 rounded-lg border border-neutral-300
                    bg-white px-4 py-3 text-neutral-900
                    dark:border-neutral-600 dark:bg-neutral-800
@@ -46,13 +48,15 @@
             type="submit"
             class="rounded-lg bg-primary-600 px-6 py-3
                    font-semibold text-white transition
-                   hover:bg-primary-700 disabled:opacity-50"
+                   hover:bg-primary-600"
           >
-            Subscribe
+            <span class="newsletter-spinner" aria-hidden="true"></span>
+            <span class="newsletter-button-label">Subscribe</span>
           </button>
         </div>
 
         <input type="hidden" name="page" value="">
+        <input type="hidden" name="token" value="" autocomplete="off">
 
         <p class="newsletter-message mt-3 text-sm"
            role="status"
@@ -63,10 +67,9 @@
         Free newsletter. No spam. Unsubscribe anytime.
       </p>
     {{ else }}
-      <p class="text-sm text-red-600">
+      <p class="newsletter-message text-sm" data-status="error">
         Newsletter is temporarily unavailable.
       </p>
     {{ end }}
   </div>
 </div>
-
