@@ -30,7 +30,6 @@ date: 2025-08-17T11:48:21+01:00
 
 ![Bliss OS Android 14 running on a Linux PC after manual GRUB installation](mpv-shot0002.jpg "Bliss OS running on Linux after a successful manual GRUB installation")
 
-> ⏱ **Estimated time:** ~20 minutes | 🔧 **Difficulty:** Intermediate | ✅ **Tested on:** Ubuntu, Void Linux (x86_64)
 
 ### What is Bliss OS?
 

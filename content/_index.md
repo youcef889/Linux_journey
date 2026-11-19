@@ -7,3 +7,7 @@ Welcome to **My Linux Journey**, your go-to resource for learning Linux, explori
 Whether you're a beginner or an experienced user, you'll find valuable content on Linux command-line tutorials and shell tricks,Bash and Python scripting for automation Server setup guides and system administration practices,Open-source tools focused on privacy and performance,Self-hosted applications and home lab setups.Troubleshooting real-world Linux issues
 
 Follow the journey, gain hands-on experience, and become confident in using and managing Linux systems.
+
+
+### Get new tutorials by email
+{{</* subscribe button="Subscribe" */>}}

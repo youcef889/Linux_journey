@@ -1,0 +1,28 @@
+<form class="subscribe-form" data-url="{{ site.Params.subscribeURL }}">
+  <input type="email" name="email" required
+         placeholder="{{ with .button }}{{ end }}{{ i18n "subscribe.placeholder" | default "Your email" }}">
+  <input type="text" name="website" tabindex="-1" autocomplete="off"
+         aria-hidden="true" style="position:absolute;left:-9999px">
+  <button type="submit">{{ .button | default "Subscribe" }}</button>
+  <p class="msg" data-success="{{ .success | default "Thanks, you are subscribed!" }}"></p>
+</form>
+
+<script>
+document.querySelectorAll('form.subscribe-form').forEach(f => {
+  if (f.dataset.bound) return;
+  f.dataset.bound = 1;
+  f.addEventListener('submit', async e => {
+    e.preventDefault();
+    const msg = f.querySelector('.msg');
+    const body = new URLSearchParams(new FormData(f));
+    body.append('page', location.pathname);
+    try {
+      await fetch(f.dataset.url, { method: 'POST', mode: 'no-cors', body });
+      msg.textContent = msg.dataset.success;
+      f.reset();
+    } catch (err) {
+      msg.textContent = 'Error, please try again.';
+    }
+  });
+});
+</script>

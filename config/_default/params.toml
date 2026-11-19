@@ -175,3 +175,6 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [advertisement]
   # adsense = ""
+
+ subscribeURL ="https://script.google.com/macros/s/AKfycbzNtmDbNoZaVYNpaXvREP4Xnes3QCZkdPerXLJxsJFNKvWpNBiu9IQVn1F-Jl2eFTEOoQ/exec"
+  
